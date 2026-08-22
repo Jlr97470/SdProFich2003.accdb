@@ -1,0 +1,274 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelMailingSocietesSTAAdhConTAInsResultatsCall3"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Liste Des Reponses Au Call 3 Des STA Adherents"
+      },
+      "OrderByOn": {
+        "Type": 1,
+        "Value": true
+      }
+    },
+    "Columns": {
+      "Qst1": {
+        "ColumnWidth": 600,
+        "Description": "COORDONNEES PROFESSIONNELLES",
+        "AggregateType": -1
+      },
+      "Qst10": {
+        "ColumnWidth": 705,
+        "Description": "CHAUDIERES MURALES MICRO-ACCUMULEES (TYPE THEMAPLUS ON ISOSPLIT)",
+        "AggregateType": -1
+      },
+      "Qst11": {
+        "ColumnWidth": 705,
+        "Description": "CHAUDIERES MURALES AVEC BALLON INTEGRE (TYPE ISOMAX OU ISOTWIN)",
+        "AggregateType": -1
+      },
+      "Qst12": {
+        "ColumnWidth": 705,
+        "Description": "CHAUDIERES MURALES AVEC BALLON SEPARE",
+        "AggregateType": -1
+      },
+      "Qst13": {
+        "ColumnWidth": 705,
+        "Description": "CHAUDIERES MURALES A CONDENSATION",
+        "AggregateType": -1
+      },
+      "Qst14": {
+        "ColumnWidth": 705,
+        "Description": "CHAUDIERES ASSOCIEES A UN SYSTEME SOLAIRE",
+        "AggregateType": -1
+      },
+      "Qst15": {
+        "ColumnWidth": 2340,
+        "Description": "AUTRES",
+        "AggregateType": -1
+      },
+      "Qst16": {
+        "ColumnWidth": 705,
+        "Description": "CHAUDIERES DE LA GAMME ISO DE SAUNIER DUVAL",
+        "AggregateType": -1
+      },
+      "Qst17": {
+        "ColumnWidth": 705,
+        "Description": "BONIFIER PERSONNELLEMENT DES PRETS POUR VOS CLIENTS",
+        "AggregateType": -1
+      },
+      "Qst18": {
+        "ColumnWidth": 705,
+        "Description": "OFFRES DE PRET PROPOSEES PAR LES ETABLISSEMENTS DE CREDIT POUR LE FINANCEMENT",
+        "AggregateType": -1
+      },
+      "Qst19": {
+        "ColumnWidth": 2340,
+        "Description": "QUELS ETABLISSEMENTS DE CREDIT",
+        "AggregateType": -1
+      },
+      "Qst2": {
+        "ColumnWidth": 600,
+        "Description": "OFFRES DE PRETS A VOS CLIENTS",
+        "AggregateType": -1
+      },
+      "Qst20": {
+        "ColumnWidth": 5715,
+        "Description": "PROPOSEZ-VOUS PAS DE PRET",
+        "AggregateType": -1
+      },
+      "Qst21": {
+        "ColumnWidth": 2340,
+        "Description": "AUTRE",
+        "AggregateType": -1
+      },
+      "Qst22": {
+        "ColumnWidth": 2340,
+        "Description": "QUESTIONS OU DES REMARQUES A FAIRE SUR LE CLUB",
+        "AggregateType": -1
+      },
+      "Qst3": {
+        "ColumnWidth": 2235,
+        "Description": "LESQUELLES",
+        "AggregateType": -1
+      },
+      "Qst4": {
+        "ColumnWidth": 2235,
+        "Description": "QUELS ORGANISMES DE FINANCEMENT",
+        "AggregateType": -1
+      },
+      "Qst5": {
+        "ColumnWidth": 4950,
+        "Description": "PROPOSEZ-VOUS UNE OFFRE DE PRET",
+        "AggregateType": -1
+      },
+      "Qst6": {
+        "ColumnWidth": 2235,
+        "Description": "INDIQUER LEQUEL",
+        "AggregateType": -1
+      },
+      "Qst7": {
+        "ColumnWidth": 3315,
+        "Description": "AUTRES",
+        "AggregateType": -1
+      },
+      "Qst8": {
+        "ColumnWidth": 600,
+        "Description": "CHAUDIERES AU SOL",
+        "AggregateType": -1
+      },
+      "Qst9": {
+        "ColumnWidth": 600,
+        "Description": "CHAUDIERES MURALES INSTANTEES (TYPE THEMA)",
+        "AggregateType": -1
+      },
+      "SelSocietesSTAVillesContactsTAInscrit.ConNom": {
+        "ColumnWidth": 1335,
+        "Description": "Nom",
+        "AggregateType": -1
+      },
+      "SelSocietesSTAVillesContactsTAInscrit.ConPrenom": {
+        "ColumnWidth": 1455,
+        "Description": "Prenom",
+        "AggregateType": -1
+      },
+      "SelSocietesSTAVillesContactsTAInscrit.ConTelPort": {
+        "ColumnWidth": 1230,
+        "Description": "Port",
+        "AggregateType": -1
+      },
+      "SelSocietesSTAVillesContactsTAInscrit.SocEMail": {
+        "ColumnWidth": 3150,
+        "Description": "EMail",
+        "AggregateType": -1
+      },
+      "SelSocietesSTAVillesContactsTAInscrit.SocFax": {
+        "ColumnWidth": 1470,
+        "Description": "Fax",
+        "AggregateType": -1
+      },
+      "SelSocietesSTAVillesContactsTAInscrit.SocRaison": {
+        "ColumnWidth": 2970,
+        "Description": "Raison",
+        "AggregateType": -1
+      },
+      "SelSocietesSTAVillesContactsTAInscrit.SocSTA": {
+        "ColumnWidth": 1245,
+        "Description": "Code STA",
+        "AggregateType": -1
+      },
+      "SelSocietesSTAVillesContactsTAInscrit.SocTel1": {
+        "ColumnWidth": 1470,
+        "Description": "Tel1",
+        "AggregateType": -1
+      },
+      "SelSocietesSTAVillesContactsTAInscrit.SocTel2": {
+        "ColumnWidth": 1470,
+        "Description": "Tel2",
+        "AggregateType": -1
+      },
+      "SelSocietesSTAVillesContactsTAInscrit.SocVilCodePostal": {
+        "ColumnWidth": 1755,
+        "Description": "Code Postal",
+        "AggregateType": -1
+      },
+      "SelSocietesSTAVillesContactsTAInscrit.SocVilNom": {
+        "ColumnWidth": 2670,
+        "Description": "Ville",
+        "AggregateType": -1
+      },
+      "SelSocietesSTAVillesContactsTAInscrit.SocWeb": {
+        "ColumnWidth": 2250,
+        "Description": "Web",
+        "AggregateType": -1
+      },
+      "SocAdr1": {
+        "ColumnWidth": 2925,
+        "Description": "Adresse",
+        "AggregateType": -1
+      },
+      "SocAdr2": {
+        "ColumnWidth": 930,
+        "Description": "Adresse",
+        "AggregateType": -1
+      },
+      "SocAdr3": {
+        "ColumnWidth": 930,
+        "Description": "Adresse",
+        "AggregateType": -1
+      },
+      "TBLSOCIETESAPPELS3.SocAppDate": {
+        "ColumnWidth": 1860,
+        "Description": "AppDate",
+        "AggregateType": -1
+      },
+      "TBLSOCIETESAPPELS3.SocAppHeure": {
+        "ColumnWidth": 1965,
+        "Description": "AppHeure",
+        "AggregateType": -1
+      },
+      "TBLSOCIETESAPPELS3.SocAppNotes": {
+        "ColumnWidth": 2970,
+        "Description": "AppNotes",
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 0,
+        "top": 2,
+        "right": 1276,
+        "bottom": 457
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1265,
+        "bottom": 234
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "SelSocietesSTAVillesContactsTAInscrit",
+          "Alias": "",
+          "Left": 472,
+          "Top": 5,
+          "Right": 824,
+          "Bottom": 367,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLSOCIETESAPPELS3",
+          "Alias": "",
+          "Left": 38,
+          "Top": 6,
+          "Right": 209,
+          "Bottom": 113,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLSOCIETESCALL3",
+          "Alias": "",
+          "Left": 37,
+          "Top": 114,
+          "Right": 209,
+          "Bottom": 221,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Liste Des Reponses Au Call 3 Des STA Adherents"
+      }
+    }
+  }
+}

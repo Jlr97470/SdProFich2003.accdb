@@ -1,0 +1,128 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelSocietesDRContactsDRATCInscrit"
+  },
+  "Items": {
+    "QueryType": 0,
+    "OptionFlag": 2,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes DR, Contacts ATC Inscrit"
+      },
+      "OrderByOn": {
+        "Type": 1,
+        "Value": true
+      }
+    },
+    "Columns": {
+      "SDDRConCivCode": {
+        "ColumnWidth": 2145,
+        "AggregateType": -1
+      },
+      "SDDRConFonCode": {
+        "ColumnWidth": 2220,
+        "AggregateType": -1
+      },
+      "SDDRConNom": {
+        "ColumnWidth": 1845,
+        "AggregateType": -1
+      },
+      "SDDRConNum": {
+        "ColumnWidth": 1845,
+        "AggregateType": -1
+      },
+      "SDDRConPrenom": {
+        "ColumnWidth": 2115,
+        "AggregateType": -1
+      },
+      "SocVilCodePostal": {
+        "ColumnWidth": 1680,
+        "AggregateType": -1
+      },
+      "SocVilNom": {
+        "ColumnWidth": 2370,
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocAdresse": {
+        "ColumnWidth": 3000,
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocNum": {
+        "ColumnWidth": 1575,
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocRaison": {
+        "ColumnWidth": 3870,
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocTypCode": {
+        "ColumnWidth": 1830,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 84,
+        "top": 106,
+        "right": 1130,
+        "bottom": 523
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1035,
+        "bottom": 256
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 543,
+      "Tables": [
+        {
+          "Name": "TBLVILLES",
+          "Alias": "",
+          "Left": 443,
+          "Top": 6,
+          "Right": 539,
+          "Bottom": 83,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLSOCIETES",
+          "Alias": "",
+          "Left": 8,
+          "Top": 3,
+          "Right": 178,
+          "Bottom": 230,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLCONTACTS",
+          "Alias": "",
+          "Left": 351,
+          "Top": 147,
+          "Right": 530,
+          "Bottom": 374,
+          "ScrollTop": 5
+        },
+        {
+          "Name": "SelContactsInscrit",
+          "Alias": "",
+          "Left": 654,
+          "Top": 88,
+          "Right": 877,
+          "Bottom": 195,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes DR, Contacts ATC Inscrit"
+      }
+    }
+  }
+}

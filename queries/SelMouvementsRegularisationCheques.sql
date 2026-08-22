@@ -1,0 +1,10 @@
+﻿SELECT
+  TBLMOUVEMENTS.*
+FROM
+  TBLMOUVEMENTS
+WHERE
+  (
+    (
+      (TBLMOUVEMENTS.MvtMvtNatNum) > 5
+    )
+  );

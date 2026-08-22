@@ -1,0 +1,156 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelSocietesVilles"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes, Villes\r\nUtiliser Par :\r\n- FrmRecherche\r\n- FrmLstSocietes"
+      }
+    },
+    "Columns": {
+      "SocVilCodePostal": {
+        "Caption": "CP",
+        "ColumnWidth": 600,
+        "AggregateType": -1
+      },
+      "SocVilNom": {
+        "Caption": "Ville",
+        "ColumnWidth": 2415,
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocAdh": {
+        "Caption": "Adh",
+        "ColumnWidth": 480,
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocAdresse": {
+        "Caption": "Adresse",
+        "ColumnWidth": 2490,
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocConNum": {
+        "Caption": "Chargée D'Affaire",
+        "ColumnWidth": 1605,
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocEMail": {
+        "Caption": "EMail",
+        "ColumnWidth": 2625,
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocFax": {
+        "Caption": "Fax",
+        "ColumnWidth": 1230,
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocNotes": {
+        "Caption": "Notes",
+        "ColumnWidth": 630,
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocNum": {
+        "Caption": "Num",
+        "ColumnWidth": 810,
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocRaison": {
+        "Caption": "Raison",
+        "ColumnWidth": 2985,
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocSocNum": {
+        "Caption": "Filiaire",
+        "ColumnWidth": 690,
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocSTA": {
+        "Caption": "Code STA",
+        "ColumnWidth": 1050,
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocSTAOld": {
+        "Caption": "Code STA Old",
+        "ColumnWidth": 1275,
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocTel1": {
+        "Caption": "Telephone 1",
+        "ColumnWidth": 1230,
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocTel1Lib": {
+        "Caption": "Telephone 1 Libelle",
+        "ColumnWidth": 1770,
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocTel2": {
+        "Caption": "Telephone 2",
+        "ColumnWidth": 1170,
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocTel2Lib": {
+        "Caption": "Telephone 2 Libelle",
+        "ColumnWidth": 1770,
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocTypCode": {
+        "Caption": "Type",
+        "ColumnWidth": 705,
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocWeb": {
+        "Caption": "Web",
+        "ColumnWidth": 2355,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": -246,
+        "top": 92,
+        "right": 918,
+        "bottom": 493
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1157,
+        "bottom": 225
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "TBLSOCIETES",
+          "Alias": "",
+          "Left": 2,
+          "Top": 2,
+          "Right": 87,
+          "Bottom": 341,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLVILLES",
+          "Alias": "",
+          "Left": 117,
+          "Top": 2,
+          "Right": 198,
+          "Bottom": 86,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes, Villes\r\nUtiliser Par :\r\n- FrmRecherche\r\n- FrmLstSocietes"
+      }
+    }
+  }
+}

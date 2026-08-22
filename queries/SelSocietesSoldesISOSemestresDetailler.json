@@ -1,0 +1,97 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelSocietesSoldesISOSemestresDetailler"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes, Soldes ISO Par Semestres Detailler"
+      },
+      "OrderByOn": {
+        "Type": 1,
+        "Value": true
+      }
+    },
+    "Columns": {
+      "MvtISO2001Sem1": {
+        "ColumnWidth": 1740,
+        "AggregateType": -1
+      },
+      "MvtISO2001Sem2": {
+        "ColumnWidth": 1545,
+        "AggregateType": -1
+      },
+      "MvtISO2002Sem1": {
+        "ColumnWidth": 1545,
+        "AggregateType": -1
+      },
+      "MvtISO2002Sem2": {
+        "ColumnWidth": 1545,
+        "AggregateType": -1
+      },
+      "MvtISO2003Sem1": {
+        "ColumnWidth": 1740,
+        "AggregateType": -1
+      },
+      "MvtISO2003Sem2": {
+        "ColumnWidth": 1740,
+        "AggregateType": -1
+      },
+      "MvtISO2004Sem1": {
+        "ColumnWidth": 1545,
+        "AggregateType": -1
+      },
+      "MvtISO2004Sem2": {
+        "ColumnWidth": 1545,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 84,
+        "top": 106,
+        "right": 1130,
+        "bottom": 516
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1035,
+        "bottom": 249
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 543,
+      "Tables": [
+        {
+          "Name": "TBLEXERCICES",
+          "Alias": "",
+          "Left": 534,
+          "Top": 30,
+          "Right": 793,
+          "Bottom": 122,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLMOUVEMENTS",
+          "Alias": "",
+          "Left": 118,
+          "Top": 9,
+          "Right": 389,
+          "Bottom": 206,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes, Soldes ISO Par Semestres Detailler"
+      }
+    }
+  }
+}

@@ -1,0 +1,119 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "AnaSocietesResultatsISOSPLITSemestres"
+  },
+  "Items": {
+    "QueryType": 16,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Analyse Des Resultats Des Societes, Total ISOSPLIT Des Remontees De Chaudieres Par Semestres\r\nUtiliser Par :\r\n- SelMailingSocDRConATCSocSTAAdhConTAInsResSemestresDetaillerSPLIT"
+      }
+    },
+    "Columns": {
+      "PIVOT": {
+        "ColumnWidth": 1710,
+        "AggregateType": -1
+      },
+      "SocResNbISOSPLIT2001S1": {
+        "ColumnWidth": 2625,
+        "AggregateType": -1
+      },
+      "SocResNbISOSPLIT2001S2": {
+        "ColumnWidth": 2625,
+        "AggregateType": -1
+      },
+      "SocResNbISOSPLIT2002S1": {
+        "ColumnWidth": 2625,
+        "AggregateType": -1
+      },
+      "SocResNbISOSPLIT2002S2": {
+        "ColumnWidth": 2625,
+        "AggregateType": -1
+      },
+      "SocResNbISOSPLIT2003S1": {
+        "ColumnWidth": 2625,
+        "AggregateType": -1
+      },
+      "SocResNbISOSPLIT2003S2": {
+        "ColumnWidth": 2625,
+        "AggregateType": -1
+      },
+      "SocResNbISOSPLIT2004S1": {
+        "ColumnWidth": 2625,
+        "AggregateType": -1
+      },
+      "SocResNbISOSPLIT2004S2": {
+        "ColumnWidth": 2625,
+        "AggregateType": -1
+      },
+      "SocResNbISOSPLITTotal": {
+        "ColumnWidth": 2385,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 47,
+        "top": 69,
+        "right": 1250,
+        "bottom": 589
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1196,
+        "bottom": 344
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 559,
+      "Tables": [
+        {
+          "Name": "TBLEXERCICES",
+          "Alias": "",
+          "Left": 597,
+          "Top": 152,
+          "Right": 754,
+          "Bottom": 236,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLSEMESTRES",
+          "Alias": "",
+          "Left": 409,
+          "Top": 150,
+          "Right": 567,
+          "Bottom": 279,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLCHAUDIERESARTICLES",
+          "Alias": "",
+          "Left": 409,
+          "Top": 7,
+          "Right": 566,
+          "Bottom": 91,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLCHAUDIERESREMONTEES",
+          "Alias": "",
+          "Left": 207,
+          "Top": 6,
+          "Right": 379,
+          "Bottom": 225,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Analyse Des Resultats Des Societes, Total ISOSPLIT Des Remontees De Chaudieres Par Semestres\r\nUtiliser Par :\r\n- SelMailingSocDRConATCSocSTAAdhConTAInsResSemestresDetaillerSPLIT"
+      }
+    }
+  }
+}

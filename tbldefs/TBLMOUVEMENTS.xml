@@ -1,0 +1,234 @@
+﻿<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:od="urn:schemas-microsoft-com:officedata">
+  <xsd:element name="dataroot">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="TBLMOUVEMENTS" minOccurs="0" maxOccurs="unbounded"></xsd:element>
+      </xsd:sequence>
+      <xsd:attribute name="generated" type="xsd:dateTime"></xsd:attribute>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="TBLMOUVEMENTS">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <od:index index-name="CleMvtDate" index-key="MvtDate " primary="no" unique="no" clustered="no" order="asc"></od:index>
+        <od:index index-name="CleMvtDossier" index-key="MvtDossier " primary="no" unique="no" clustered="no" order="asc"></od:index>
+        <od:index index-name="CleMvtExeNum" index-key="MvtExeNum " primary="no" unique="no" clustered="no" order="asc"></od:index>
+        <od:index index-name="CleMvtMvtNatNum" index-key="MvtMvtNatNum " primary="no" unique="no" clustered="no" order="asc"></od:index>
+        <od:index index-name="CleMvtNum" index-key="MvtNum " primary="no" unique="yes" clustered="no" order="asc"></od:index>
+        <od:index index-name="CleMvtSocNum" index-key="MvtSocNum " primary="no" unique="no" clustered="no" order="asc"></od:index>
+        <od:index index-name="PrimaryKey" index-key="MvtSocNum MvtExeNum MvtMvtNatNum MvtDossier " primary="yes" unique="yes" clustered="no" order="asc asc asc asc"></od:index>
+        <od:index index-name="TBLEXERCICESTBLMOUVEMENTS" index-key="MvtExeNum " primary="no" unique="no" clustered="no" order="asc"></od:index>
+        <od:index index-name="TBLMOUVEMENTSNATURESTBLMOUVEMENTS" index-key="MvtMvtNatNum " primary="no" unique="no" clustered="no" order="asc"></od:index>
+        <od:index index-name="TBLSOCIETESTBLMOUVEMENTS" index-key="MvtSocNum " primary="no" unique="no" clustered="no" order="asc"></od:index>
+        <od:tableProperty name="OrderByOn" type="1" value="1"></od:tableProperty>
+        <od:tableProperty name="Description" type="10" value="Liste Des Mouvements"></od:tableProperty>
+        <od:tableProperty name="Orientation" type="2" value="0"></od:tableProperty>
+        <od:tableProperty name="DefaultView" type="2" value="2"></od:tableProperty>
+        <od:tableProperty name="Filter" type="12" value="(((TBLMOUVEMENTS.MvtDossier)&gt;0 And (TBLMOUVEMENTS.MvtDossier)=1) AND ((Lookup_MvtMvtNatNum.MvtNatCode)=&quot;Bonus Animation&quot;) AND ((Lookup_MvtExeNum.ExeExercice)=2003))"></od:tableProperty>
+        <od:tableProperty name="OrderBy" type="12" value="TBLMOUVEMENTS.MvtSocNum"></od:tableProperty>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="MvtNum" minOccurs="1" od:jetType="autonumber" od:sqlSType="int" od:autoUnique="yes" od:nonNullable="yes" type="xsd:int">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="1950"></od:fieldProperty>
+              <od:fieldProperty name="ColumnOrder" type="3" value="1"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="Description" type="10" value="Mouvements Numero"></od:fieldProperty>
+              <od:fieldProperty name="Caption" type="12" value="Mouvements Numero"></od:fieldProperty>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="MvtSocNum" minOccurs="1" od:jetType="longinteger" od:sqlSType="int" od:nonNullable="yes" type="xsd:int">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="2610"></od:fieldProperty>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="Description" type="10" value="Mouvements Societe Numero"></od:fieldProperty>
+              <od:fieldProperty name="DecimalPlaces" type="2" value="255"></od:fieldProperty>
+              <od:fieldProperty name="Caption" type="12" value="Mouvements Societe Numero"></od:fieldProperty>
+              <od:fieldProperty name="Required" type="1" value="1"></od:fieldProperty>
+              <od:fieldProperty name="DisplayControl" type="3" value="111"></od:fieldProperty>
+              <od:fieldProperty name="ValidationRule" type="12" value="&lt;&gt;0"></od:fieldProperty>
+              <od:fieldProperty name="ValidationText" type="10" value="Le Champ Mouvements Societe Numero Est Invalide"></od:fieldProperty>
+              <od:fieldProperty name="RowSourceType" type="10" value="Table/Query"></od:fieldProperty>
+              <od:fieldProperty name="RowSource" type="12" value="SELECT TBLSOCIETES.SocNum, TBLSOCIETES.SocRaison, TBLSOCIETES.SocSTA, TBLSOCIETES.SocAdh, TBLSOCIETES.SocTel1, TBLSOCIETES.SocTel2, TBLSOCIETES.SocTypCode FROM TBLSOCIETES ORDER BY TBLSOCIETES.SocNum;"></od:fieldProperty>
+              <od:fieldProperty name="BoundColumn" type="3" value="1"></od:fieldProperty>
+              <od:fieldProperty name="ColumnCount" type="3" value="7"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHeads" type="1" value="1"></od:fieldProperty>
+              <od:fieldProperty name="ColumnWidths" type="10" value="2268;2268;2268;2268;2268;2268;2268"></od:fieldProperty>
+              <od:fieldProperty name="ListRows" type="3" value="8"></od:fieldProperty>
+              <od:fieldProperty name="ListWidth" type="10" value="15876twip"></od:fieldProperty>
+              <od:fieldProperty name="LimitToList" type="1" value="1"></od:fieldProperty>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="MvtExeNum" minOccurs="1" od:jetType="byte" od:sqlSType="tinyint" od:nonNullable="yes" type="xsd:unsignedByte">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="2685"></od:fieldProperty>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="Description" type="10" value="Mouvements Exercice Numero"></od:fieldProperty>
+              <od:fieldProperty name="DecimalPlaces" type="2" value="255"></od:fieldProperty>
+              <od:fieldProperty name="Caption" type="12" value="Mouvements Exercice Numero"></od:fieldProperty>
+              <od:fieldProperty name="DefaultValue" type="12" value="=Year(Date())-1999"></od:fieldProperty>
+              <od:fieldProperty name="Required" type="1" value="1"></od:fieldProperty>
+              <od:fieldProperty name="ValidationRule" type="12" value="&lt;&gt;0"></od:fieldProperty>
+              <od:fieldProperty name="ValidationText" type="10" value="Le Champ Mouvement Execice Est Invalide"></od:fieldProperty>
+              <od:fieldProperty name="DisplayControl" type="3" value="111"></od:fieldProperty>
+              <od:fieldProperty name="RowSourceType" type="10" value="Table/Query"></od:fieldProperty>
+              <od:fieldProperty name="RowSource" type="12" value="SELECT DISTINCT TBLEXERCICES.ExeNum, TBLEXERCICES.ExeExercice, TBLEXERCICES.ExeLibelle FROM TBLEXERCICES ORDER BY TBLEXERCICES.ExeNum;"></od:fieldProperty>
+              <od:fieldProperty name="BoundColumn" type="3" value="1"></od:fieldProperty>
+              <od:fieldProperty name="ColumnCount" type="3" value="3"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHeads" type="1" value="1"></od:fieldProperty>
+              <od:fieldProperty name="ColumnWidths" type="10" value="0;2268;2268"></od:fieldProperty>
+              <od:fieldProperty name="ListRows" type="3" value="8"></od:fieldProperty>
+              <od:fieldProperty name="ListWidth" type="10" value="4536twip"></od:fieldProperty>
+              <od:fieldProperty name="LimitToList" type="1" value="1"></od:fieldProperty>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="MvtMvtNatNum" minOccurs="1" od:jetType="byte" od:sqlSType="tinyint" od:nonNullable="yes" type="xsd:unsignedByte">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="2535"></od:fieldProperty>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="Description" type="10" value="Mouvements Nature Numero"></od:fieldProperty>
+              <od:fieldProperty name="DecimalPlaces" type="2" value="255"></od:fieldProperty>
+              <od:fieldProperty name="Caption" type="12" value="Mouvements Nature Numero"></od:fieldProperty>
+              <od:fieldProperty name="Required" type="1" value="1"></od:fieldProperty>
+              <od:fieldProperty name="ValidationRule" type="12" value="&lt;&gt;0"></od:fieldProperty>
+              <od:fieldProperty name="ValidationText" type="10" value="Le Champ Nature Code Est Invalide"></od:fieldProperty>
+              <od:fieldProperty name="DisplayControl" type="3" value="111"></od:fieldProperty>
+              <od:fieldProperty name="RowSourceType" type="10" value="Table/Query"></od:fieldProperty>
+              <od:fieldProperty name="RowSource" type="12" value="SELECT TBLMOUVEMENTSNATURES.MvtNatNum, TBLMOUVEMENTSNATURES.MvtNatCode, TBLMOUVEMENTSNATURES.MvtNatLibelle FROM TBLMOUVEMENTSNATURES ORDER BY TBLMOUVEMENTSNATURES.MvtNatNum;"></od:fieldProperty>
+              <od:fieldProperty name="BoundColumn" type="3" value="1"></od:fieldProperty>
+              <od:fieldProperty name="ColumnCount" type="3" value="3"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHeads" type="1" value="1"></od:fieldProperty>
+              <od:fieldProperty name="ColumnWidths" type="10" value="0;2268;2268"></od:fieldProperty>
+              <od:fieldProperty name="ListRows" type="3" value="8"></od:fieldProperty>
+              <od:fieldProperty name="ListWidth" type="10" value="4536twip"></od:fieldProperty>
+              <od:fieldProperty name="LimitToList" type="1" value="1"></od:fieldProperty>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="MvtDossier" minOccurs="1" od:jetType="longinteger" od:sqlSType="int" od:nonNullable="yes" type="xsd:int">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="1935"></od:fieldProperty>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="Description" type="10" value="Mouvements Dossier (N° De Remonte Ou N° De Cadeaux)"></od:fieldProperty>
+              <od:fieldProperty name="DecimalPlaces" type="2" value="255"></od:fieldProperty>
+              <od:fieldProperty name="Required" type="1" value="1"></od:fieldProperty>
+              <od:fieldProperty name="DisplayControl" type="3" value="109"></od:fieldProperty>
+              <od:fieldProperty name="ValidationRule" type="12" value="&lt;&gt;0"></od:fieldProperty>
+              <od:fieldProperty name="ValidationText" type="10" value="Le Champ Mouvement Dossier Est Invalide"></od:fieldProperty>
+              <od:fieldProperty name="Caption" type="12" value="Mouvements Dossier"></od:fieldProperty>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="MvtDate" minOccurs="1" od:jetType="datetime" od:sqlSType="datetime" od:nonNullable="yes" type="xsd:dateTime">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="1650"></od:fieldProperty>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="Description" type="10" value="Mouvements Date"></od:fieldProperty>
+              <od:fieldProperty name="Required" type="1" value="1"></od:fieldProperty>
+              <od:fieldProperty name="Format" type="10" value="Short Date"></od:fieldProperty>
+              <od:fieldProperty name="Caption" type="12" value="Mouvements Date"></od:fieldProperty>
+              <od:fieldProperty name="DefaultValue" type="12" value="=Date()"></od:fieldProperty>
+              <od:fieldProperty name="InputMask" type="10" value="99/99/0000;0;_"></od:fieldProperty>
+              <od:fieldProperty name="ValidationRule" type="12" value="IsDate([MvtDate])=True"></od:fieldProperty>
+              <od:fieldProperty name="ValidationText" type="10" value="Le Champ Mouvements Date Est Invalide"></od:fieldProperty>
+              <od:fieldProperty name="IMEMode" type="2" value="0"></od:fieldProperty>
+              <od:fieldProperty name="IMESentenceMode" type="2" value="3"></od:fieldProperty>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="MvtIntitule" minOccurs="1" od:jetType="text" od:sqlSType="nvarchar" od:nonNullable="yes">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="4185"></od:fieldProperty>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="Description" type="10" value="Mouvements Intitulé"></od:fieldProperty>
+              <od:fieldProperty name="Caption" type="12" value="Mouvements Intitulé"></od:fieldProperty>
+              <od:fieldProperty name="Required" type="1" value="1"></od:fieldProperty>
+              <od:fieldProperty name="AllowZeroLength" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ValidationRule" type="12" value="Is Not Null"></od:fieldProperty>
+              <od:fieldProperty name="ValidationText" type="10" value="Le Champ Mouvement Intitulé Est Obligatoire"></od:fieldProperty>
+              <od:fieldProperty name="DisplayControl" type="3" value="109"></od:fieldProperty>
+              <od:fieldProperty name="IMEMode" type="2" value="0"></od:fieldProperty>
+              <od:fieldProperty name="IMESentenceMode" type="2" value="3"></od:fieldProperty>
+              <od:fieldProperty name="UnicodeCompression" type="1" value="1"></od:fieldProperty>
+            </xsd:appinfo>
+          </xsd:annotation>
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:maxLength value="100"></xsd:maxLength>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="MvtDebit" minOccurs="1" od:jetType="longinteger" od:sqlSType="int" od:nonNullable="yes" type="xsd:int">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="1905"></od:fieldProperty>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="Description" type="10" value="Mouvements Débit (Achats Cadeaux Ou Annulation De Solde)"></od:fieldProperty>
+              <od:fieldProperty name="DecimalPlaces" type="2" value="255"></od:fieldProperty>
+              <od:fieldProperty name="DefaultValue" type="12" value="0"></od:fieldProperty>
+              <od:fieldProperty name="Required" type="1" value="1"></od:fieldProperty>
+              <od:fieldProperty name="DisplayControl" type="3" value="109"></od:fieldProperty>
+              <od:fieldProperty name="Caption" type="12" value="Mouvements Débit"></od:fieldProperty>
+              <od:fieldProperty name="ValidationRule" type="12" value="&gt;=0"></od:fieldProperty>
+              <od:fieldProperty name="ValidationText" type="10" value="Le Champ Mouvement Débit Est Invalide"></od:fieldProperty>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="MvtCredit" minOccurs="1" od:jetType="longinteger" od:sqlSType="int" od:nonNullable="yes" type="xsd:int">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="1980"></od:fieldProperty>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="Description" type="10" value="Mouvements Crédit (Remontées De Chaudiere)"></od:fieldProperty>
+              <od:fieldProperty name="DecimalPlaces" type="2" value="255"></od:fieldProperty>
+              <od:fieldProperty name="DefaultValue" type="12" value="0"></od:fieldProperty>
+              <od:fieldProperty name="Required" type="1" value="1"></od:fieldProperty>
+              <od:fieldProperty name="DisplayControl" type="3" value="109"></od:fieldProperty>
+              <od:fieldProperty name="Caption" type="12" value="Mouvements Crédit"></od:fieldProperty>
+              <od:fieldProperty name="ValidationRule" type="12" value="&gt;=0"></od:fieldProperty>
+              <od:fieldProperty name="ValidationText" type="10" value="Le Champ Mouvement Crédit Est Invalide"></od:fieldProperty>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="MvtQuantite" minOccurs="1" od:jetType="longinteger" od:sqlSType="int" od:nonNullable="yes" type="xsd:int">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="2220"></od:fieldProperty>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="Description" type="10" value="Mouvements Quantité (Quantité Cadeaux Ou Bonus ISO)"></od:fieldProperty>
+              <od:fieldProperty name="DecimalPlaces" type="2" value="255"></od:fieldProperty>
+              <od:fieldProperty name="DefaultValue" type="12" value="1"></od:fieldProperty>
+              <od:fieldProperty name="Required" type="1" value="1"></od:fieldProperty>
+              <od:fieldProperty name="DisplayControl" type="3" value="109"></od:fieldProperty>
+              <od:fieldProperty name="Caption" type="12" value="Mouvements Quantité"></od:fieldProperty>
+              <od:fieldProperty name="ValidationRule" type="12" value="&lt;&gt;0"></od:fieldProperty>
+              <od:fieldProperty name="ValidationText" type="10" value="Le Champ Mouvement Quantité Est Invalide"></od:fieldProperty>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

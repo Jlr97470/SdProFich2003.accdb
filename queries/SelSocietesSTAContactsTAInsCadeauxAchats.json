@@ -1,0 +1,189 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelSocietesSTAContactsTAInsCadeauxAchats"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes STA, Contacts TA Inscrits, Cadeaux Achats, Articles\r\nUtiliser Par :\r\n- FrmRecherche\r\n- FrmLstCadeuxAchats"
+      }
+    },
+    "Columns": {
+      "CadExeExercice": {
+        "Caption": "Catalogue",
+        "ColumnWidth": 1125,
+        "Description": "Catalogue",
+        "AggregateType": -1
+      },
+      "ConNom": {
+        "Caption": "Nom",
+        "ColumnWidth": 1395,
+        "Description": "Nom",
+        "AggregateType": -1
+      },
+      "ConPrenom": {
+        "Caption": "Prenom",
+        "ColumnWidth": 1785,
+        "Description": "Prenom",
+        "AggregateType": -1
+      },
+      "SocVilCodePostal": {
+        "Caption": "CP",
+        "ColumnWidth": 1290,
+        "Description": "CP",
+        "AggregateType": -1
+      },
+      "SocVilNom": {
+        "Caption": "Ville",
+        "ColumnWidth": 2085,
+        "Description": "Ville",
+        "AggregateType": -1
+      },
+      "TBLCADEAUXACHATS.CadAchDateSaisie": {
+        "Caption": "Date Saisie",
+        "ColumnWidth": 1230,
+        "Description": "Date Saisie",
+        "AggregateType": -1
+      },
+      "TBLCADEAUXACHATS.CadAchEtat": {
+        "Caption": "Etat",
+        "Description": "Etat",
+        "AggregateType": -1
+      },
+      "TBLCADEAUXACHATS.CadAchNum": {
+        "Caption": "Num",
+        "Description": "Num",
+        "AggregateType": -1
+      },
+      "TBLCADEAUXACHATS.CadAchPoints": {
+        "Caption": "Points",
+        "Description": "Points",
+        "AggregateType": -1
+      },
+      "TBLCADEAUXACHATS.CadAchQuantite": {
+        "Caption": "Quantite",
+        "ColumnWidth": 960,
+        "Description": "Quantite",
+        "AggregateType": -1
+      },
+      "TBLCADEAUXARTICLES.CadArtDescription": {
+        "Caption": "Description",
+        "ColumnWidth": 4440,
+        "Description": "Description",
+        "AggregateType": -1
+      },
+      "TBLCADEAUXARTICLES.CadArtRef": {
+        "Caption": "Reference",
+        "ColumnWidth": 1125,
+        "Description": "Reference",
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocAdresse": {
+        "Caption": "Adresse",
+        "ColumnWidth": 3705,
+        "Description": "Adresse",
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocRaison": {
+        "Caption": "Raison",
+        "ColumnWidth": 3030,
+        "Description": "Raison",
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocSTA": {
+        "Caption": "Code STA",
+        "Description": "Code STA",
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocTel1": {
+        "Caption": "Telephone",
+        "ColumnWidth": 1875,
+        "Description": "Telephone",
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": -15,
+        "top": -2,
+        "right": 1149,
+        "bottom": 674
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1157,
+        "bottom": 500
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 543,
+      "Tables": [
+        {
+          "Name": "TBLVILLES",
+          "Alias": "",
+          "Left": 119,
+          "Top": 326,
+          "Right": 215,
+          "Bottom": 418,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLSOCIETES",
+          "Alias": "",
+          "Left": 2,
+          "Top": 13,
+          "Right": 89,
+          "Bottom": 345,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "SelContactsInscrit",
+          "Alias": "",
+          "Left": 282,
+          "Top": 207,
+          "Right": 411,
+          "Bottom": 644,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLEXERCICES",
+          "Alias": "",
+          "Left": 669,
+          "Top": 43,
+          "Right": 765,
+          "Bottom": 120,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLCADEAUXARTICLES",
+          "Alias": "",
+          "Left": 492,
+          "Top": 28,
+          "Right": 630,
+          "Bottom": 150,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLCADEAUXACHATS",
+          "Alias": "",
+          "Left": 282,
+          "Top": -2,
+          "Right": 412,
+          "Bottom": 180,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes STA, Contacts TA Inscrits, Cadeaux Achats, Articles\r\nUtiliser Par :\r\n- FrmRecherche\r\n- FrmLstCadeuxAchats"
+      }
+    }
+  }
+}

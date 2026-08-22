@@ -1,0 +1,68 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelSocietesSoldes"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes, Soldes Globals\r\nUtiliser Par:\r\n- FrmSaisieCadeauxAchats"
+      }
+    },
+    "Columns": {
+      "Solde": {
+        "ColumnWidth": 690,
+        "AggregateType": -1
+      },
+      "TBLMOUVEMENTS.MvtSocNum": {
+        "ColumnWidth": 2610,
+        "AggregateType": -1
+      },
+      "TotalCredit": {
+        "ColumnWidth": 1065,
+        "AggregateType": -1
+      },
+      "TotalDebit": {
+        "ColumnWidth": 975,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 56,
+        "top": 198,
+        "right": 1230,
+        "bottom": 797
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1167,
+        "bottom": 423
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 543,
+      "Tables": [
+        {
+          "Name": "TBLMOUVEMENTS",
+          "Alias": "",
+          "Left": 38,
+          "Top": 6,
+          "Right": 148,
+          "Bottom": 195,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes, Soldes Globals\r\nUtiliser Par:\r\n- FrmSaisieCadeauxAchats"
+      }
+    }
+  }
+}

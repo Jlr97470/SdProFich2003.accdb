@@ -1,0 +1,50 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelContactsInscrit"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Contacts Inscrit\r\nUtiliser Par :\r\n- SelEtatSocietesSTAAdhConTAInsSoldesReleves\r\n- SelMailingSocDRConATCSocSTAAdhConTAInsResISOSoldesDetailler\r\n- SelMailingSocietesSTAContactsTAInsChaudieresRemontees\r\n- SelMailingSocDRConATCSocSTAAdhConT"
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 62,
+        "top": 44,
+        "right": 1258,
+        "bottom": 364
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1189,
+        "bottom": 144
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "TBLCONTACTS",
+          "Alias": "",
+          "Left": 38,
+          "Top": 6,
+          "Right": 134,
+          "Bottom": 105,
+          "ScrollTop": 2
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Contacts Inscrit\r\nUtiliser Par :\r\n- SelEtatSocietesSTAAdhConTAInsSoldesReleves\r\n- SelMailingSocDRConATCSocSTAAdhConTAInsResISOSoldesDetailler\r\n- SelMailingSocietesSTAContactsTAInsChaudieresRemontees\r\n- SelMailingSocDRConATCSocSTAAdhConT"
+      }
+    }
+  }
+}

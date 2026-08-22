@@ -1,0 +1,60 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelSocietesSoldesISOSemestres"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes, Soldes ISO Par Semestres\r\nUtiliser Par :\r\n- Site Web\r\n- SFrmFicheSocietesResultatsISOExercices"
+      }
+    },
+    "Columns": {
+      "Debit": {
+        "ColumnWidth": 630,
+        "AggregateType": -1
+      },
+      "Solde": {
+        "ColumnWidth": 675,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 5,
+        "top": 151,
+        "right": 1130,
+        "bottom": 670
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1114,
+        "bottom": 185
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "SelSocietesSoldesISOSem",
+          "Alias": "",
+          "Left": 38,
+          "Top": 6,
+          "Right": 134,
+          "Bottom": 158,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes, Soldes ISO Par Semestres\r\nUtiliser Par :\r\n- Site Web\r\n- SFrmFicheSocietesResultatsISOExercices"
+      }
+    }
+  }
+}

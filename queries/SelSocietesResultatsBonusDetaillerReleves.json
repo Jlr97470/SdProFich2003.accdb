@@ -1,0 +1,117 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelSocietesResultatsBonusDetaillerReleves"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes, Resultats Bonus A Date Releves\r\nUtiliser Par :\r\n- SelEtatSocietesSTAAdhConTAInsSoldesReleves\r\n\r\n"
+      }
+    },
+    "Columns": {
+      "BonusRea2003RelevesDebut": {
+        "ColumnWidth": 2265,
+        "AggregateType": -1
+      },
+      "BonusRea2003RelevesFin": {
+        "ColumnWidth": 2025,
+        "AggregateType": -1
+      },
+      "BonusRea2004RelevesDebut": {
+        "ColumnWidth": 2265,
+        "AggregateType": -1
+      },
+      "BonusRea2004RelevesFin": {
+        "ColumnWidth": 2025,
+        "AggregateType": -1
+      },
+      "PointsRea2003RelevesDebut": {
+        "ColumnWidth": 2685,
+        "AggregateType": -1
+      },
+      "PointsRea2003RelevesFin": {
+        "ColumnWidth": 2445,
+        "AggregateType": -1
+      },
+      "PointsRea2004RelevesDebut": {
+        "ColumnWidth": 2685,
+        "AggregateType": -1
+      },
+      "PointsRea2004RelevesFin": {
+        "ColumnWidth": 2445,
+        "AggregateType": -1
+      },
+      "SoldeRelevesDebut": {
+        "ColumnWidth": 1860,
+        "AggregateType": -1
+      },
+      "SoldeRelevesFin": {
+        "ColumnWidth": 1620,
+        "AggregateType": -1
+      },
+      "TotalCreditRelevesDebut": {
+        "ColumnWidth": 2295,
+        "AggregateType": -1
+      },
+      "TotalCreditRelevesFin": {
+        "ColumnWidth": 2055,
+        "AggregateType": -1
+      },
+      "TotalDebitRelevesDebut": {
+        "ColumnWidth": 2235,
+        "AggregateType": -1
+      },
+      "TotalDebitRelevesFin": {
+        "ColumnWidth": 1995,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 2,
+      "Window": {
+        "left": -6,
+        "top": -25,
+        "right": 1154,
+        "bottom": 778
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1200,
+        "bottom": 375
+      },
+      "GridLeft": 0,
+      "GridTop": 51,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "SelSocietesResultatsSemestresDetaillerReleves",
+          "Alias": "",
+          "Left": 9,
+          "Top": 6,
+          "Right": 345,
+          "Bottom": 353,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "SelSocietesSoldesExercicesDetaillerReleves",
+          "Alias": "",
+          "Left": 375,
+          "Top": 10,
+          "Right": 731,
+          "Bottom": 297,
+          "ScrollTop": 9
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes, Resultats Bonus A Date Releves\r\nUtiliser Par :\r\n- SelEtatSocietesSTAAdhConTAInsSoldesReleves\r\n\r\n"
+      }
+    }
+  }
+}

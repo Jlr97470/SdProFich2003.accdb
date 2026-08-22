@@ -1,0 +1,127 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelMailingSocDRConATCSocSTAAdhConTAInsResSemestresDetaillerBis"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Situation Des STA"
+      },
+      "OrderByOn": {
+        "Type": 1,
+        "Value": true
+      }
+    },
+    "Columns": {
+      "SocResPourISO2000S1": {
+        "ColumnWidth": 1980,
+        "Format": {
+          "Type": "dbText",
+          "Value": "Percent"
+        },
+        "AggregateType": -1
+      },
+      "SocResPourISO2000S2": {
+        "ColumnWidth": 1980,
+        "Format": {
+          "Type": "dbText",
+          "Value": "Percent"
+        },
+        "AggregateType": -1
+      },
+      "SocResPourISO2001S1": {
+        "ColumnWidth": 1980,
+        "Format": {
+          "Type": "dbText",
+          "Value": "Percent"
+        },
+        "AggregateType": -1
+      },
+      "SocResPourISO2001S2": {
+        "ColumnWidth": 1980,
+        "Format": {
+          "Type": "dbText",
+          "Value": "Percent"
+        },
+        "AggregateType": -1
+      },
+      "SocResPourISO2002S1": {
+        "ColumnWidth": 1980,
+        "Format": {
+          "Type": "dbText",
+          "Value": "Percent"
+        },
+        "AggregateType": -1
+      },
+      "SocResPourISO2002S2": {
+        "ColumnWidth": 1980,
+        "Format": {
+          "Type": "dbText",
+          "Value": "Percent"
+        },
+        "AggregateType": -1
+      },
+      "SocResPourISO2003S1": {
+        "ColumnWidth": 2310,
+        "Format": {
+          "Type": "dbText",
+          "Value": "Percent"
+        },
+        "AggregateType": -1
+      },
+      "SocResPourISO2003S2": {
+        "ColumnWidth": 2310,
+        "Format": {
+          "Type": "dbText",
+          "Value": "Percent"
+        },
+        "AggregateType": -1
+      },
+      "SocResPourISO2004S1": {
+        "ColumnWidth": 2310,
+        "Format": {
+          "Type": "dbText",
+          "Value": "Percent"
+        },
+        "AggregateType": -1
+      },
+      "SocResPourISO2004S2": {
+        "ColumnWidth": 2310,
+        "Format": {
+          "Type": "dbText",
+          "Value": "Percent"
+        },
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 95,
+        "top": 129,
+        "right": 1178,
+        "bottom": 713
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1072,
+        "bottom": 408
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 2591,
+      "Tables": [
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Situation Des STA"
+      }
+    }
+  }
+}

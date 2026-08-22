@@ -1,0 +1,60 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelMouvementsRegularisationCheques"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "ODBCTimeout": {
+        "Type": 3,
+        "Value": 0
+      },
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Mouvements Regularisation Et Cheque\r\nUtiliser Par :\r\n- FrmSaisieRegularisationCheques"
+      }
+    },
+    "Columns": {
+      "TBLMOUVEMENTS.MvtIntitule": {
+        "ColumnWidth": 4050,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 76,
+        "top": 124,
+        "right": 1130,
+        "bottom": 557
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1047,
+        "bottom": 257
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "TBLMOUVEMENTS",
+          "Alias": "",
+          "Left": 38,
+          "Top": 6,
+          "Right": 249,
+          "Bottom": 210,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Mouvements Regularisation Et Cheque\r\nUtiliser Par :\r\n- FrmSaisieRegularisationCheques"
+      }
+    }
+  }
+}

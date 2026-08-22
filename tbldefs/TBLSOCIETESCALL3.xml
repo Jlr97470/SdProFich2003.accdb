@@ -1,0 +1,685 @@
+﻿<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:od="urn:schemas-microsoft-com:officedata">
+  <xsd:element name="dataroot">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="TBLSOCIETESCALL3" minOccurs="0" maxOccurs="unbounded"/>
+      </xsd:sequence>
+      <xsd:attribute name="generated" type="xsd:dateTime"/>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="TBLSOCIETESCALL3">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <od:index index-name="CleSocCallNum" index-key="SocCallNum " primary="no" unique="yes" clustered="no" order="asc"/>
+        <od:index index-name="PrimaryKey" index-key="SocCallSocNum " primary="yes" unique="yes" clustered="no" order="asc"/>
+        <od:index index-name="TBLSOCIETESTBLSOCIETESCALL3" index-key="SocCallSocNum " primary="no" unique="yes" clustered="no" order="asc"/>
+        <od:tableProperty name="Orientation" type="2" value="0"/>
+        <od:tableProperty name="OrderByOn" type="1" value="0"/>
+        <od:tableProperty name="DefaultView" type="2" value="2"/>
+        <od:tableProperty name="Description" type="10" value="Liste Des Questionnaires Call 3 Des Societes"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="SocCallNum" minOccurs="1" od:jetType="autonumber" od:sqlSType="int" od:autoUnique="yes" od:nonNullable="yes" type="xsd:int">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="1965"/>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+              <od:fieldProperty name="Description" type="10" value="Societe Call Numero"/>
+              <od:fieldProperty name="Caption" type="12" value="Societe Call Numero"/>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="SocCallSocNum" minOccurs="1" od:jetType="longinteger" od:sqlSType="int" od:nonNullable="yes" type="xsd:int">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="2685"/>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+              <od:fieldProperty name="Description" type="10" value="Societe Call Societe Numero"/>
+              <od:fieldProperty name="DecimalPlaces" type="2" value="255"/>
+              <od:fieldProperty name="Caption" type="12" value="Societe Call Societe Numero"/>
+              <od:fieldProperty name="Required" type="1" value="1"/>
+              <od:fieldProperty name="ValidationRule" type="12" value="&lt;&gt;0"/>
+              <od:fieldProperty name="ValidationText" type="10" value="Le Champ Societe Call Societe Numero Est Invalide"/>
+              <od:fieldProperty name="DisplayControl" type="3" value="111"/>
+              <od:fieldProperty name="RowSourceType" type="10" value="Table/Query"/>
+              <od:fieldProperty name="RowSource" type="12" value="SELECT SocNum, SocSTA, SocRaison, SocAdresse, SocVilCodePostal, SocVilNom, SocTel1, SocTel2, SocFax, ConNum,  ConCivCode, ConNom, ConPrenom, ConTelPort, ConEMail FROM SelSocietesSTAVillesContactsTAInscrit WHERE (((SelSocietesSTAVillesContactsTAInscrit.SocAdh)=True));"/>
+              <od:fieldProperty name="BoundColumn" type="3" value="1"/>
+              <od:fieldProperty name="ColumnCount" type="3" value="15"/>
+              <od:fieldProperty name="ColumnHeads" type="1" value="1"/>
+              <od:fieldProperty name="ColumnWidths" type="10" value="0;1134;2268;2268;567;2268;1134;1134;1134;0;567;1134;1134;1134;2268"/>
+              <od:fieldProperty name="ListRows" type="3" value="8"/>
+              <od:fieldProperty name="ListWidth" type="10" value="18144twip"/>
+              <od:fieldProperty name="LimitToList" type="1" value="1"/>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="SocCallDateSaisie" minOccurs="1" od:jetType="datetime" od:sqlSType="datetime" od:nonNullable="yes" type="xsd:dateTime">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="2295"/>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+              <od:fieldProperty name="Description" type="10" value="Societe Call Date Saisie"/>
+              <od:fieldProperty name="Format" type="10" value="Short Date"/>
+              <od:fieldProperty name="InputMask" type="10" value="99/99/0000;0;_"/>
+              <od:fieldProperty name="Caption" type="12" value="Societe Call Date Saisie"/>
+              <od:fieldProperty name="DefaultValue" type="12" value="=Date()"/>
+              <od:fieldProperty name="Required" type="1" value="1"/>
+              <od:fieldProperty name="ValidationRule" type="12" value="IsDate([SocCallDateSaisie])=True"/>
+              <od:fieldProperty name="ValidationText" type="10" value="Le Champ Societe Call Date Saisie Est Invalide"/>
+              <od:fieldProperty name="IMEMode" type="2" value="0"/>
+              <od:fieldProperty name="IMESentenceMode" type="2" value="3"/>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="SocCallQst1" minOccurs="1" od:jetType="byte" od:sqlSType="tinyint" od:nonNullable="yes" type="xsd:unsignedByte">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="2235"/>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+              <od:fieldProperty name="Description" type="10" value="Societe Call Question 1"/>
+              <od:fieldProperty name="DecimalPlaces" type="2" value="255"/>
+              <od:fieldProperty name="Caption" type="12" value="Societe Call Question 1"/>
+              <od:fieldProperty name="DefaultValue" type="12" value="0"/>
+              <od:fieldProperty name="Required" type="1" value="1"/>
+              <od:fieldProperty name="ValidationRule" type="12" value="=1 Or =2"/>
+              <od:fieldProperty name="ValidationText" type="10" value="Le Champ Societe Call Question 1 Est Invalide"/>
+              <od:fieldProperty name="DisplayControl" type="3" value="111"/>
+              <od:fieldProperty name="RowSourceType" type="10" value="Value List"/>
+              <od:fieldProperty name="RowSource" type="12" value="0;;1;OUI;2;NON"/>
+              <od:fieldProperty name="BoundColumn" type="3" value="1"/>
+              <od:fieldProperty name="ColumnCount" type="3" value="2"/>
+              <od:fieldProperty name="ColumnHeads" type="1" value="0"/>
+              <od:fieldProperty name="ColumnWidths" type="10" value="2268;2268"/>
+              <od:fieldProperty name="ListRows" type="3" value="8"/>
+              <od:fieldProperty name="ListWidth" type="10" value="4536twip"/>
+              <od:fieldProperty name="LimitToList" type="1" value="1"/>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="SocCallQst2" minOccurs="1" od:jetType="byte" od:sqlSType="tinyint" od:nonNullable="yes" type="xsd:unsignedByte">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+              <od:fieldProperty name="Description" type="10" value="Societe Call Question 2"/>
+              <od:fieldProperty name="DecimalPlaces" type="2" value="255"/>
+              <od:fieldProperty name="Caption" type="12" value="Societe Call Question 2"/>
+              <od:fieldProperty name="DefaultValue" type="12" value="0"/>
+              <od:fieldProperty name="Required" type="1" value="1"/>
+              <od:fieldProperty name="ValidationRule" type="12" value="=1 Or =2"/>
+              <od:fieldProperty name="ValidationText" type="10" value="Le Champ Societe Call Question 2 Est Invalide"/>
+              <od:fieldProperty name="DisplayControl" type="3" value="111"/>
+              <od:fieldProperty name="RowSourceType" type="10" value="Value List"/>
+              <od:fieldProperty name="RowSource" type="12" value="0;;1;OUI;2;NON"/>
+              <od:fieldProperty name="BoundColumn" type="3" value="1"/>
+              <od:fieldProperty name="ColumnCount" type="3" value="2"/>
+              <od:fieldProperty name="ColumnHeads" type="1" value="0"/>
+              <od:fieldProperty name="ColumnWidths" type="10" value="2268;2268"/>
+              <od:fieldProperty name="ListRows" type="3" value="8"/>
+              <od:fieldProperty name="ListWidth" type="10" value="4536twip"/>
+              <od:fieldProperty name="LimitToList" type="1" value="1"/>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="SocCallQst3" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+              <od:fieldProperty name="Description" type="10" value="Societe Call Question 3"/>
+              <od:fieldProperty name="Caption" type="12" value="Societe Call Question 3"/>
+              <od:fieldProperty name="Required" type="1" value="0"/>
+              <od:fieldProperty name="AllowZeroLength" type="1" value="0"/>
+              <od:fieldProperty name="DisplayControl" type="3" value="109"/>
+              <od:fieldProperty name="RowSourceType" type="10" value="Value List"/>
+              <od:fieldProperty name="RowSource" type="12" value="0;;1;OUI;2;NON"/>
+              <od:fieldProperty name="BoundColumn" type="3" value="1"/>
+              <od:fieldProperty name="ColumnCount" type="3" value="2"/>
+              <od:fieldProperty name="ColumnHeads" type="1" value="0"/>
+              <od:fieldProperty name="ColumnWidths" type="10" value="2268;2268"/>
+              <od:fieldProperty name="ListRows" type="3" value="8"/>
+              <od:fieldProperty name="ListWidth" type="10" value="4536twip"/>
+              <od:fieldProperty name="LimitToList" type="1" value="1"/>
+              <od:fieldProperty name="IMEMode" type="2" value="0"/>
+              <od:fieldProperty name="IMESentenceMode" type="2" value="3"/>
+              <od:fieldProperty name="UnicodeCompression" type="1" value="0"/>
+            </xsd:appinfo>
+          </xsd:annotation>
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:maxLength value="50"/>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="SocCallQst4" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+              <od:fieldProperty name="Description" type="10" value="Societe Call Question 4"/>
+              <od:fieldProperty name="Caption" type="12" value="Societe Call Question 4"/>
+              <od:fieldProperty name="Required" type="1" value="0"/>
+              <od:fieldProperty name="AllowZeroLength" type="1" value="0"/>
+              <od:fieldProperty name="DisplayControl" type="3" value="109"/>
+              <od:fieldProperty name="RowSourceType" type="10" value="Value List"/>
+              <od:fieldProperty name="RowSource" type="12" value="0;;1;OUI;2;NON"/>
+              <od:fieldProperty name="BoundColumn" type="3" value="1"/>
+              <od:fieldProperty name="ColumnCount" type="3" value="2"/>
+              <od:fieldProperty name="ColumnHeads" type="1" value="0"/>
+              <od:fieldProperty name="ColumnWidths" type="10" value="2268;2268"/>
+              <od:fieldProperty name="ListRows" type="3" value="8"/>
+              <od:fieldProperty name="ListWidth" type="10" value="4536twip"/>
+              <od:fieldProperty name="LimitToList" type="1" value="1"/>
+              <od:fieldProperty name="IMEMode" type="2" value="0"/>
+              <od:fieldProperty name="IMESentenceMode" type="2" value="3"/>
+              <od:fieldProperty name="UnicodeCompression" type="1" value="0"/>
+            </xsd:appinfo>
+          </xsd:annotation>
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:maxLength value="50"/>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="SocCallQst5" minOccurs="1" od:jetType="byte" od:sqlSType="tinyint" od:nonNullable="yes" type="xsd:unsignedByte">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+              <od:fieldProperty name="Description" type="10" value="Societe Call Question 5"/>
+              <od:fieldProperty name="DecimalPlaces" type="2" value="255"/>
+              <od:fieldProperty name="Caption" type="12" value="Societe Call Question 5"/>
+              <od:fieldProperty name="DefaultValue" type="12" value="0"/>
+              <od:fieldProperty name="Required" type="1" value="1"/>
+              <od:fieldProperty name="ValidationRule" type="12" value="=0 Or =1 Or =2 Or =3 Or =4 Or =5"/>
+              <od:fieldProperty name="ValidationText" type="10" value="Le Champ Societe Call Question 5 Est Invalide"/>
+              <od:fieldProperty name="DisplayControl" type="3" value="111"/>
+              <od:fieldProperty name="RowSourceType" type="10" value="Value List"/>
+              <od:fieldProperty name="RowSource" type="12" value="0;;1;&quot;DANS TOUS LES CAS&quot;;2;&quot;POUR CONVAINCRE VOTRE CLIENT D'ACHETER UNE CHAUDIERE PLUS HAUT DE GAMME&quot;;3;&quot;LORSQUE LE DEVIS DEPASSE UN CERTAIN MONTANT&quot;;4;&quot;LORSQUE LE CLIENT DEMANDE UN FINANCEMENT&quot;;5;&quot;AUTRES&quot;"/>
+              <od:fieldProperty name="BoundColumn" type="3" value="1"/>
+              <od:fieldProperty name="ColumnCount" type="3" value="2"/>
+              <od:fieldProperty name="ColumnHeads" type="1" value="0"/>
+              <od:fieldProperty name="ColumnWidths" type="10" value="2268;2268"/>
+              <od:fieldProperty name="ListRows" type="3" value="8"/>
+              <od:fieldProperty name="ListWidth" type="10" value="4536twip"/>
+              <od:fieldProperty name="LimitToList" type="1" value="1"/>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="SocCallQst6" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+              <od:fieldProperty name="Description" type="10" value="Societe Call Question 6"/>
+              <od:fieldProperty name="Caption" type="12" value="Societe Call Question 6"/>
+              <od:fieldProperty name="Required" type="1" value="0"/>
+              <od:fieldProperty name="AllowZeroLength" type="1" value="0"/>
+              <od:fieldProperty name="DisplayControl" type="3" value="109"/>
+              <od:fieldProperty name="RowSourceType" type="10" value="Value List"/>
+              <od:fieldProperty name="RowSource" type="12" value="0;;1;OUI;2;NON"/>
+              <od:fieldProperty name="BoundColumn" type="3" value="1"/>
+              <od:fieldProperty name="ColumnCount" type="3" value="2"/>
+              <od:fieldProperty name="ColumnHeads" type="1" value="0"/>
+              <od:fieldProperty name="ColumnWidths" type="10" value="2268;2268"/>
+              <od:fieldProperty name="ListRows" type="3" value="8"/>
+              <od:fieldProperty name="ListWidth" type="10" value="4536twip"/>
+              <od:fieldProperty name="LimitToList" type="1" value="1"/>
+              <od:fieldProperty name="IMEMode" type="2" value="0"/>
+              <od:fieldProperty name="IMESentenceMode" type="2" value="3"/>
+              <od:fieldProperty name="UnicodeCompression" type="1" value="0"/>
+            </xsd:appinfo>
+          </xsd:annotation>
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:maxLength value="50"/>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="SocCallQst7" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+              <od:fieldProperty name="Description" type="10" value="Societe Call Question 7"/>
+              <od:fieldProperty name="Caption" type="12" value="Societe Call Question 7"/>
+              <od:fieldProperty name="Required" type="1" value="0"/>
+              <od:fieldProperty name="AllowZeroLength" type="1" value="0"/>
+              <od:fieldProperty name="DisplayControl" type="3" value="109"/>
+              <od:fieldProperty name="RowSourceType" type="10" value="Value List"/>
+              <od:fieldProperty name="RowSource" type="12" value="0;;1;OUI;2;NON"/>
+              <od:fieldProperty name="BoundColumn" type="3" value="1"/>
+              <od:fieldProperty name="ColumnCount" type="3" value="2"/>
+              <od:fieldProperty name="ColumnHeads" type="1" value="0"/>
+              <od:fieldProperty name="ColumnWidths" type="10" value="2268;2268"/>
+              <od:fieldProperty name="ListRows" type="3" value="8"/>
+              <od:fieldProperty name="ListWidth" type="10" value="4536twip"/>
+              <od:fieldProperty name="LimitToList" type="1" value="1"/>
+              <od:fieldProperty name="IMEMode" type="2" value="0"/>
+              <od:fieldProperty name="IMESentenceMode" type="2" value="3"/>
+              <od:fieldProperty name="UnicodeCompression" type="1" value="0"/>
+            </xsd:appinfo>
+          </xsd:annotation>
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:maxLength value="50"/>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="SocCallQst8" minOccurs="1" od:jetType="byte" od:sqlSType="tinyint" od:nonNullable="yes" type="xsd:unsignedByte">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+              <od:fieldProperty name="Description" type="10" value="Societe Call Question 8"/>
+              <od:fieldProperty name="DecimalPlaces" type="2" value="255"/>
+              <od:fieldProperty name="Caption" type="12" value="Societe Call Question 8"/>
+              <od:fieldProperty name="DefaultValue" type="12" value="0"/>
+              <od:fieldProperty name="Required" type="1" value="1"/>
+              <od:fieldProperty name="ValidationRule" type="12" value="=0 Or =1 Or =2"/>
+              <od:fieldProperty name="ValidationText" type="10" value="Le Champ Societe Call Question 8 Est Invalide"/>
+              <od:fieldProperty name="DisplayControl" type="3" value="111"/>
+              <od:fieldProperty name="RowSourceType" type="10" value="Value List"/>
+              <od:fieldProperty name="RowSource" type="12" value="0;;1;OUI;2;NON"/>
+              <od:fieldProperty name="BoundColumn" type="3" value="1"/>
+              <od:fieldProperty name="ColumnCount" type="3" value="2"/>
+              <od:fieldProperty name="ColumnHeads" type="1" value="0"/>
+              <od:fieldProperty name="ColumnWidths" type="10" value="2268;2268"/>
+              <od:fieldProperty name="ListRows" type="3" value="8"/>
+              <od:fieldProperty name="ListWidth" type="10" value="4536twip"/>
+              <od:fieldProperty name="LimitToList" type="1" value="1"/>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="SocCallQst9" minOccurs="1" od:jetType="byte" od:sqlSType="tinyint" od:nonNullable="yes" type="xsd:unsignedByte">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+              <od:fieldProperty name="Description" type="10" value="Societe Call Question 9"/>
+              <od:fieldProperty name="DecimalPlaces" type="2" value="255"/>
+              <od:fieldProperty name="Caption" type="12" value="Societe Call Question 9"/>
+              <od:fieldProperty name="DefaultValue" type="12" value="0"/>
+              <od:fieldProperty name="Required" type="1" value="1"/>
+              <od:fieldProperty name="ValidationRule" type="12" value="=0 Or =1 Or =2"/>
+              <od:fieldProperty name="ValidationText" type="10" value="Le Champ Societe Call Question 9 Est Invalide"/>
+              <od:fieldProperty name="DisplayControl" type="3" value="111"/>
+              <od:fieldProperty name="RowSourceType" type="10" value="Value List"/>
+              <od:fieldProperty name="RowSource" type="12" value="0;;1;OUI;2;NON"/>
+              <od:fieldProperty name="BoundColumn" type="3" value="1"/>
+              <od:fieldProperty name="ColumnCount" type="3" value="2"/>
+              <od:fieldProperty name="ColumnHeads" type="1" value="0"/>
+              <od:fieldProperty name="ColumnWidths" type="10" value="2268;2268"/>
+              <od:fieldProperty name="ListRows" type="3" value="8"/>
+              <od:fieldProperty name="ListWidth" type="10" value="4536twip"/>
+              <od:fieldProperty name="LimitToList" type="1" value="1"/>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="SocCallQst10" minOccurs="1" od:jetType="byte" od:sqlSType="tinyint" od:nonNullable="yes" type="xsd:unsignedByte">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+              <od:fieldProperty name="Description" type="10" value="Societe Call Question 10"/>
+              <od:fieldProperty name="DecimalPlaces" type="2" value="255"/>
+              <od:fieldProperty name="Caption" type="12" value="Societe Call Question 10"/>
+              <od:fieldProperty name="DefaultValue" type="12" value="0"/>
+              <od:fieldProperty name="Required" type="1" value="1"/>
+              <od:fieldProperty name="ValidationRule" type="12" value="=0 Or =1 Or =2"/>
+              <od:fieldProperty name="ValidationText" type="10" value="Le Champ Societe Call Question 10 Est Invalide"/>
+              <od:fieldProperty name="DisplayControl" type="3" value="111"/>
+              <od:fieldProperty name="RowSourceType" type="10" value="Value List"/>
+              <od:fieldProperty name="RowSource" type="12" value="0;;1;OUI;2;NON"/>
+              <od:fieldProperty name="BoundColumn" type="3" value="1"/>
+              <od:fieldProperty name="ColumnCount" type="3" value="2"/>
+              <od:fieldProperty name="ColumnHeads" type="1" value="0"/>
+              <od:fieldProperty name="ColumnWidths" type="10" value="2268;2268"/>
+              <od:fieldProperty name="ListRows" type="3" value="8"/>
+              <od:fieldProperty name="ListWidth" type="10" value="4536twip"/>
+              <od:fieldProperty name="LimitToList" type="1" value="1"/>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="SocCallQst11" minOccurs="1" od:jetType="byte" od:sqlSType="tinyint" od:nonNullable="yes" type="xsd:unsignedByte">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+              <od:fieldProperty name="Description" type="10" value="Societe Call Question 11"/>
+              <od:fieldProperty name="DecimalPlaces" type="2" value="255"/>
+              <od:fieldProperty name="Caption" type="12" value="Societe Call Question 11"/>
+              <od:fieldProperty name="DefaultValue" type="12" value="0"/>
+              <od:fieldProperty name="Required" type="1" value="1"/>
+              <od:fieldProperty name="ValidationRule" type="12" value="=0 Or =1 Or =2"/>
+              <od:fieldProperty name="ValidationText" type="10" value="Le Champ Societe Call Question 11 Est Invalide"/>
+              <od:fieldProperty name="DisplayControl" type="3" value="111"/>
+              <od:fieldProperty name="RowSourceType" type="10" value="Value List"/>
+              <od:fieldProperty name="RowSource" type="12" value="0;;1;OUI;2;NON"/>
+              <od:fieldProperty name="BoundColumn" type="3" value="1"/>
+              <od:fieldProperty name="ColumnCount" type="3" value="2"/>
+              <od:fieldProperty name="ColumnHeads" type="1" value="0"/>
+              <od:fieldProperty name="ColumnWidths" type="10" value="2268;2268"/>
+              <od:fieldProperty name="ListRows" type="3" value="8"/>
+              <od:fieldProperty name="ListWidth" type="10" value="4536twip"/>
+              <od:fieldProperty name="LimitToList" type="1" value="1"/>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="SocCallQst12" minOccurs="1" od:jetType="byte" od:sqlSType="tinyint" od:nonNullable="yes" type="xsd:unsignedByte">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+              <od:fieldProperty name="Description" type="10" value="Societe Call Question 12"/>
+              <od:fieldProperty name="DecimalPlaces" type="2" value="255"/>
+              <od:fieldProperty name="Caption" type="12" value="Societe Call Question 12"/>
+              <od:fieldProperty name="DefaultValue" type="12" value="0"/>
+              <od:fieldProperty name="Required" type="1" value="1"/>
+              <od:fieldProperty name="ValidationRule" type="12" value="=0 Or =1 Or =2"/>
+              <od:fieldProperty name="ValidationText" type="10" value="Le Champ Societe Call Question 12 Est Invalide"/>
+              <od:fieldProperty name="DisplayControl" type="3" value="111"/>
+              <od:fieldProperty name="RowSourceType" type="10" value="Value List"/>
+              <od:fieldProperty name="RowSource" type="12" value="0;;1;OUI;2;NON"/>
+              <od:fieldProperty name="BoundColumn" type="3" value="1"/>
+              <od:fieldProperty name="ColumnCount" type="3" value="2"/>
+              <od:fieldProperty name="ColumnHeads" type="1" value="0"/>
+              <od:fieldProperty name="ColumnWidths" type="10" value="2268;2268"/>
+              <od:fieldProperty name="ListRows" type="3" value="8"/>
+              <od:fieldProperty name="ListWidth" type="10" value="4536twip"/>
+              <od:fieldProperty name="LimitToList" type="1" value="1"/>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="SocCallQst13" minOccurs="1" od:jetType="byte" od:sqlSType="tinyint" od:nonNullable="yes" type="xsd:unsignedByte">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+              <od:fieldProperty name="Description" type="10" value="Societe Call Question 13"/>
+              <od:fieldProperty name="DecimalPlaces" type="2" value="255"/>
+              <od:fieldProperty name="Caption" type="12" value="Societe Call Question 13"/>
+              <od:fieldProperty name="DefaultValue" type="12" value="0"/>
+              <od:fieldProperty name="Required" type="1" value="1"/>
+              <od:fieldProperty name="ValidationRule" type="12" value="=0 Or =1 Or =2"/>
+              <od:fieldProperty name="ValidationText" type="10" value="Le Champ Societe Call Question 13 Est Invalide"/>
+              <od:fieldProperty name="DisplayControl" type="3" value="111"/>
+              <od:fieldProperty name="RowSourceType" type="10" value="Value List"/>
+              <od:fieldProperty name="RowSource" type="12" value="0;;1;OUI;2;NON"/>
+              <od:fieldProperty name="BoundColumn" type="3" value="1"/>
+              <od:fieldProperty name="ColumnCount" type="3" value="2"/>
+              <od:fieldProperty name="ColumnHeads" type="1" value="0"/>
+              <od:fieldProperty name="ColumnWidths" type="10" value="2268;2268"/>
+              <od:fieldProperty name="ListRows" type="3" value="8"/>
+              <od:fieldProperty name="ListWidth" type="10" value="4536twip"/>
+              <od:fieldProperty name="LimitToList" type="1" value="1"/>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="SocCallQst14" minOccurs="1" od:jetType="byte" od:sqlSType="tinyint" od:nonNullable="yes" type="xsd:unsignedByte">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+              <od:fieldProperty name="Description" type="10" value="Societe Call Question 14"/>
+              <od:fieldProperty name="DecimalPlaces" type="2" value="255"/>
+              <od:fieldProperty name="Caption" type="12" value="Societe Call Question 14"/>
+              <od:fieldProperty name="DefaultValue" type="12" value="0"/>
+              <od:fieldProperty name="Required" type="1" value="1"/>
+              <od:fieldProperty name="ValidationRule" type="12" value="=0 Or =1 Or =2"/>
+              <od:fieldProperty name="ValidationText" type="10" value="Le Champ Societe Call Question 14 Est Invalide"/>
+              <od:fieldProperty name="DisplayControl" type="3" value="111"/>
+              <od:fieldProperty name="RowSourceType" type="10" value="Value List"/>
+              <od:fieldProperty name="RowSource" type="12" value="0;;1;OUI;2;NON"/>
+              <od:fieldProperty name="BoundColumn" type="3" value="1"/>
+              <od:fieldProperty name="ColumnCount" type="3" value="2"/>
+              <od:fieldProperty name="ColumnHeads" type="1" value="0"/>
+              <od:fieldProperty name="ColumnWidths" type="10" value="2268;2268"/>
+              <od:fieldProperty name="ListRows" type="3" value="8"/>
+              <od:fieldProperty name="ListWidth" type="10" value="4536twip"/>
+              <od:fieldProperty name="LimitToList" type="1" value="1"/>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="SocCallQst15" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+              <od:fieldProperty name="Description" type="10" value="Societe Call Question 15"/>
+              <od:fieldProperty name="Caption" type="12" value="Societe Call Question 15"/>
+              <od:fieldProperty name="Required" type="1" value="0"/>
+              <od:fieldProperty name="AllowZeroLength" type="1" value="0"/>
+              <od:fieldProperty name="DisplayControl" type="3" value="109"/>
+              <od:fieldProperty name="RowSourceType" type="10" value="Value List"/>
+              <od:fieldProperty name="RowSource" type="12" value="0;;1;OUI;2;NON"/>
+              <od:fieldProperty name="BoundColumn" type="3" value="1"/>
+              <od:fieldProperty name="ColumnCount" type="3" value="2"/>
+              <od:fieldProperty name="ColumnHeads" type="1" value="0"/>
+              <od:fieldProperty name="ColumnWidths" type="10" value="2268;2268"/>
+              <od:fieldProperty name="ListRows" type="3" value="8"/>
+              <od:fieldProperty name="ListWidth" type="10" value="4536twip"/>
+              <od:fieldProperty name="LimitToList" type="1" value="1"/>
+              <od:fieldProperty name="IMEMode" type="2" value="0"/>
+              <od:fieldProperty name="IMESentenceMode" type="2" value="3"/>
+              <od:fieldProperty name="UnicodeCompression" type="1" value="0"/>
+            </xsd:appinfo>
+          </xsd:annotation>
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:maxLength value="50"/>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="SocCallQst16" minOccurs="1" od:jetType="byte" od:sqlSType="tinyint" od:nonNullable="yes" type="xsd:unsignedByte">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+              <od:fieldProperty name="Description" type="10" value="Societe Call Question 16"/>
+              <od:fieldProperty name="DecimalPlaces" type="2" value="255"/>
+              <od:fieldProperty name="Caption" type="12" value="Societe Call Question 16"/>
+              <od:fieldProperty name="DefaultValue" type="12" value="0"/>
+              <od:fieldProperty name="Required" type="1" value="1"/>
+              <od:fieldProperty name="ValidationRule" type="12" value="=0 Or =1 Or =2"/>
+              <od:fieldProperty name="ValidationText" type="10" value="Le Champ Societe Call Question 16 Est Invalide"/>
+              <od:fieldProperty name="DisplayControl" type="3" value="111"/>
+              <od:fieldProperty name="RowSourceType" type="10" value="Value List"/>
+              <od:fieldProperty name="RowSource" type="12" value="0;;1;OUI;2;NON"/>
+              <od:fieldProperty name="BoundColumn" type="3" value="1"/>
+              <od:fieldProperty name="ColumnCount" type="3" value="2"/>
+              <od:fieldProperty name="ColumnHeads" type="1" value="0"/>
+              <od:fieldProperty name="ColumnWidths" type="10" value="2268;2268"/>
+              <od:fieldProperty name="ListRows" type="3" value="8"/>
+              <od:fieldProperty name="ListWidth" type="10" value="4536twip"/>
+              <od:fieldProperty name="LimitToList" type="1" value="1"/>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="SocCallQst17" minOccurs="1" od:jetType="byte" od:sqlSType="tinyint" od:nonNullable="yes" type="xsd:unsignedByte">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+              <od:fieldProperty name="Description" type="10" value="Societe Call Question 17"/>
+              <od:fieldProperty name="DecimalPlaces" type="2" value="255"/>
+              <od:fieldProperty name="Caption" type="12" value="Societe Call Question 17"/>
+              <od:fieldProperty name="DefaultValue" type="12" value="0"/>
+              <od:fieldProperty name="Required" type="1" value="1"/>
+              <od:fieldProperty name="ValidationRule" type="12" value="=0 Or =1 Or =2"/>
+              <od:fieldProperty name="ValidationText" type="10" value="Le Champ Societe Call Question 17 Est Invalide"/>
+              <od:fieldProperty name="DisplayControl" type="3" value="111"/>
+              <od:fieldProperty name="RowSourceType" type="10" value="Value List"/>
+              <od:fieldProperty name="RowSource" type="12" value="0;;1;OUI;2;NON"/>
+              <od:fieldProperty name="BoundColumn" type="3" value="1"/>
+              <od:fieldProperty name="ColumnCount" type="3" value="2"/>
+              <od:fieldProperty name="ColumnHeads" type="1" value="0"/>
+              <od:fieldProperty name="ColumnWidths" type="10" value="2268;2268"/>
+              <od:fieldProperty name="ListRows" type="3" value="8"/>
+              <od:fieldProperty name="ListWidth" type="10" value="4536twip"/>
+              <od:fieldProperty name="LimitToList" type="1" value="1"/>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="SocCallQst18" minOccurs="1" od:jetType="byte" od:sqlSType="tinyint" od:nonNullable="yes" type="xsd:unsignedByte">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+              <od:fieldProperty name="Description" type="10" value="Societe Call Question 18"/>
+              <od:fieldProperty name="DecimalPlaces" type="2" value="255"/>
+              <od:fieldProperty name="Caption" type="12" value="Societe Call Question 18"/>
+              <od:fieldProperty name="DefaultValue" type="12" value="0"/>
+              <od:fieldProperty name="Required" type="1" value="1"/>
+              <od:fieldProperty name="ValidationRule" type="12" value="=0 Or =1 Or =2"/>
+              <od:fieldProperty name="ValidationText" type="10" value="Le Champ Societe Call Question 18 Est Invalide"/>
+              <od:fieldProperty name="DisplayControl" type="3" value="111"/>
+              <od:fieldProperty name="RowSourceType" type="10" value="Value List"/>
+              <od:fieldProperty name="RowSource" type="12" value="0;;1;OUI;2;NON"/>
+              <od:fieldProperty name="BoundColumn" type="3" value="1"/>
+              <od:fieldProperty name="ColumnCount" type="3" value="2"/>
+              <od:fieldProperty name="ColumnHeads" type="1" value="0"/>
+              <od:fieldProperty name="ColumnWidths" type="10" value="2268;2268"/>
+              <od:fieldProperty name="ListRows" type="3" value="8"/>
+              <od:fieldProperty name="ListWidth" type="10" value="4536twip"/>
+              <od:fieldProperty name="LimitToList" type="1" value="1"/>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="SocCallQst19" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+              <od:fieldProperty name="Description" type="10" value="Societe Call Question 19"/>
+              <od:fieldProperty name="Caption" type="12" value="Societe Call Question 19"/>
+              <od:fieldProperty name="Required" type="1" value="0"/>
+              <od:fieldProperty name="AllowZeroLength" type="1" value="0"/>
+              <od:fieldProperty name="DisplayControl" type="3" value="109"/>
+              <od:fieldProperty name="RowSourceType" type="10" value="Value List"/>
+              <od:fieldProperty name="RowSource" type="12" value="0;;1;OUI;2;NON"/>
+              <od:fieldProperty name="BoundColumn" type="3" value="1"/>
+              <od:fieldProperty name="ColumnCount" type="3" value="2"/>
+              <od:fieldProperty name="ColumnHeads" type="1" value="0"/>
+              <od:fieldProperty name="ColumnWidths" type="10" value="2268;2268"/>
+              <od:fieldProperty name="ListRows" type="3" value="8"/>
+              <od:fieldProperty name="ListWidth" type="10" value="4536twip"/>
+              <od:fieldProperty name="LimitToList" type="1" value="1"/>
+              <od:fieldProperty name="IMEMode" type="2" value="0"/>
+              <od:fieldProperty name="IMESentenceMode" type="2" value="3"/>
+              <od:fieldProperty name="UnicodeCompression" type="1" value="0"/>
+            </xsd:appinfo>
+          </xsd:annotation>
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:maxLength value="50"/>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="SocCallQst20" minOccurs="1" od:jetType="byte" od:sqlSType="tinyint" od:nonNullable="yes" type="xsd:unsignedByte">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+              <od:fieldProperty name="Description" type="10" value="Societe Call Question 20"/>
+              <od:fieldProperty name="DecimalPlaces" type="2" value="255"/>
+              <od:fieldProperty name="Caption" type="12" value="Societe Call Question 20"/>
+              <od:fieldProperty name="DefaultValue" type="12" value="0"/>
+              <od:fieldProperty name="Required" type="1" value="1"/>
+              <od:fieldProperty name="ValidationRule" type="12" value="=0 Or =1 Or =2 Or =3 Or =4"/>
+              <od:fieldProperty name="ValidationText" type="10" value="Le Champ Societe Call Question 20 Est Invalide"/>
+              <od:fieldProperty name="DisplayControl" type="3" value="111"/>
+              <od:fieldProperty name="RowSourceType" type="10" value="Value List"/>
+              <od:fieldProperty name="RowSource" type="12" value="0;;1;&quot;TROP COMPLIQUE&quot;;2;&quot;PAS DE DEMANDE DES CLIENTS&quot;;3;&quot;CELA NE M'INTERESSE PAS (JE N'EN VOIS PAS L'INTERET)&quot;;4;&quot;AUTRE&quot;"/>
+              <od:fieldProperty name="BoundColumn" type="3" value="1"/>
+              <od:fieldProperty name="ColumnCount" type="3" value="2"/>
+              <od:fieldProperty name="ColumnHeads" type="1" value="0"/>
+              <od:fieldProperty name="ColumnWidths" type="10" value="2268;2268"/>
+              <od:fieldProperty name="ListRows" type="3" value="8"/>
+              <od:fieldProperty name="ListWidth" type="10" value="4536twip"/>
+              <od:fieldProperty name="LimitToList" type="1" value="1"/>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="SocCallQst21" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+              <od:fieldProperty name="Description" type="10" value="Societe Call Question 21"/>
+              <od:fieldProperty name="Caption" type="12" value="Societe Call Question 21"/>
+              <od:fieldProperty name="Required" type="1" value="0"/>
+              <od:fieldProperty name="AllowZeroLength" type="1" value="0"/>
+              <od:fieldProperty name="DisplayControl" type="3" value="109"/>
+              <od:fieldProperty name="RowSourceType" type="10" value="Value List"/>
+              <od:fieldProperty name="RowSource" type="12" value="0;;1;OUI;2;NON"/>
+              <od:fieldProperty name="BoundColumn" type="3" value="1"/>
+              <od:fieldProperty name="ColumnCount" type="3" value="2"/>
+              <od:fieldProperty name="ColumnHeads" type="1" value="0"/>
+              <od:fieldProperty name="ColumnWidths" type="10" value="2268;2268"/>
+              <od:fieldProperty name="ListRows" type="3" value="8"/>
+              <od:fieldProperty name="ListWidth" type="10" value="4536twip"/>
+              <od:fieldProperty name="LimitToList" type="1" value="1"/>
+              <od:fieldProperty name="IMEMode" type="2" value="0"/>
+              <od:fieldProperty name="IMESentenceMode" type="2" value="3"/>
+              <od:fieldProperty name="UnicodeCompression" type="1" value="0"/>
+            </xsd:appinfo>
+          </xsd:annotation>
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:maxLength value="50"/>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="SocCallQst22" minOccurs="0" od:jetType="memo" od:sqlSType="ntext">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+              <od:fieldProperty name="Description" type="10" value="Societe Call Question 22"/>
+              <od:fieldProperty name="Caption" type="12" value="Societe Call Question 22"/>
+              <od:fieldProperty name="Required" type="1" value="0"/>
+              <od:fieldProperty name="AllowZeroLength" type="1" value="0"/>
+              <od:fieldProperty name="IMEMode" type="2" value="0"/>
+              <od:fieldProperty name="IMESentenceMode" type="2" value="0"/>
+              <od:fieldProperty name="UnicodeCompression" type="1" value="1"/>
+            </xsd:appinfo>
+          </xsd:annotation>
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:maxLength value="536870910"/>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

@@ -1,0 +1,74 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "AnaSocietesResultatsISOExercices"
+  },
+  "Items": {
+    "QueryType": 16,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Analyse Des Resultats Des Societes, Total ISO Des Remontees De Chaudieres Par Exercices\r\nUtiliser Par :\r\n- SelSocietesResultatsExercicesDetailler"
+      }
+    },
+    "Columns": {
+      "SocResNbISO2004": {
+        "ColumnWidth": 1755,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 29,
+        "top": 268,
+        "right": 1232,
+        "bottom": 588
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1196,
+        "bottom": 144
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 559,
+      "Tables": [
+        {
+          "Name": "TBLEXERCICES",
+          "Alias": "",
+          "Left": 38,
+          "Top": 6,
+          "Right": 134,
+          "Bottom": 105,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "UniSocietesResultats",
+          "Alias": "",
+          "Left": 306,
+          "Top": 6,
+          "Right": 402,
+          "Bottom": 120,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLSEMESTRES",
+          "Alias": "",
+          "Left": 440,
+          "Top": 6,
+          "Right": 536,
+          "Bottom": 120,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Analyse Des Resultats Des Societes, Total ISO Des Remontees De Chaudieres Par Exercices\r\nUtiliser Par :\r\n- SelSocietesResultatsExercicesDetailler"
+      }
+    }
+  }
+}

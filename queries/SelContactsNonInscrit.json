@@ -1,0 +1,50 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelContactsNonInscrit"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Contacts Non Inscrits"
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 18,
+        "top": 40,
+        "right": 1010,
+        "bottom": 661
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 985,
+        "bottom": 445
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "TBLCONTACTS",
+          "Alias": "",
+          "Left": 38,
+          "Top": 6,
+          "Right": 176,
+          "Bottom": 420,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Contacts Non Inscrits"
+      }
+    }
+  }
+}

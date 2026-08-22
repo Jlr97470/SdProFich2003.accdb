@@ -1,0 +1,113 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelChaudieresArticlesSemestres"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "ODBCTimeout": {
+        "Type": 3,
+        "Value": 0
+      },
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Remontees De Chaudieres, Articles, Semestres\r\nUtiliser Par:\r\n- FrmFicheSocietes"
+      }
+    },
+    "Columns": {
+      "TBLCHAUDIERESARTICLES.ChdArtLibelle": {
+        "Caption": "Description",
+        "ColumnWidth": 1695,
+        "AggregateType": -1
+      },
+      "TBLCHAUDIERESREMONTEES.ChdRemChdArtRef": {
+        "Caption": "Reference",
+        "ColumnWidth": 1185,
+        "AggregateType": -1
+      },
+      "TBLCHAUDIERESREMONTEES.ChdRemDate": {
+        "Caption": "Date Saisie",
+        "ColumnWidth": 1050,
+        "AggregateType": -1
+      },
+      "TBLCHAUDIERESREMONTEES.ChdRemNum": {
+        "Caption": "Numero",
+        "ColumnWidth": 810,
+        "AggregateType": -1
+      },
+      "TBLCHAUDIERESREMONTEES.ChdRemSerie": {
+        "Caption": "N° Serie",
+        "ColumnWidth": 1050,
+        "AggregateType": -1
+      },
+      "TBLCHAUDIERESREMONTEES.ChdRemServ": {
+        "Caption": "Date Serv",
+        "ColumnWidth": 960,
+        "AggregateType": -1
+      },
+      "TBLCHAUDIERESREMONTEES.ChdRemSocNum": {
+        "ColumnWidth": 2370,
+        "AggregateType": -1
+      },
+      "TBLSEMESTRES.SemLibelle": {
+        "Caption": "Semestre",
+        "ColumnWidth": 1530,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 62,
+        "top": 44,
+        "right": 1258,
+        "bottom": 781
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1185,
+        "bottom": 561
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "TBLSEMESTRES",
+          "Alias": "",
+          "Left": 203,
+          "Top": 168,
+          "Right": 362,
+          "Bottom": 290,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLCHAUDIERESARTICLES",
+          "Alias": "",
+          "Left": 203,
+          "Top": 3,
+          "Right": 362,
+          "Bottom": 80,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLCHAUDIERESREMONTEES",
+          "Alias": "",
+          "Left": 5,
+          "Top": 3,
+          "Right": 173,
+          "Bottom": 215,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Remontees De Chaudieres, Articles, Semestres\r\nUtiliser Par:\r\n- FrmFicheSocietes"
+      }
+    }
+  }
+}

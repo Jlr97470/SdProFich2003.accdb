@@ -1,0 +1,98 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelSocietesFiliales"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "OrderByOn": {
+        "Type": 1,
+        "Value": true
+      },
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes, Filiales\r\nUtiliser Par:\r\n- FrmFicheSocietes"
+      }
+    },
+    "Columns": {
+      "SocNumNiv0": {
+        "ColumnWidth": 1470,
+        "AggregateType": -1
+      },
+      "SocNumNiv1": {
+        "ColumnWidth": 1470,
+        "AggregateType": -1
+      },
+      "SocNumNiv2": {
+        "ColumnWidth": 1470,
+        "AggregateType": -1
+      },
+      "SocRaisonNiv0": {
+        "ColumnWidth": 1995,
+        "AggregateType": -1
+      },
+      "SocRaisonNiv1": {
+        "ColumnWidth": 2955,
+        "AggregateType": -1
+      },
+      "SocRaisonNiv2": {
+        "ColumnWidth": 3120,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 62,
+        "top": 44,
+        "right": 1258,
+        "bottom": 785
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1189,
+        "bottom": 565
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "TBLSOCIETES",
+          "Alias": "",
+          "Left": 2,
+          "Top": 2,
+          "Right": 120,
+          "Bottom": 341,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLSOCIETES_1",
+          "Alias": "",
+          "Left": 150,
+          "Top": 2,
+          "Right": 274,
+          "Bottom": 341,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLSOCIETES_2",
+          "Alias": "",
+          "Left": 304,
+          "Top": 2,
+          "Right": 428,
+          "Bottom": 341,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes, Filiales\r\nUtiliser Par:\r\n- FrmFicheSocietes"
+      }
+    }
+  }
+}

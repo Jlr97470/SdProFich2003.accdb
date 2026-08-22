@@ -1,0 +1,60 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelMouvementsUtilsBonusISO"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "ODBCTimeout": {
+        "Type": 3,
+        "Value": 0
+      },
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Mouvements Utilisation Des Bonus ISO\r\nUtiliser Par :\r\n- FrmSaisieBonusAnimation"
+      }
+    },
+    "Columns": {
+      "TBLMOUVEMENTS.MvtIntitule": {
+        "ColumnWidth": 4050,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 76,
+        "top": 124,
+        "right": 1130,
+        "bottom": 444
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1047,
+        "bottom": 144
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "TBLMOUVEMENTS",
+          "Alias": "",
+          "Left": 38,
+          "Top": 6,
+          "Right": 134,
+          "Bottom": 120,
+          "ScrollTop": 6
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Mouvements Utilisation Des Bonus ISO\r\nUtiliser Par :\r\n- FrmSaisieBonusAnimation"
+      }
+    }
+  }
+}

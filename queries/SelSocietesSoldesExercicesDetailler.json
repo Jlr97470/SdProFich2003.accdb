@@ -1,0 +1,59 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelSocietesSoldesExercicesDetailler"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes, Soldes Par Exercices Detailler\r\nUtiliser Par :\r\n- SelSocietesResultatsBonusDetailler"
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 18,
+        "top": 40,
+        "right": 1010,
+        "bottom": 511
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 985,
+        "bottom": 295
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 543,
+      "Tables": [
+        {
+          "Name": "TBLEXERCICES",
+          "Alias": "",
+          "Left": 586,
+          "Top": 34,
+          "Right": 682,
+          "Bottom": 118,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLMOUVEMENTS",
+          "Alias": "",
+          "Left": 389,
+          "Top": 6,
+          "Right": 485,
+          "Bottom": 195,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes, Soldes Par Exercices Detailler\r\nUtiliser Par :\r\n- SelSocietesResultatsBonusDetailler"
+      }
+    }
+  }
+}

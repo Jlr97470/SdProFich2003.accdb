@@ -1,0 +1,98 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelSocietesSoldesISOSem"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes, Soldes ISO Par Semestres\r\nUtiliser Par :\r\n- SelSocietesSoldesISOSem"
+      }
+    },
+    "Columns": {
+      "Credit": {
+        "ColumnWidth": 690,
+        "AggregateType": -1
+      },
+      "TBLMOUVEMENTS.MvtSocNum": {
+        "ColumnWidth": 2730,
+        "AggregateType": -1
+      },
+      "TBLSEMESTRES.SemExeNum": {
+        "ColumnWidth": 1845,
+        "AggregateType": -1
+      },
+      "TBLSEMESTRES.SemExeSemNum": {
+        "ColumnWidth": 3480,
+        "AggregateType": -1
+      },
+      "TBLSEMESTRES.SemLibelle": {
+        "ColumnWidth": 1875,
+        "AggregateType": -1
+      },
+      "TotalCredit": {
+        "ColumnWidth": 1110,
+        "AggregateType": -1
+      },
+      "TotalDebit": {
+        "ColumnWidth": 1050,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 2,
+      "Window": {
+        "left": -4,
+        "top": -23,
+        "right": 1152,
+        "bottom": 776
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1149,
+        "bottom": 246
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 543,
+      "Tables": [
+        {
+          "Name": "TBLEXERCICES",
+          "Alias": "",
+          "Left": 151,
+          "Top": 7,
+          "Right": 247,
+          "Bottom": 99,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLMOUVEMENTS",
+          "Alias": "",
+          "Left": 5,
+          "Top": 6,
+          "Right": 121,
+          "Bottom": 203,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLSEMESTRES",
+          "Alias": "",
+          "Left": 277,
+          "Top": 7,
+          "Right": 403,
+          "Bottom": 144,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes, Soldes ISO Par Semestres\r\nUtiliser Par :\r\n- SelSocietesSoldesISOSem"
+      }
+    }
+  }
+}

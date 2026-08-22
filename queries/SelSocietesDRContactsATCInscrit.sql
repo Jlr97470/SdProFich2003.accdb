@@ -1,0 +1,34 @@
+﻿SELECT
+  TBLSOCIETES.SocNum,
+  TBLSOCIETES.SocRaison,
+  TBLSOCIETES.SocTypCode,
+  TBLSOCIETES.SocAdresse,
+  TBLVILLES.VilCodePostal AS SocVilCodePostal,
+  TBLVILLES.VilNom AS SocVilNom,
+  TBLCONTACTS.ConNum AS ATCConNum,
+  TBLCONTACTS.ConCivCode AS ATCConCivCode,
+  TBLCONTACTS.ConFonCode AS ATCConFonCode,
+  TBLCONTACTS.ConNom AS ATCConNom,
+  TBLCONTACTS.ConPrenom AS ATCConPrenom,
+  TBLCONTACTS.ConInscrit AS ATCConInscrit,
+  TBLCONTACTS.ConTelPort AS ATCConTelPort
+FROM
+  TBLVILLES
+  INNER JOIN (
+    TBLSOCIETES
+    INNER JOIN TBLCONTACTS ON TBLSOCIETES.SocNum = TBLCONTACTS.ConSocNum
+  ) ON TBLVILLES.VilNum = TBLSOCIETES.SocVilNum
+WHERE
+  (
+    (
+      (TBLSOCIETES.SocTypCode) = "DR"
+    )
+    AND (
+      (TBLCONTACTS.ConFonCode) = "ATC"
+    )
+    AND (
+      (TBLCONTACTS.ConInscrit) = True
+    )
+  )
+ORDER BY
+  TBLCONTACTS.ConNom;

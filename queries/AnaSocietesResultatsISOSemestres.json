@@ -1,0 +1,114 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "AnaSocietesResultatsISOSemestres"
+  },
+  "Items": {
+    "QueryType": 16,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Analyse Des Resultats Des Societes, Total ISO Des Remontees De Chaudieres Par Semestres\r\nUtiliser Par :\r\n- SelSocietesResultatsSemestresDetailler"
+      }
+    },
+    "Columns": {
+      "SocResNbISO2000S1": {
+        "ColumnWidth": 2100,
+        "AggregateType": -1
+      },
+      "SocResNbISO2000S2": {
+        "ColumnWidth": 2100,
+        "AggregateType": -1
+      },
+      "SocResNbISO2001S1": {
+        "ColumnWidth": 2100,
+        "AggregateType": -1
+      },
+      "SocResNbISO2001S2": {
+        "ColumnWidth": 2100,
+        "AggregateType": -1
+      },
+      "SocResNbISO2002S1": {
+        "ColumnWidth": 2100,
+        "AggregateType": -1
+      },
+      "SocResNbISO2002S2": {
+        "ColumnWidth": 2100,
+        "AggregateType": -1
+      },
+      "SocResNbISO2003S1": {
+        "ColumnWidth": 2100,
+        "AggregateType": -1
+      },
+      "SocResNbISO2003S2": {
+        "ColumnWidth": 2100,
+        "AggregateType": -1
+      },
+      "SocResNbISO2004S1": {
+        "ColumnWidth": 2100,
+        "AggregateType": -1
+      },
+      "SocResNbISO2004S2": {
+        "ColumnWidth": 2100,
+        "AggregateType": -1
+      },
+      "SocResNbISOTotal": {
+        "ColumnWidth": 1860,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 47,
+        "top": 69,
+        "right": 1250,
+        "bottom": 581
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1196,
+        "bottom": 336
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 559,
+      "Tables": [
+        {
+          "Name": "TBLEXERCICES",
+          "Alias": "",
+          "Left": 553,
+          "Top": 111,
+          "Right": 649,
+          "Bottom": 195,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "UniSocietesResultats",
+          "Alias": "",
+          "Left": 172,
+          "Top": 148,
+          "Right": 310,
+          "Bottom": 262,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLSEMESTRES",
+          "Alias": "",
+          "Left": 346,
+          "Top": 159,
+          "Right": 448,
+          "Bottom": 288,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Analyse Des Resultats Des Societes, Total ISO Des Remontees De Chaudieres Par Semestres\r\nUtiliser Par :\r\n- SelSocietesResultatsSemestresDetailler"
+      }
+    }
+  }
+}

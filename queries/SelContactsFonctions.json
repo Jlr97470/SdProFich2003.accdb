@@ -1,0 +1,89 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelContactsFonctions"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Contacts, Fonctions\r\nUtiliser Par :\r\n- FrmFicheSocietes"
+      }
+    },
+    "Columns": {
+      "TBLCONTACTS.ConNom": {
+        "ColumnWidth": 1425,
+        "AggregateType": -1
+      },
+      "TBLCONTACTS.ConNum": {
+        "ColumnWidth": 1695,
+        "AggregateType": -1
+      },
+      "TBLCONTACTS.ConPrenom": {
+        "ColumnWidth": 1695,
+        "AggregateType": -1
+      },
+      "TBLCONTACTS.ConSocNum": {
+        "ColumnWidth": 2520,
+        "AggregateType": -1
+      },
+      "TBLCONTACTSFONCTIONS.ConFonCode": {
+        "Caption": "Fonction Code",
+        "ColumnWidth": 1440,
+        "Description": "Fonction Code",
+        "AggregateType": -1
+      },
+      "TBLCONTACTSFONCTIONS.ConFonLibelle": {
+        "Caption": "Fonction Libelle",
+        "ColumnWidth": 1680,
+        "Description": "Fonction Libelle",
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 47,
+        "top": 69,
+        "right": 1122,
+        "bottom": 389
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1068,
+        "bottom": 144
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "TBLCONTACTSFONCTIONS",
+          "Alias": "",
+          "Left": 38,
+          "Top": 6,
+          "Right": 134,
+          "Bottom": 90,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLCONTACTS",
+          "Alias": "",
+          "Left": 172,
+          "Top": 6,
+          "Right": 268,
+          "Bottom": 105,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Contacts, Fonctions\r\nUtiliser Par :\r\n- FrmFicheSocietes"
+      }
+    }
+  }
+}

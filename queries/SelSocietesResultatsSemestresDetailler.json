@@ -1,0 +1,150 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelSocietesResultatsSemestresDetailler"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes, Resultats Des Remontees De Chaudieres Par Semestres Detailler\r\nUtiliser Par:\r\n- SelSocietesResultatsSemestresDetailler"
+      }
+    },
+    "Columns": {
+      "SocResPourISO2000S1": {
+        "ColumnWidth": 2265,
+        "Format": {
+          "Type": "dbText",
+          "Value": "Percent"
+        },
+        "AggregateType": -1
+      },
+      "SocResPourISO2000S2": {
+        "ColumnWidth": 2265,
+        "Format": {
+          "Type": "dbText",
+          "Value": "Percent"
+        },
+        "AggregateType": -1
+      },
+      "SocResPourISO2001S1": {
+        "ColumnWidth": 2265,
+        "Format": {
+          "Type": "dbText",
+          "Value": "Percent"
+        },
+        "AggregateType": -1
+      },
+      "SocResPourISO2001S2": {
+        "ColumnWidth": 2265,
+        "Format": {
+          "Type": "dbText",
+          "Value": "Percent"
+        },
+        "AggregateType": -1
+      },
+      "SocResPourISO2002S1": {
+        "ColumnWidth": 2265,
+        "Format": {
+          "Type": "dbText",
+          "Value": "Percent"
+        },
+        "AggregateType": -1
+      },
+      "SocResPourISO2002S2": {
+        "ColumnWidth": 2265,
+        "Format": {
+          "Type": "dbText",
+          "Value": "Percent"
+        },
+        "AggregateType": -1
+      },
+      "SocResPourISO2003S1": {
+        "ColumnWidth": 2265,
+        "Format": {
+          "Type": "dbText",
+          "Value": "Percent"
+        },
+        "AggregateType": -1
+      },
+      "SocResPourISO2003S2": {
+        "ColumnWidth": 2265,
+        "Format": {
+          "Type": "dbText",
+          "Value": "Percent"
+        },
+        "AggregateType": -1
+      },
+      "SocResPourISO2004S1": {
+        "ColumnWidth": 2265,
+        "Format": {
+          "Type": "dbText",
+          "Value": "Percent"
+        },
+        "AggregateType": -1
+      },
+      "SocResPourISO2004S2": {
+        "ColumnWidth": 2265,
+        "Format": {
+          "Type": "dbText",
+          "Value": "Percent"
+        },
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 2,
+      "Window": {
+        "left": -4,
+        "top": -23,
+        "right": 1152,
+        "bottom": 701
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1149,
+        "bottom": 265
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 543,
+      "Tables": [
+        {
+          "Name": "AnaSocietesResultatsSemestres",
+          "Alias": "",
+          "Left": 38,
+          "Top": 6,
+          "Right": 255,
+          "Bottom": 203,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "AnaSocietesResultatsISOSemestres",
+          "Alias": "",
+          "Left": 306,
+          "Top": 6,
+          "Right": 619,
+          "Bottom": 113,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "AnaSocietesResultatsTHEMASemestres",
+          "Alias": "",
+          "Left": 324,
+          "Top": 117,
+          "Right": 620,
+          "Bottom": 224,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes, Resultats Des Remontees De Chaudieres Par Semestres Detailler\r\nUtiliser Par:\r\n- SelSocietesResultatsSemestresDetailler"
+      }
+    }
+  }
+}

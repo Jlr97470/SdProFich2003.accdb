@@ -1,0 +1,18 @@
+﻿{
+  "Info": {
+    "Class": "clsDbRelation",
+    "Description": "Database relationship"
+  },
+  "Items": {
+    "Name": "TBLEXERCICESTBLSOCIETESADHERENT",
+    "Attributes": 256,
+    "Table": "TBLEXERCICES",
+    "ForeignTable": "TBLSOCIETESADHERENTS",
+    "Fields": [
+      {
+        "Name": "ExeNum",
+        "ForeignName": "SocAdhExeNum"
+      }
+    ]
+  }
+}

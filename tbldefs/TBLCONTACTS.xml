@@ -1,0 +1,648 @@
+﻿<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:od="urn:schemas-microsoft-com:officedata">
+  <xsd:element name="dataroot">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="TBLCONTACTS" minOccurs="0" maxOccurs="unbounded"/>
+      </xsd:sequence>
+      <xsd:attribute name="generated" type="xsd:dateTime"/>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="TBLCONTACTS">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <od:index index-name="CleConCivCode" index-key="ConCivCode " primary="no" unique="no" clustered="no" order="asc"/>
+        <od:index index-name="CleConFonCode" index-key="ConFonCode " primary="no" unique="no" clustered="no" order="asc"/>
+        <od:index index-name="CleConLoginPassword" index-key="ConLogin ConPassword " primary="no" unique="yes" clustered="no" order="asc asc"/>
+        <od:index index-name="CleConNum" index-key="ConNum " primary="no" unique="yes" clustered="no" order="asc"/>
+        <od:index index-name="CleConPerFax" index-key="ConPerFax " primary="no" unique="no" clustered="no" order="asc"/>
+        <od:index index-name="CleConPerTel" index-key="ConPerTel " primary="no" unique="no" clustered="no" order="asc"/>
+        <od:index index-name="CleConPerVilNum" index-key="ConPerVilNum " primary="no" unique="no" clustered="no" order="asc"/>
+        <od:index index-name="CleConSocNum" index-key="ConSocNum " primary="no" unique="no" clustered="no" order="asc"/>
+        <od:index index-name="CleConTelB" index-key="ConTelB " primary="no" unique="no" clustered="no" order="asc"/>
+        <od:index index-name="CleConTelD" index-key="ConTelD " primary="no" unique="no" clustered="no" order="asc"/>
+        <od:index index-name="CleConTelPort" index-key="ConTelPort " primary="no" unique="no" clustered="no" order="asc"/>
+        <od:index index-name="CleConVilNum" index-key="ConVilNum " primary="no" unique="no" clustered="no" order="asc"/>
+        <od:index index-name="ConInscrit" index-key="ConInscrit " primary="no" unique="no" clustered="no" order="asc"/>
+        <od:index index-name="PrimaryKey" index-key="ConNom ConPrenom " primary="yes" unique="yes" clustered="no" order="asc asc"/>
+        <od:index index-name="TBLCIVILITESTBLCONTACTS" index-key="ConCivCode " primary="no" unique="no" clustered="no" order="asc"/>
+        <od:index index-name="TBLCONTACTSFONCTIONSTBLCONTACTS" index-key="ConFonCode " primary="no" unique="no" clustered="no" order="asc"/>
+        <od:index index-name="TBLSOCIETESTBLCONTACTS" index-key="ConSocNum " primary="no" unique="no" clustered="no" order="asc"/>
+        <od:index index-name="TBLVILLESTBLCONTACTS" index-key="ConVilNum " primary="no" unique="no" clustered="no" order="asc"/>
+        <od:index index-name="TBLVILLESTBLCONTACTS1" index-key="ConPerVilNum " primary="no" unique="no" clustered="no" order="asc"/>
+        <od:tableProperty name="OrderByOn" type="1" value="1"/>
+        <od:tableProperty name="Description" type="10" value="Liste Des Contacts"/>
+        <od:tableProperty name="Orientation" type="2" value="0"/>
+        <od:tableProperty name="DefaultView" type="2" value="2"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="ConNum" minOccurs="1" od:jetType="autonumber" od:sqlSType="int" od:autoUnique="yes" od:nonNullable="yes" type="xsd:int">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="1950"/>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+              <od:fieldProperty name="Description" type="10" value="Contacts Numero"/>
+              <od:fieldProperty name="Caption" type="12" value="Contacts Numero"/>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="ConSocNum" minOccurs="1" od:jetType="longinteger" od:sqlSType="int" od:nonNullable="yes" type="xsd:int">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="5295"/>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+              <od:fieldProperty name="DecimalPlaces" type="2" value="255"/>
+              <od:fieldProperty name="Required" type="1" value="1"/>
+              <od:fieldProperty name="DisplayControl" type="3" value="111"/>
+              <od:fieldProperty name="Caption" type="12" value="Contacts Sociétés Numero"/>
+              <od:fieldProperty name="Description" type="10" value="Contacts Sociétés Numero"/>
+              <od:fieldProperty name="ValidationRule" type="12" value="&lt;&gt;0"/>
+              <od:fieldProperty name="ValidationText" type="10" value="Le Champ Contacts Sociétés Numero Est Invalide"/>
+              <od:fieldProperty name="RowSourceType" type="10" value="Table/Query"/>
+              <od:fieldProperty name="RowSource" type="12" value="SELECT TBLSOCIETES.SocNum, TBLSOCIETES.SocSTA, TBLSOCIETES.SocRaison, TBLSOCIETES.SocAdh, TBLSOCIETES.SocTel1, TBLSOCIETES.SocTel2, TBLSOCIETES.SocTypCode FROM TBLSOCIETES ORDER BY TBLSOCIETES.SocNum;"/>
+              <od:fieldProperty name="BoundColumn" type="3" value="1"/>
+              <od:fieldProperty name="ColumnCount" type="3" value="7"/>
+              <od:fieldProperty name="ColumnHeads" type="1" value="1"/>
+              <od:fieldProperty name="ColumnWidths" type="10" value="2268;2268;2268;2268;2268;2268;2268"/>
+              <od:fieldProperty name="ListRows" type="3" value="8"/>
+              <od:fieldProperty name="ListWidth" type="10" value="15876twip"/>
+              <od:fieldProperty name="LimitToList" type="1" value="1"/>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="ConFonCode" minOccurs="1" od:jetType="text" od:sqlSType="nvarchar" od:nonNullable="yes">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="2115"/>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+              <od:fieldProperty name="Required" type="1" value="1"/>
+              <od:fieldProperty name="AllowZeroLength" type="1" value="0"/>
+              <od:fieldProperty name="DisplayControl" type="3" value="111"/>
+              <od:fieldProperty name="Caption" type="12" value="Contacts Fonction Code"/>
+              <od:fieldProperty name="Description" type="10" value="Contacts Fonction Code"/>
+              <od:fieldProperty name="RowSourceType" type="10" value="Table/Query"/>
+              <od:fieldProperty name="RowSource" type="12" value="SELECT TBLCONTACTSFONCTIONS.ConFonCode, TBLCONTACTSFONCTIONS.ConFonLibelle FROM TBLCONTACTSFONCTIONS ORDER BY TBLCONTACTSFONCTIONS.ConFonCode;"/>
+              <od:fieldProperty name="BoundColumn" type="3" value="1"/>
+              <od:fieldProperty name="ColumnCount" type="3" value="2"/>
+              <od:fieldProperty name="ColumnHeads" type="1" value="1"/>
+              <od:fieldProperty name="ColumnWidths" type="10" value="2268;2268"/>
+              <od:fieldProperty name="ListRows" type="3" value="8"/>
+              <od:fieldProperty name="ListWidth" type="10" value="4536twip"/>
+              <od:fieldProperty name="LimitToList" type="1" value="1"/>
+              <od:fieldProperty name="ValidationRule" type="12" value="Is Not Null"/>
+              <od:fieldProperty name="ValidationText" type="10" value="Le Champ Contacts Fonction Code Est Obligatoire"/>
+              <od:fieldProperty name="IMEMode" type="2" value="0"/>
+              <od:fieldProperty name="IMESentenceMode" type="2" value="3"/>
+              <od:fieldProperty name="UnicodeCompression" type="1" value="1"/>
+            </xsd:appinfo>
+          </xsd:annotation>
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:maxLength value="4"/>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="ConCivCode" minOccurs="1" od:jetType="text" od:sqlSType="nvarchar" od:nonNullable="yes">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="4155"/>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+              <od:fieldProperty name="Description" type="10" value="Contacts Civilité Code"/>
+              <od:fieldProperty name="Required" type="1" value="1"/>
+              <od:fieldProperty name="AllowZeroLength" type="1" value="0"/>
+              <od:fieldProperty name="DisplayControl" type="3" value="111"/>
+              <od:fieldProperty name="RowSourceType" type="10" value="Table/Query"/>
+              <od:fieldProperty name="RowSource" type="12" value="SELECT TBLCIVILITES.CivCode, TBLCIVILITES.CivLibelle FROM TBLCIVILITES ORDER BY TBLCIVILITES.CivCode;"/>
+              <od:fieldProperty name="BoundColumn" type="3" value="1"/>
+              <od:fieldProperty name="ColumnCount" type="3" value="2"/>
+              <od:fieldProperty name="ColumnHeads" type="1" value="1"/>
+              <od:fieldProperty name="ListRows" type="3" value="8"/>
+              <od:fieldProperty name="ListWidth" type="10" value="4536twip"/>
+              <od:fieldProperty name="LimitToList" type="1" value="1"/>
+              <od:fieldProperty name="Caption" type="12" value="Contacts Civilité Code"/>
+              <od:fieldProperty name="ColumnWidths" type="10" value="2268;2268"/>
+              <od:fieldProperty name="ValidationRule" type="12" value="Is Not Null"/>
+              <od:fieldProperty name="ValidationText" type="10" value="Le Champ Contacts Civilité Code Est Obligatoire"/>
+              <od:fieldProperty name="IMEMode" type="2" value="0"/>
+              <od:fieldProperty name="IMESentenceMode" type="2" value="3"/>
+              <od:fieldProperty name="UnicodeCompression" type="1" value="1"/>
+            </xsd:appinfo>
+          </xsd:annotation>
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:maxLength value="5"/>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="ConInscrit" minOccurs="1" od:jetType="yesno" od:sqlSType="bit" od:nonNullable="yes" type="xsd:boolean">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+              <od:fieldProperty name="Description" type="10" value="Contacts Inscrit (Vrai/Faux)"/>
+              <od:fieldProperty name="Format" type="10" value="True/False"/>
+              <od:fieldProperty name="DefaultValue" type="12" value="True"/>
+              <od:fieldProperty name="Required" type="1" value="1"/>
+              <od:fieldProperty name="DisplayControl" type="3" value="106"/>
+              <od:fieldProperty name="Caption" type="12" value="Contacts Inscrit"/>
+              <od:fieldProperty name="ValidationRule" type="12" value="=True Or =False"/>
+              <od:fieldProperty name="ValidationText" type="10" value="Le Champ Contacts Inscrit Est Invalide"/>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="ConDateCre" minOccurs="1" od:jetType="datetime" od:sqlSType="datetime" od:nonNullable="yes" type="xsd:dateTime">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="2295"/>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+              <od:fieldProperty name="Required" type="1" value="1"/>
+              <od:fieldProperty name="Format" type="10" value="Short Date"/>
+              <od:fieldProperty name="Description" type="10" value="Contacts Date De Création"/>
+              <od:fieldProperty name="DefaultValue" type="12" value="=Date()"/>
+              <od:fieldProperty name="Caption" type="12" value="Contacts Date De Création"/>
+              <od:fieldProperty name="ValidationRule" type="12" value="IsDate([ConDateCre])=True"/>
+              <od:fieldProperty name="ValidationText" type="10" value="Le Champ Contacts Date De Création Est Invalide"/>
+              <od:fieldProperty name="InputMask" type="10" value="99/99/0000;0;_"/>
+              <od:fieldProperty name="IMEMode" type="2" value="0"/>
+              <od:fieldProperty name="IMESentenceMode" type="2" value="3"/>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="ConDateMaj" minOccurs="1" od:jetType="datetime" od:sqlSType="datetime" od:nonNullable="yes" type="xsd:dateTime">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="2580"/>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+              <od:fieldProperty name="Format" type="10" value="Short Date"/>
+              <od:fieldProperty name="Required" type="1" value="1"/>
+              <od:fieldProperty name="Description" type="10" value="Contacts Date De Mise A Jour"/>
+              <od:fieldProperty name="DefaultValue" type="12" value="=Date()"/>
+              <od:fieldProperty name="Caption" type="12" value="Contacts Date De Mise A Jour"/>
+              <od:fieldProperty name="InputMask" type="10" value="99/99/0000;0;_"/>
+              <od:fieldProperty name="ValidationRule" type="12" value="IsDate([ConDateMaj])=True"/>
+              <od:fieldProperty name="ValidationText" type="10" value="Le Champ Contacts Mise A Jour Est Invalide"/>
+              <od:fieldProperty name="IMEMode" type="2" value="0"/>
+              <od:fieldProperty name="IMESentenceMode" type="2" value="3"/>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="ConDateNai" minOccurs="0" od:jetType="datetime" od:sqlSType="datetime" type="xsd:dateTime">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="2430"/>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+              <od:fieldProperty name="Description" type="10" value="Contacts Date De Naissance"/>
+              <od:fieldProperty name="Format" type="10" value="Short Date"/>
+              <od:fieldProperty name="InputMask" type="10" value="99/99/0000;0;_"/>
+              <od:fieldProperty name="Caption" type="12" value="Contacts Date De Naissance"/>
+              <od:fieldProperty name="Required" type="1" value="0"/>
+              <od:fieldProperty name="IMEMode" type="2" value="0"/>
+              <od:fieldProperty name="IMESentenceMode" type="2" value="3"/>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="ConLogin" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="1395"/>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+              <od:fieldProperty name="Description" type="10" value="Contacts Login"/>
+              <od:fieldProperty name="Required" type="1" value="0"/>
+              <od:fieldProperty name="AllowZeroLength" type="1" value="0"/>
+              <od:fieldProperty name="DisplayControl" type="3" value="109"/>
+              <od:fieldProperty name="Caption" type="12" value="Contacts Login"/>
+              <od:fieldProperty name="IMEMode" type="2" value="0"/>
+              <od:fieldProperty name="IMESentenceMode" type="2" value="3"/>
+              <od:fieldProperty name="UnicodeCompression" type="1" value="1"/>
+            </xsd:appinfo>
+          </xsd:annotation>
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:maxLength value="20"/>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="ConPassword" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="1770"/>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+              <od:fieldProperty name="Description" type="10" value="Contacts Password"/>
+              <od:fieldProperty name="Required" type="1" value="0"/>
+              <od:fieldProperty name="AllowZeroLength" type="1" value="0"/>
+              <od:fieldProperty name="DisplayControl" type="3" value="109"/>
+              <od:fieldProperty name="Caption" type="12" value="Contacts Password"/>
+              <od:fieldProperty name="IMEMode" type="2" value="0"/>
+              <od:fieldProperty name="IMESentenceMode" type="2" value="3"/>
+              <od:fieldProperty name="UnicodeCompression" type="1" value="1"/>
+            </xsd:appinfo>
+          </xsd:annotation>
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:maxLength value="50"/>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="ConNom" minOccurs="1" od:jetType="text" od:sqlSType="nvarchar" od:nonNullable="yes">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="1350"/>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+              <od:fieldProperty name="Required" type="1" value="1"/>
+              <od:fieldProperty name="AllowZeroLength" type="1" value="0"/>
+              <od:fieldProperty name="DisplayControl" type="3" value="109"/>
+              <od:fieldProperty name="Description" type="10" value="Contacts Nom"/>
+              <od:fieldProperty name="Caption" type="12" value="Contacts Nom"/>
+              <od:fieldProperty name="ValidationRule" type="12" value="Is Not Null"/>
+              <od:fieldProperty name="ValidationText" type="10" value="Le Champ Contacts Nom Est Obligatoire"/>
+              <od:fieldProperty name="IMEMode" type="2" value="0"/>
+              <od:fieldProperty name="IMESentenceMode" type="2" value="3"/>
+              <od:fieldProperty name="UnicodeCompression" type="1" value="1"/>
+            </xsd:appinfo>
+          </xsd:annotation>
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:maxLength value="80"/>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="ConPrenom" minOccurs="1" od:jetType="text" od:sqlSType="nvarchar" od:nonNullable="yes">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="1590"/>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+              <od:fieldProperty name="Required" type="1" value="1"/>
+              <od:fieldProperty name="AllowZeroLength" type="1" value="0"/>
+              <od:fieldProperty name="DisplayControl" type="3" value="109"/>
+              <od:fieldProperty name="Description" type="10" value="Contacts Prenom"/>
+              <od:fieldProperty name="Caption" type="12" value="Contacts Prenom"/>
+              <od:fieldProperty name="IMEMode" type="2" value="0"/>
+              <od:fieldProperty name="IMESentenceMode" type="2" value="3"/>
+              <od:fieldProperty name="UnicodeCompression" type="1" value="1"/>
+              <od:fieldProperty name="ValidationRule" type="12" value="Is Not Null"/>
+              <od:fieldProperty name="ValidationText" type="10" value="Le Champ Contacts Prenom Est Obligatoire"/>
+            </xsd:appinfo>
+          </xsd:annotation>
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:maxLength value="50"/>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="ConAdresse" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="2490"/>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+              <od:fieldProperty name="Required" type="1" value="0"/>
+              <od:fieldProperty name="AllowZeroLength" type="1" value="0"/>
+              <od:fieldProperty name="DisplayControl" type="3" value="109"/>
+              <od:fieldProperty name="Description" type="10" value="Contacts Adresse"/>
+              <od:fieldProperty name="Caption" type="12" value="Contacts Adresse"/>
+              <od:fieldProperty name="IMEMode" type="2" value="0"/>
+              <od:fieldProperty name="IMESentenceMode" type="2" value="3"/>
+              <od:fieldProperty name="UnicodeCompression" type="1" value="1"/>
+            </xsd:appinfo>
+          </xsd:annotation>
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:maxLength value="120"/>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="ConVilNum" minOccurs="0" od:jetType="longinteger" od:sqlSType="int" type="xsd:int">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="1290"/>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+              <od:fieldProperty name="Description" type="10" value="Contacts Ville"/>
+              <od:fieldProperty name="DecimalPlaces" type="2" value="255"/>
+              <od:fieldProperty name="Caption" type="12" value="Contacts Ville"/>
+              <od:fieldProperty name="Required" type="1" value="0"/>
+              <od:fieldProperty name="DisplayControl" type="3" value="111"/>
+              <od:fieldProperty name="RowSourceType" type="10" value="Table/Query"/>
+              <od:fieldProperty name="RowSource" type="12" value="SELECT TBLVILLES.VilNum, TBLVILLES.VilCodePostal, TBLVILLES.VilNom FROM TBLVILLES ORDER BY TBLVILLES.VilCodePostal;"/>
+              <od:fieldProperty name="BoundColumn" type="3" value="1"/>
+              <od:fieldProperty name="ColumnCount" type="3" value="3"/>
+              <od:fieldProperty name="ColumnHeads" type="1" value="1"/>
+              <od:fieldProperty name="ColumnWidths" type="10" value="0;2268;2268"/>
+              <od:fieldProperty name="ListRows" type="3" value="8"/>
+              <od:fieldProperty name="ListWidth" type="10" value="4536twip"/>
+              <od:fieldProperty name="LimitToList" type="1" value="1"/>
+              <od:fieldProperty name="ValidationRule" type="12" value="Is Null Or &lt;&gt;0"/>
+              <od:fieldProperty name="ValidationText" type="10" value="Le Champs Contacts Ville Est Invalide"/>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="ConTelB" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="2445"/>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+              <od:fieldProperty name="Description" type="10" value="Contacts Téléphone Bureau"/>
+              <od:fieldProperty name="Caption" type="12" value="Contacts Téléphone Bureau"/>
+              <od:fieldProperty name="Required" type="1" value="0"/>
+              <od:fieldProperty name="AllowZeroLength" type="1" value="0"/>
+              <od:fieldProperty name="DisplayControl" type="3" value="109"/>
+              <od:fieldProperty name="InputMask" type="10" value="00\ 00\ 00\ 00\ 00;;_"/>
+              <od:fieldProperty name="IMEMode" type="2" value="0"/>
+              <od:fieldProperty name="IMESentenceMode" type="2" value="3"/>
+              <od:fieldProperty name="UnicodeCompression" type="1" value="1"/>
+            </xsd:appinfo>
+          </xsd:annotation>
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:maxLength value="10"/>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="ConTelBLib" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="3045"/>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+              <od:fieldProperty name="Caption" type="12" value="Contacts Téléphone Bureau Libelle"/>
+              <od:fieldProperty name="Required" type="1" value="0"/>
+              <od:fieldProperty name="AllowZeroLength" type="1" value="0"/>
+              <od:fieldProperty name="DisplayControl" type="3" value="109"/>
+              <od:fieldProperty name="Description" type="10" value="Contacts Téléphone Bureau Libelle"/>
+              <od:fieldProperty name="IMEMode" type="2" value="0"/>
+              <od:fieldProperty name="IMESentenceMode" type="2" value="3"/>
+              <od:fieldProperty name="UnicodeCompression" type="1" value="1"/>
+            </xsd:appinfo>
+          </xsd:annotation>
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:maxLength value="60"/>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="ConTelD" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="2955"/>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+              <od:fieldProperty name="Description" type="10" value="Contacts Téléphone Ligne Directe"/>
+              <od:fieldProperty name="Caption" type="12" value="Contacts Téléphone Ligne Directe"/>
+              <od:fieldProperty name="Required" type="1" value="0"/>
+              <od:fieldProperty name="AllowZeroLength" type="1" value="0"/>
+              <od:fieldProperty name="DisplayControl" type="3" value="109"/>
+              <od:fieldProperty name="InputMask" type="10" value="00\ 00\ 00\ 00\ 00;;_"/>
+              <od:fieldProperty name="IMEMode" type="2" value="0"/>
+              <od:fieldProperty name="IMESentenceMode" type="2" value="3"/>
+              <od:fieldProperty name="UnicodeCompression" type="1" value="1"/>
+            </xsd:appinfo>
+          </xsd:annotation>
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:maxLength value="10"/>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="ConTelDLib" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="3555"/>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+              <od:fieldProperty name="Caption" type="12" value="Contacts Téléphone Ligne Directe Libelle"/>
+              <od:fieldProperty name="Required" type="1" value="0"/>
+              <od:fieldProperty name="AllowZeroLength" type="1" value="0"/>
+              <od:fieldProperty name="DisplayControl" type="3" value="109"/>
+              <od:fieldProperty name="Description" type="10" value="Contacts Téléphone Ligne Directe Libelle"/>
+              <od:fieldProperty name="IMEMode" type="2" value="0"/>
+              <od:fieldProperty name="IMESentenceMode" type="2" value="3"/>
+              <od:fieldProperty name="UnicodeCompression" type="1" value="1"/>
+            </xsd:appinfo>
+          </xsd:annotation>
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:maxLength value="60"/>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="ConTelPort" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="2415"/>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+              <od:fieldProperty name="Description" type="10" value="Contacts Téléphone Mobile"/>
+              <od:fieldProperty name="Caption" type="12" value="Contacts Téléphone Mobile"/>
+              <od:fieldProperty name="Required" type="1" value="0"/>
+              <od:fieldProperty name="AllowZeroLength" type="1" value="0"/>
+              <od:fieldProperty name="DisplayControl" type="3" value="109"/>
+              <od:fieldProperty name="InputMask" type="10" value="00\ 00\ 00\ 00\ 00;;_"/>
+              <od:fieldProperty name="IMEMode" type="2" value="0"/>
+              <od:fieldProperty name="IMESentenceMode" type="2" value="3"/>
+              <od:fieldProperty name="UnicodeCompression" type="1" value="1"/>
+            </xsd:appinfo>
+          </xsd:annotation>
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:maxLength value="10"/>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="ConFax" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="1230"/>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+              <od:fieldProperty name="Description" type="10" value="Contacts Fax"/>
+              <od:fieldProperty name="Caption" type="12" value="Contacts Fax"/>
+              <od:fieldProperty name="Required" type="1" value="0"/>
+              <od:fieldProperty name="AllowZeroLength" type="1" value="0"/>
+              <od:fieldProperty name="DisplayControl" type="3" value="109"/>
+              <od:fieldProperty name="InputMask" type="10" value="00\ 00\ 00\ 00\ 00;;_"/>
+              <od:fieldProperty name="IMEMode" type="2" value="0"/>
+              <od:fieldProperty name="IMESentenceMode" type="2" value="3"/>
+              <od:fieldProperty name="UnicodeCompression" type="1" value="1"/>
+            </xsd:appinfo>
+          </xsd:annotation>
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:maxLength value="10"/>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="ConEMail" minOccurs="0" od:jetType="hyperlink" od:sqlSType="ntext" od:hyperlink="yes">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="1350"/>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+              <od:fieldProperty name="Description" type="10" value="Contacts EMail"/>
+              <od:fieldProperty name="Caption" type="12" value="Contacts EMail"/>
+              <od:fieldProperty name="Required" type="1" value="0"/>
+              <od:fieldProperty name="AllowZeroLength" type="1" value="0"/>
+              <od:fieldProperty name="IMEMode" type="2" value="0"/>
+              <od:fieldProperty name="IMESentenceMode" type="2" value="3"/>
+              <od:fieldProperty name="UnicodeCompression" type="1" value="1"/>
+            </xsd:appinfo>
+          </xsd:annotation>
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:maxLength value="536870910"/>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="ConNotes" minOccurs="0" od:jetType="memo" od:sqlSType="ntext">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="1410"/>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+              <od:fieldProperty name="Description" type="10" value="Contacts Notes"/>
+              <od:fieldProperty name="Caption" type="12" value="Contacts Notes"/>
+              <od:fieldProperty name="Required" type="1" value="0"/>
+              <od:fieldProperty name="AllowZeroLength" type="1" value="0"/>
+              <od:fieldProperty name="IMEMode" type="2" value="0"/>
+              <od:fieldProperty name="IMESentenceMode" type="2" value="3"/>
+              <od:fieldProperty name="UnicodeCompression" type="1" value="1"/>
+            </xsd:appinfo>
+          </xsd:annotation>
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:maxLength value="536870910"/>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="ConPerAdr" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="2805"/>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+              <od:fieldProperty name="Description" type="10" value="Contacts Personnelle Adresse"/>
+              <od:fieldProperty name="Caption" type="12" value="Contacts Personnelle Adresse"/>
+              <od:fieldProperty name="Required" type="1" value="0"/>
+              <od:fieldProperty name="AllowZeroLength" type="1" value="0"/>
+              <od:fieldProperty name="DisplayControl" type="3" value="109"/>
+              <od:fieldProperty name="IMEMode" type="2" value="0"/>
+              <od:fieldProperty name="IMESentenceMode" type="2" value="3"/>
+              <od:fieldProperty name="UnicodeCompression" type="1" value="1"/>
+            </xsd:appinfo>
+          </xsd:annotation>
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:maxLength value="120"/>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="ConPerVilNum" minOccurs="0" od:jetType="longinteger" od:sqlSType="int" type="xsd:int">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="3045"/>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+              <od:fieldProperty name="Description" type="10" value="Contacts Personnelle Ville"/>
+              <od:fieldProperty name="DecimalPlaces" type="2" value="255"/>
+              <od:fieldProperty name="Caption" type="12" value="Contacts Personnelle Ville Numero"/>
+              <od:fieldProperty name="Required" type="1" value="0"/>
+              <od:fieldProperty name="DisplayControl" type="3" value="111"/>
+              <od:fieldProperty name="RowSourceType" type="10" value="Table/Query"/>
+              <od:fieldProperty name="RowSource" type="12" value="SELECT TBLVILLES.VilNum, TBLVILLES.VilCodePostal, TBLVILLES.VilNom FROM TBLVILLES ORDER BY TBLVILLES.VilCodePostal;"/>
+              <od:fieldProperty name="BoundColumn" type="3" value="1"/>
+              <od:fieldProperty name="ColumnCount" type="3" value="3"/>
+              <od:fieldProperty name="ColumnHeads" type="1" value="1"/>
+              <od:fieldProperty name="ColumnWidths" type="10" value="0;2268;2268"/>
+              <od:fieldProperty name="ListRows" type="3" value="8"/>
+              <od:fieldProperty name="ListWidth" type="10" value="4536twip"/>
+              <od:fieldProperty name="LimitToList" type="1" value="1"/>
+              <od:fieldProperty name="ValidationRule" type="12" value="Is Null Or &lt;&gt;0"/>
+              <od:fieldProperty name="ValidationText" type="10" value="Le Champ Contacts Personnelle Ville Numero Est Invalide"/>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="ConPerFax" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="2250"/>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+              <od:fieldProperty name="Description" type="10" value="Contacts Personnelle Fax"/>
+              <od:fieldProperty name="Caption" type="12" value="Contacts Personnelle Fax"/>
+              <od:fieldProperty name="Required" type="1" value="0"/>
+              <od:fieldProperty name="AllowZeroLength" type="1" value="0"/>
+              <od:fieldProperty name="DisplayControl" type="3" value="109"/>
+              <od:fieldProperty name="InputMask" type="10" value="00\ 00\ 00\ 00\ 00;;_"/>
+              <od:fieldProperty name="IMEMode" type="2" value="0"/>
+              <od:fieldProperty name="IMESentenceMode" type="2" value="3"/>
+              <od:fieldProperty name="UnicodeCompression" type="1" value="1"/>
+            </xsd:appinfo>
+          </xsd:annotation>
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:maxLength value="10"/>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="ConPerTel" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="2865"/>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+              <od:fieldProperty name="Description" type="10" value="Contacts Personnelle Téléphone"/>
+              <od:fieldProperty name="Caption" type="12" value="Contacts Personnelle Téléphone"/>
+              <od:fieldProperty name="Required" type="1" value="0"/>
+              <od:fieldProperty name="AllowZeroLength" type="1" value="0"/>
+              <od:fieldProperty name="DisplayControl" type="3" value="109"/>
+              <od:fieldProperty name="InputMask" type="10" value="00\ 00\ 00\ 00\ 00;;_"/>
+              <od:fieldProperty name="IMEMode" type="2" value="0"/>
+              <od:fieldProperty name="IMESentenceMode" type="2" value="3"/>
+              <od:fieldProperty name="UnicodeCompression" type="1" value="1"/>
+            </xsd:appinfo>
+          </xsd:annotation>
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:maxLength value="10"/>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="ConPerEMai" minOccurs="0" od:jetType="hyperlink" od:sqlSType="ntext" od:hyperlink="yes">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="1530"/>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+              <od:fieldProperty name="Description" type="10" value="Contacts Personnelle EMail"/>
+              <od:fieldProperty name="Caption" type="12" value="E-Mail personnel"/>
+              <od:fieldProperty name="Required" type="1" value="0"/>
+              <od:fieldProperty name="AllowZeroLength" type="1" value="1"/>
+              <od:fieldProperty name="IMEMode" type="2" value="0"/>
+              <od:fieldProperty name="IMESentenceMode" type="2" value="3"/>
+              <od:fieldProperty name="UnicodeCompression" type="1" value="1"/>
+            </xsd:appinfo>
+          </xsd:annotation>
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:maxLength value="536870910"/>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

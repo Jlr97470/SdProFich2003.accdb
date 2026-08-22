@@ -1,0 +1,84 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "AnaSocietesResultats"
+  },
+  "Items": {
+    "QueryType": 16,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Analyse Des Resultats Des Societes, Total Remontees De Chaudieres Par Semestres\r\nUtiliser Par:\r\n- UniSocietesResultats"
+      }
+    },
+    "Columns": {
+      "SocResNbChd": {
+        "ColumnOrder": 3,
+        "ColumnWidth": 1455,
+        "AggregateType": -1
+      },
+      "SocResNbISO": {
+        "ColumnOrder": 4,
+        "ColumnWidth": 1440,
+        "AggregateType": -1
+      },
+      "SocResNbTHEMA": {
+        "ColumnOrder": 5,
+        "ColumnWidth": 1785,
+        "AggregateType": -1
+      },
+      "SocResSemNum": {
+        "ColumnOrder": 2,
+        "AggregateType": -1
+      },
+      "SocResSocNum": {
+        "ColumnOrder": 1,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": -131,
+        "top": 91,
+        "right": 1033,
+        "bottom": 577
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1157,
+        "bottom": 310
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 559,
+      "Tables": [
+        {
+          "Name": "TBLCHAUDIERESREMONTEES",
+          "Alias": "",
+          "Left": 4,
+          "Top": 3,
+          "Right": 174,
+          "Bottom": 222,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLCHAUDIERESARTICLES",
+          "Alias": "",
+          "Left": 204,
+          "Top": 5,
+          "Right": 361,
+          "Bottom": 89,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Analyse Des Resultats Des Societes, Total Remontees De Chaudieres Par Semestres\r\nUtiliser Par:\r\n- UniSocietesResultats"
+      }
+    }
+  }
+}

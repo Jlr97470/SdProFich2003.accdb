@@ -1,0 +1,59 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelSocDRConATCSocSTAAdhConTAInsResultatsExercicesDetailler"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes DR, Contacts ATC, Societes STA Adh, Contacts TA Inscrits, Resultats Des Remontees De Chaudieres Des Societes Adh Par Exercices Detailler\r\nUtiliser Par :\r\n- Site Web"
+      }
+    },
+    "DesignLayout": {
+      "State": 2,
+      "Window": {
+        "left": -4,
+        "top": -23,
+        "right": 1152,
+        "bottom": 701
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1149,
+        "bottom": 144
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "SelSocDRConATCSocSTAAdhConTAIns",
+          "Alias": "",
+          "Left": 38,
+          "Top": 6,
+          "Right": 506,
+          "Bottom": 113,
+          "ScrollTop": 9
+        },
+        {
+          "Name": "SelSocietesResultatsExercicesDetailler",
+          "Alias": "",
+          "Left": 544,
+          "Top": 6,
+          "Right": 791,
+          "Bottom": 113,
+          "ScrollTop": 13
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes DR, Contacts ATC, Societes STA Adh, Contacts TA Inscrits, Resultats Des Remontees De Chaudieres Des Societes Adh Par Exercices Detailler\r\nUtiliser Par :\r\n- Site Web"
+      }
+    }
+  }
+}

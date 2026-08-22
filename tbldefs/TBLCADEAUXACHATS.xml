@@ -1,0 +1,257 @@
+﻿<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:od="urn:schemas-microsoft-com:officedata">
+  <xsd:element name="dataroot">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="TBLCADEAUXACHATS" minOccurs="0" maxOccurs="unbounded"></xsd:element>
+      </xsd:sequence>
+      <xsd:attribute name="generated" type="xsd:dateTime"></xsd:attribute>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="TBLCADEAUXACHATS">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <od:index index-name="CleCadAchCadArtNum" index-key="CadAchCadArtNum " primary="no" unique="no" clustered="no" order="asc"></od:index>
+        <od:index index-name="CleCadAchEtat" index-key="CadAchEtat " primary="no" unique="no" clustered="no" order="asc"></od:index>
+        <od:index index-name="CleCadAchNum" index-key="CadAchNum " primary="no" unique="yes" clustered="no" order="asc"></od:index>
+        <od:index index-name="CleCadAchSocNum" index-key="CadAchSocNum " primary="no" unique="no" clustered="no" order="asc"></od:index>
+        <od:index index-name="PrimaryKey" index-key="CadAchSocNum CadAchDateSaisie CadAchHeureSaisie CadAchCadArtNum " primary="yes" unique="yes" clustered="no" order="asc asc asc asc"></od:index>
+        <od:index index-name="TBLCADEAUXARTICLESTBLCADEAUXACHATS" index-key="CadAchCadArtNum " primary="no" unique="no" clustered="no" order="asc"></od:index>
+        <od:index index-name="TBLSOCIETESTBLCADEAUXACHATS" index-key="CadAchSocNum " primary="no" unique="no" clustered="no" order="asc"></od:index>
+        <od:tableProperty name="OrderByOn" type="1" value="0"></od:tableProperty>
+        <od:tableProperty name="Description" type="10" value="Liste Des Achats De Cadeaux"></od:tableProperty>
+        <od:tableProperty name="Orientation" type="2" value="0"></od:tableProperty>
+        <od:tableProperty name="DefaultView" type="2" value="2"></od:tableProperty>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="CadAchNum" minOccurs="1" od:jetType="autonumber" od:sqlSType="int" od:autoUnique="yes" od:nonNullable="yes" type="xsd:int">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="2505"></od:fieldProperty>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="Description" type="10" value="Cadeaux Achats Numero"></od:fieldProperty>
+              <od:fieldProperty name="Caption" type="12" value="Cadeaux Achats Numero"></od:fieldProperty>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="CadAchSocNum" minOccurs="1" od:jetType="longinteger" od:sqlSType="int" od:nonNullable="yes" type="xsd:int">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="6270"></od:fieldProperty>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="DecimalPlaces" type="2" value="255"></od:fieldProperty>
+              <od:fieldProperty name="Caption" type="12" value="Cadeaux Achats Societes Numero"></od:fieldProperty>
+              <od:fieldProperty name="Required" type="1" value="1"></od:fieldProperty>
+              <od:fieldProperty name="DisplayControl" type="3" value="111"></od:fieldProperty>
+              <od:fieldProperty name="Description" type="10" value="Cadeaux Achats Societes Numero"></od:fieldProperty>
+              <od:fieldProperty name="ValidationRule" type="12" value="&lt;&gt;0"></od:fieldProperty>
+              <od:fieldProperty name="ValidationText" type="10" value="Le Champ Cadeaux Achats Societes Numero Est Obligatoire"></od:fieldProperty>
+              <od:fieldProperty name="RowSourceType" type="10" value="Table/Query"></od:fieldProperty>
+              <od:fieldProperty name="RowSource" type="12" value="SELECT TBLSOCIETES.SocNum, TBLSOCIETES.SocSTA, TBLSOCIETES.SocRaison, TBLSOCIETES.SocAdh, TBLSOCIETES.SocTel1, TBLSOCIETES.SocTel2, TBLSOCIETES.SocTypCode FROM TBLSOCIETES WHERE (((TBLSOCIETES.SocTypCode)=&quot;STA&quot;)) ORDER BY TBLSOCIETES.SocNum;"></od:fieldProperty>
+              <od:fieldProperty name="BoundColumn" type="3" value="1"></od:fieldProperty>
+              <od:fieldProperty name="ColumnCount" type="3" value="6"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHeads" type="1" value="1"></od:fieldProperty>
+              <od:fieldProperty name="ColumnWidths" type="10" value="2268;2268;2268;2268;2268;2268"></od:fieldProperty>
+              <od:fieldProperty name="ListRows" type="3" value="8"></od:fieldProperty>
+              <od:fieldProperty name="ListWidth" type="10" value="13608twip"></od:fieldProperty>
+              <od:fieldProperty name="LimitToList" type="1" value="1"></od:fieldProperty>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="CadAchDateSaisie" minOccurs="1" od:jetType="datetime" od:sqlSType="datetime" od:nonNullable="yes" type="xsd:dateTime">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="3675"></od:fieldProperty>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="Description" type="10" value="Cadeaux Achats Date De Saisie"></od:fieldProperty>
+              <od:fieldProperty name="Format" type="10" value="Short Date"></od:fieldProperty>
+              <od:fieldProperty name="DefaultValue" type="12" value="=Date()"></od:fieldProperty>
+              <od:fieldProperty name="Required" type="1" value="1"></od:fieldProperty>
+              <od:fieldProperty name="InputMask" type="10" value="99/99/0000;0;_"></od:fieldProperty>
+              <od:fieldProperty name="Caption" type="12" value="Cadeaux Achats Date De Saisie"></od:fieldProperty>
+              <od:fieldProperty name="ValidationRule" type="12" value="IsDate([CadAchDateSaisie])=True"></od:fieldProperty>
+              <od:fieldProperty name="ValidationText" type="10" value="Le Champ Cadeaux Achats Date De Saisie Est Invalide"></od:fieldProperty>
+              <od:fieldProperty name="IMEMode" type="2" value="0"></od:fieldProperty>
+              <od:fieldProperty name="IMESentenceMode" type="2" value="3"></od:fieldProperty>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="CadAchHeureSaisie" minOccurs="1" od:jetType="datetime" od:sqlSType="datetime" od:nonNullable="yes" type="xsd:dateTime">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="2805"></od:fieldProperty>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="Description" type="10" value="Cadeaux Achats Heure De Saisie"></od:fieldProperty>
+              <od:fieldProperty name="Format" type="10" value="Long Time"></od:fieldProperty>
+              <od:fieldProperty name="InputMask" type="10" value="09:00:00\ &gt;LL;0;_"></od:fieldProperty>
+              <od:fieldProperty name="Caption" type="12" value="Cadeaux Achats Heure De Saisie"></od:fieldProperty>
+              <od:fieldProperty name="DefaultValue" type="12" value="=time()"></od:fieldProperty>
+              <od:fieldProperty name="Required" type="1" value="1"></od:fieldProperty>
+              <od:fieldProperty name="ValidationText" type="10" value="Le Champ Cadeaux Achats Heure De Saisie Est Invalide"></od:fieldProperty>
+              <od:fieldProperty name="ValidationRule" type="12" value="IsDate([CadAchHeureSaisie])=True"></od:fieldProperty>
+              <od:fieldProperty name="IMEMode" type="2" value="0"></od:fieldProperty>
+              <od:fieldProperty name="IMESentenceMode" type="2" value="3"></od:fieldProperty>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="CadAchCadArtNum" minOccurs="1" od:jetType="longinteger" od:sqlSType="int" od:nonNullable="yes" type="xsd:int">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="8385"></od:fieldProperty>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="Description" type="10" value="Cadeaux Achats Articles Numero"></od:fieldProperty>
+              <od:fieldProperty name="DecimalPlaces" type="2" value="255"></od:fieldProperty>
+              <od:fieldProperty name="Caption" type="12" value="Cadeaux Achats Articles Numero"></od:fieldProperty>
+              <od:fieldProperty name="Required" type="1" value="1"></od:fieldProperty>
+              <od:fieldProperty name="ValidationRule" type="12" value="&lt;&gt;0"></od:fieldProperty>
+              <od:fieldProperty name="ValidationText" type="10" value="Le Champ Cadeaux Achats Articles Numero Est Invalide"></od:fieldProperty>
+              <od:fieldProperty name="DisplayControl" type="3" value="111"></od:fieldProperty>
+              <od:fieldProperty name="RowSourceType" type="10" value="Table/Query"></od:fieldProperty>
+              <od:fieldProperty name="RowSource" type="12" value="SELECT TBLCADEAUXARTICLES.CadArtNum, TBLCADEAUXARTICLES.CadArtRef, TBLEXERCICES.ExeExercice, TBLEXERCICES.ExeLibelle, TBLCADEAUXARTICLES.CadArtDescription, TBLCADEAUXARTICLES.CadArtPoints FROM TBLEXERCICES INNER JOIN TBLCADEAUXARTICLES ON TBLEXERCICES.ExeNum = TBLCADEAUXARTICLES.CadArtExeNum ORDER BY TBLEXERCICES.ExeExercice, TBLCADEAUXARTICLES.CadArtRef;"></od:fieldProperty>
+              <od:fieldProperty name="BoundColumn" type="3" value="1"></od:fieldProperty>
+              <od:fieldProperty name="ColumnCount" type="3" value="6"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHeads" type="1" value="1"></od:fieldProperty>
+              <od:fieldProperty name="ColumnWidths" type="10" value="0;2268;2268;2268;2268;2268"></od:fieldProperty>
+              <od:fieldProperty name="ListRows" type="3" value="8"></od:fieldProperty>
+              <od:fieldProperty name="ListWidth" type="10" value="11340twip"></od:fieldProperty>
+              <od:fieldProperty name="LimitToList" type="1" value="1"></od:fieldProperty>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="CadAchDate" minOccurs="1" od:jetType="datetime" od:sqlSType="datetime" od:nonNullable="yes" type="xsd:dateTime">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="1875"></od:fieldProperty>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="Description" type="10" value="Cadeaux Achats Date"></od:fieldProperty>
+              <od:fieldProperty name="Format" type="10" value="Short Date"></od:fieldProperty>
+              <od:fieldProperty name="InputMask" type="10" value="99/99/0000;0;_"></od:fieldProperty>
+              <od:fieldProperty name="Caption" type="12" value="Cadeaux Achats Date"></od:fieldProperty>
+              <od:fieldProperty name="DefaultValue" type="12" value="=Date()"></od:fieldProperty>
+              <od:fieldProperty name="Required" type="1" value="1"></od:fieldProperty>
+              <od:fieldProperty name="ValidationRule" type="12" value="IsDate([CadAchDate])=True"></od:fieldProperty>
+              <od:fieldProperty name="ValidationText" type="10" value="Le Champ Cadeaux Achats Date Est Invalide"></od:fieldProperty>
+              <od:fieldProperty name="IMEMode" type="2" value="0"></od:fieldProperty>
+              <od:fieldProperty name="IMESentenceMode" type="2" value="3"></od:fieldProperty>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="CadAchEtat" minOccurs="1" od:jetType="text" od:sqlSType="nvarchar" od:nonNullable="yes">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="2670"></od:fieldProperty>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="Description" type="10" value="Cadeaux Achats Etat de l'Achat"></od:fieldProperty>
+              <od:fieldProperty name="Caption" type="12" value="Cadeaux Achats Etat de l'Achat"></od:fieldProperty>
+              <od:fieldProperty name="DefaultValue" type="12" value="&quot;Commandé&quot;"></od:fieldProperty>
+              <od:fieldProperty name="Required" type="1" value="1"></od:fieldProperty>
+              <od:fieldProperty name="AllowZeroLength" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ValidationRule" type="12" value="=&quot;Annulé&quot; Or =&quot;Attente&quot; Or =&quot;Commandé&quot;"></od:fieldProperty>
+              <od:fieldProperty name="ValidationText" type="10" value="Le Champ Cadeaux Achats Etat Achat Est Invalide"></od:fieldProperty>
+              <od:fieldProperty name="DisplayControl" type="3" value="111"></od:fieldProperty>
+              <od:fieldProperty name="RowSourceType" type="10" value="Value List"></od:fieldProperty>
+              <od:fieldProperty name="RowSource" type="12" value="Annulé;Attente;Commandé"></od:fieldProperty>
+              <od:fieldProperty name="BoundColumn" type="3" value="1"></od:fieldProperty>
+              <od:fieldProperty name="ColumnCount" type="3" value="1"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHeads" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ListRows" type="3" value="8"></od:fieldProperty>
+              <od:fieldProperty name="ListWidth" type="10" value="2268twip"></od:fieldProperty>
+              <od:fieldProperty name="LimitToList" type="1" value="1"></od:fieldProperty>
+              <od:fieldProperty name="ColumnWidths" type="10" value="2268"></od:fieldProperty>
+              <od:fieldProperty name="IMEMode" type="2" value="0"></od:fieldProperty>
+              <od:fieldProperty name="IMESentenceMode" type="2" value="3"></od:fieldProperty>
+              <od:fieldProperty name="UnicodeCompression" type="1" value="1"></od:fieldProperty>
+            </xsd:appinfo>
+          </xsd:annotation>
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:maxLength value="8"></xsd:maxLength>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="CadAchQuantite" minOccurs="1" od:jetType="longinteger" od:sqlSType="int" od:nonNullable="yes" type="xsd:int">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="2205"></od:fieldProperty>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="DecimalPlaces" type="2" value="255"></od:fieldProperty>
+              <od:fieldProperty name="DefaultValue" type="12" value="1"></od:fieldProperty>
+              <od:fieldProperty name="Required" type="1" value="1"></od:fieldProperty>
+              <od:fieldProperty name="DisplayControl" type="3" value="109"></od:fieldProperty>
+              <od:fieldProperty name="Description" type="10" value="Cadeaux Achats Quantite"></od:fieldProperty>
+              <od:fieldProperty name="Caption" type="12" value="Cadeaux Achats Quantite"></od:fieldProperty>
+              <od:fieldProperty name="ValidationRule" type="12" value="&gt;0"></od:fieldProperty>
+              <od:fieldProperty name="ValidationText" type="10" value="Le Champ Cadeaux Achats Quantite Est Invalide"></od:fieldProperty>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="CadAchPoints" minOccurs="1" od:jetType="longinteger" od:sqlSType="int" od:nonNullable="yes" type="xsd:int">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="2340"></od:fieldProperty>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="Description" type="10" value="Cadeaux Achats Points"></od:fieldProperty>
+              <od:fieldProperty name="DecimalPlaces" type="2" value="255"></od:fieldProperty>
+              <od:fieldProperty name="Required" type="1" value="1"></od:fieldProperty>
+              <od:fieldProperty name="DisplayControl" type="3" value="109"></od:fieldProperty>
+              <od:fieldProperty name="Caption" type="12" value="Cadeaux Achats Points"></od:fieldProperty>
+              <od:fieldProperty name="ValidationRule" type="12" value="&gt;=0"></od:fieldProperty>
+              <od:fieldProperty name="ValidationText" type="10" value="Le Champ Cadeaux Achats Points Est Invalide"></od:fieldProperty>
+              <od:fieldProperty name="DefaultValue" type="12" value="0"></od:fieldProperty>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="CadAchAdrPerso" minOccurs="1" od:jetType="yesno" od:sqlSType="bit" od:nonNullable="yes" type="xsd:boolean">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="3690"></od:fieldProperty>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="Description" type="10" value="Cadeaux Achats Adresse Perso (Vrai/Faux)"></od:fieldProperty>
+              <od:fieldProperty name="Format" type="10" value="True/False"></od:fieldProperty>
+              <od:fieldProperty name="Required" type="1" value="1"></od:fieldProperty>
+              <od:fieldProperty name="DisplayControl" type="3" value="106"></od:fieldProperty>
+              <od:fieldProperty name="DefaultValue" type="12" value="False"></od:fieldProperty>
+              <od:fieldProperty name="Caption" type="12" value="Cadeaux Achats Adresse Perso (Vrai/Faux)"></od:fieldProperty>
+              <od:fieldProperty name="ValidationRule" type="12" value="=True Or =False"></od:fieldProperty>
+              <od:fieldProperty name="ValidationText" type="10" value="Le Champ Cadeaux Adresse Perso Est Invalide"></od:fieldProperty>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="CadAchDescription" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="-1"></od:fieldProperty>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="Description" type="10" value="Cadeaux Achats Description"></od:fieldProperty>
+              <od:fieldProperty name="Caption" type="12" value="Cadeaux Achats Description"></od:fieldProperty>
+              <od:fieldProperty name="Required" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="AllowZeroLength" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="DisplayControl" type="3" value="109"></od:fieldProperty>
+              <od:fieldProperty name="IMEMode" type="2" value="0"></od:fieldProperty>
+              <od:fieldProperty name="IMESentenceMode" type="2" value="3"></od:fieldProperty>
+              <od:fieldProperty name="UnicodeCompression" type="1" value="1"></od:fieldProperty>
+            </xsd:appinfo>
+          </xsd:annotation>
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:maxLength value="50"></xsd:maxLength>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

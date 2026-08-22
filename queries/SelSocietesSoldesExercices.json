@@ -1,0 +1,81 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelSocietesSoldesExercices"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes, Soldes Par Exercice\r\nUtiliser Par:\r\n- ModMouvement\r\n- SFrmFicheSocietesResultatsSoldesExercices"
+      }
+    },
+    "Columns": {
+      "Solde": {
+        "ColumnWidth": 1020,
+        "AggregateType": -1
+      },
+      "TBLMOUVEMENTS.MvtExeNum": {
+        "ColumnWidth": 2685,
+        "AggregateType": -1
+      },
+      "TBLMOUVEMENTS.MvtSocNum": {
+        "ColumnWidth": 2610,
+        "AggregateType": -1
+      },
+      "TotalCredit": {
+        "ColumnWidth": 1065,
+        "AggregateType": -1
+      },
+      "TotalDebit": {
+        "ColumnWidth": 975,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": -71,
+        "top": 38,
+        "right": 1093,
+        "bottom": 637
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1132,
+        "bottom": 406
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 543,
+      "Tables": [
+        {
+          "Name": "TBLEXERCICES",
+          "Alias": "",
+          "Left": 151,
+          "Top": 6,
+          "Right": 247,
+          "Bottom": 90,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLMOUVEMENTS",
+          "Alias": "",
+          "Left": 3,
+          "Top": 3,
+          "Right": 113,
+          "Bottom": 192,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes, Soldes Par Exercice\r\nUtiliser Par:\r\n- ModMouvement\r\n- SFrmFicheSocietesResultatsSoldesExercices"
+      }
+    }
+  }
+}

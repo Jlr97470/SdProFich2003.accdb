@@ -1,0 +1,68 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelSocietesResultatsExercicesDetailler"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes, Resultats Des Remontees De Chaudieres Par Exercices"
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 40,
+        "top": 62,
+        "right": 1258,
+        "bottom": 367
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1211,
+        "bottom": 144
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "AnaSocietesResultatsExercices",
+          "Alias": "",
+          "Left": 38,
+          "Top": 6,
+          "Right": 261,
+          "Bottom": 113,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "AnaSocietesResultatsTHEMAExercices",
+          "Alias": "",
+          "Left": 306,
+          "Top": 6,
+          "Right": 457,
+          "Bottom": 113,
+          "ScrollTop": 3
+        },
+        {
+          "Name": "AnaSocietesResultatsISOExercices",
+          "Alias": "",
+          "Left": 487,
+          "Top": 6,
+          "Right": 734,
+          "Bottom": 113,
+          "ScrollTop": 3
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes, Resultats Des Remontees De Chaudieres Par Exercices"
+      }
+    }
+  }
+}

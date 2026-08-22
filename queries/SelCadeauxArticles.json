@@ -1,0 +1,105 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelCadeauxArticles"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Cadeaux, Articles\r\nUtiliser Par:\r\n- FrmFicheSocietes"
+      }
+    },
+    "Columns": {
+      "TBLCADEAUXACHATS.CadAchDate": {
+        "Caption": "Date Achat",
+        "ColumnWidth": 1020,
+        "AggregateType": -1
+      },
+      "TBLCADEAUXACHATS.CadAchDateSaisie": {
+        "Caption": "Date Saisie",
+        "ColumnWidth": 1050,
+        "AggregateType": -1
+      },
+      "TBLCADEAUXACHATS.CadAchEtat": {
+        "Caption": "Etat",
+        "ColumnWidth": 1185,
+        "AggregateType": -1
+      },
+      "TBLCADEAUXACHATS.CadAchNum": {
+        "Caption": "Numero",
+        "ColumnWidth": 810,
+        "AggregateType": -1
+      },
+      "TBLCADEAUXACHATS.CadAchPoints": {
+        "Caption": "Points",
+        "ColumnWidth": 690,
+        "AggregateType": -1
+      },
+      "TBLCADEAUXACHATS.CadAchQuantite": {
+        "Caption": "Qte",
+        "ColumnWidth": 435,
+        "AggregateType": -1
+      },
+      "TBLCADEAUXACHATS.CadAchSocNum": {
+        "ColumnWidth": 2940,
+        "AggregateType": -1
+      },
+      "TBLCADEAUXARTICLES.CadArtDescription": {
+        "Caption": "Description",
+        "ColumnWidth": 3675,
+        "AggregateType": -1
+      },
+      "TBLCADEAUXARTICLES.CadArtRef": {
+        "Caption": "Reference",
+        "ColumnWidth": 1005,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 18,
+        "top": 40,
+        "right": 1010,
+        "bottom": 621
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 985,
+        "bottom": 405
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "TBLCADEAUXACHATS",
+          "Alias": "",
+          "Left": 38,
+          "Top": 6,
+          "Right": 169,
+          "Bottom": 195,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLCADEAUXARTICLES",
+          "Alias": "",
+          "Left": 199,
+          "Top": 6,
+          "Right": 339,
+          "Bottom": 135,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Cadeaux, Articles\r\nUtiliser Par:\r\n- FrmFicheSocietes"
+      }
+    }
+  }
+}

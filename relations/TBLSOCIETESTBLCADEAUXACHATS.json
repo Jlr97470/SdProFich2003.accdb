@@ -1,0 +1,18 @@
+﻿{
+  "Info": {
+    "Class": "clsDbRelation",
+    "Description": "Database relationship"
+  },
+  "Items": {
+    "Name": "TBLSOCIETESTBLCADEAUXACHATS",
+    "Attributes": 256,
+    "Table": "TBLSOCIETES",
+    "ForeignTable": "TBLCADEAUXACHATS",
+    "Fields": [
+      {
+        "Name": "SocNum",
+        "ForeignName": "CadAchSocNum"
+      }
+    ]
+  }
+}

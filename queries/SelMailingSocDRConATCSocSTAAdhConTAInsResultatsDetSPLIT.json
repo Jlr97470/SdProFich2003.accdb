@@ -1,0 +1,215 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelMailingSocDRConATCSocSTAAdhConTAInsResultatsDetSPLIT"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "RESULTATS MENSUELS ARMELLE (SPLIT)"
+      }
+    },
+    "Columns": {
+      "ObjPerISO2002S1": {
+        "Format": {
+          "Type": "dbText",
+          "Value": "Percent"
+        },
+        "AggregateType": -1
+      },
+      "ObjPerISO2002S2": {
+        "Format": {
+          "Type": "dbText",
+          "Value": "Percent"
+        },
+        "AggregateType": -1
+      },
+      "SelSocDRConATCSocSTAAdhConTAIns.ConNom": {
+        "ColumnWidth": 1530,
+        "AggregateType": -1
+      },
+      "SocResISOSTD2003S2": {
+        "ColumnWidth": 2265,
+        "AggregateType": -1
+      },
+      "SocResNbChd2003S1": {
+        "ColumnWidth": 2115,
+        "AggregateType": -1
+      },
+      "SocResNbChd2003S2": {
+        "ColumnWidth": 2115,
+        "AggregateType": -1
+      },
+      "SocResNbChd2004S1": {
+        "ColumnWidth": 2115,
+        "AggregateType": -1
+      },
+      "SocResNbISOSTD2003S1": {
+        "ColumnWidth": 2100,
+        "AggregateType": -1
+      },
+      "SocResNbISOSTD2004S1": {
+        "ColumnWidth": 2100,
+        "AggregateType": -1
+      },
+      "SocResNbISOSTD2004S2": {
+        "ColumnWidth": 2100,
+        "AggregateType": -1
+      },
+      "SocResNbTHEMA2003S1": {
+        "ColumnWidth": 2445,
+        "AggregateType": -1
+      },
+      "SocResNbTHEMA2004S1": {
+        "ColumnWidth": 2445,
+        "AggregateType": -1
+      },
+      "SocResPourISO2003S1": {
+        "Format": {
+          "Type": "dbText",
+          "Value": "Percent"
+        },
+        "AggregateType": -1
+      },
+      "SocResPourISO2003S2": {
+        "ColumnWidth": 2265,
+        "Format": {
+          "Type": "dbText",
+          "Value": "Percent"
+        },
+        "AggregateType": -1
+      },
+      "SocResPourISO2004S1": {
+        "ColumnWidth": 2265,
+        "Format": {
+          "Type": "dbText",
+          "Value": "Percent"
+        },
+        "AggregateType": -1
+      },
+      "SocResPourISO2004S2": {
+        "Format": {
+          "Type": "dbText",
+          "Value": "Percent"
+        },
+        "AggregateType": -1
+      },
+      "Solde2001": {
+        "Description": "Solde2001",
+        "AggregateType": -1
+      },
+      "Solde20032004": {
+        "ColumnWidth": 1515,
+        "AggregateType": -1
+      },
+      "SoldeISOVal": {
+        "Description": "Valeur En Euro",
+        "Format": {
+          "Type": "dbText",
+          "Value": "#,##0.00 €;-#,##0.00 €"
+        },
+        "AggregateType": -1
+      },
+      "SoldeVal": {
+        "ColumnWidth": 1815,
+        "Description": "Valeur En Euro",
+        "Format": {
+          "Type": "dbText",
+          "Value": "#,##0.00 €;-#,##0.00 €"
+        },
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 40,
+        "top": 62,
+        "right": 1258,
+        "bottom": 646
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1207,
+        "bottom": 408
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "SelSocDRConATCSocSTAAdhConTAIns",
+          "Alias": "",
+          "Left": 38,
+          "Top": 6,
+          "Right": 281,
+          "Bottom": 297,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "SelSocietesResultatsSemestresDetailler",
+          "Alias": "",
+          "Left": 316,
+          "Top": 148,
+          "Right": 670,
+          "Bottom": 331,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "SelSocietesSoldesExercicesDetailler",
+          "Alias": "",
+          "Left": 373,
+          "Top": 20,
+          "Right": 670,
+          "Bottom": 221,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "SelSocietesSoldesISOSemestresDetailler",
+          "Alias": "",
+          "Left": 708,
+          "Top": 6,
+          "Right": 978,
+          "Bottom": 171,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLSOCIETESRESULTATSBONUS",
+          "Alias": "",
+          "Left": 950,
+          "Top": 47,
+          "Right": 1156,
+          "Bottom": 140,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "CDP2002RESULTATS",
+          "Alias": "",
+          "Left": 710,
+          "Top": 196,
+          "Right": 1061,
+          "Bottom": 541,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "AnaSocietesResultatsISOSPLITSemestres",
+          "Alias": "",
+          "Left": 696,
+          "Top": 214,
+          "Right": 1204,
+          "Bottom": 361,
+          "ScrollTop": 3
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "RESULTATS MENSUELS ARMELLE (SPLIT)"
+      }
+    }
+  }
+}

@@ -1,0 +1,164 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelMailingSocDRConATCSocSTAAdhConTAInsResISOSoldesDetaillerBis"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Situation Des STA"
+      },
+      "FrozenColumns": {
+        "Type": 3,
+        "Value": 1
+      }
+    },
+    "Columns": {
+      "MvtISO2001Sem1": {
+        "ColumnWidth": 1545,
+        "AggregateType": -1
+      },
+      "MvtISO2001Sem2": {
+        "ColumnWidth": 1545,
+        "AggregateType": -1
+      },
+      "MvtISO2002Sem1": {
+        "ColumnWidth": 1545,
+        "AggregateType": -1
+      },
+      "MvtISO2002Sem2": {
+        "ColumnWidth": 1545,
+        "AggregateType": -1
+      },
+      "MvtISO2003Sem1": {
+        "ColumnWidth": 1545,
+        "AggregateType": -1
+      },
+      "MvtISO2003Sem2": {
+        "ColumnWidth": 1545,
+        "AggregateType": -1
+      },
+      "MvtISO2004Sem1": {
+        "ColumnWidth": 1545,
+        "AggregateType": -1
+      },
+      "MvtISO2004Sem2": {
+        "ColumnWidth": 1740,
+        "AggregateType": -1
+      },
+      "Solde2001": {
+        "ColumnWidth": 1417,
+        "AggregateType": -1
+      },
+      "Solde2002": {
+        "ColumnWidth": 1417,
+        "AggregateType": -1
+      },
+      "Solde2003": {
+        "ColumnWidth": 1417,
+        "AggregateType": -1
+      },
+      "Solde2004": {
+        "ColumnWidth": 1417,
+        "AggregateType": -1
+      },
+      "TotalCredit2001": {
+        "ColumnWidth": 1417,
+        "AggregateType": -1
+      },
+      "TotalCredit2002": {
+        "ColumnWidth": 1417,
+        "AggregateType": -1
+      },
+      "TotalCredit2003": {
+        "ColumnWidth": 1417,
+        "AggregateType": -1
+      },
+      "TotalCredit2004": {
+        "ColumnWidth": 1417,
+        "AggregateType": -1
+      },
+      "TotalDebit2001": {
+        "ColumnWidth": 1417,
+        "AggregateType": -1
+      },
+      "TotalDebit2002": {
+        "ColumnWidth": 1417,
+        "Description": "TotalDebit2002",
+        "AggregateType": -1
+      },
+      "TotalDebit2003": {
+        "ColumnWidth": 1417,
+        "AggregateType": -1
+      },
+      "TotalDebit2004": {
+        "ColumnWidth": 1417,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 105,
+        "top": 127,
+        "right": 1258,
+        "bottom": 778
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1142,
+        "bottom": 475
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "SelSocDRConATCSocSTAAdhConTAIns",
+          "Alias": "",
+          "Left": 38,
+          "Top": 6,
+          "Right": 134,
+          "Bottom": 99,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "SelSocietesSoldesISOSemestresDetailler",
+          "Alias": "",
+          "Left": 172,
+          "Top": 6,
+          "Right": 268,
+          "Bottom": 117,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "SelSocietesSoldesExercicesDetailler",
+          "Alias": "",
+          "Left": 306,
+          "Top": 6,
+          "Right": 402,
+          "Bottom": 99,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLSOCIETESRESULTATSBONUS",
+          "Alias": "",
+          "Left": 440,
+          "Top": 6,
+          "Right": 536,
+          "Bottom": 99,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Situation Des STA"
+      }
+    }
+  }
+}

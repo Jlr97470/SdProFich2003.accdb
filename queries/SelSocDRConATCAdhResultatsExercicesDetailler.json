@@ -1,0 +1,60 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelSocDRConATCAdhResultatsExercicesDetailler"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes DR, Contacts ATC, Resultats Des Remontees De Chaudieres Des Societes Adh Par Exercices Detailler\r\nUtiliser Par :\r\n- Site Web"
+      }
+    },
+    "Columns": {
+      "ATCSocResNbChd2003": {
+        "ColumnWidth": 2385,
+        "AggregateType": -1
+      },
+      "ATCSocResNbChd2004": {
+        "ColumnWidth": 2250,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 47,
+        "top": 69,
+        "right": 1130,
+        "bottom": 389
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1076,
+        "bottom": 144
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 543,
+      "Tables": [
+        {
+          "Name": "SelSocDRConATCSocSTAAdhConTAInsResultatsExercicesDetailler",
+          "Alias": "",
+          "Left": 38,
+          "Top": 6,
+          "Right": 134,
+          "Bottom": 105,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes DR, Contacts ATC, Resultats Des Remontees De Chaudieres Des Societes Adh Par Exercices Detailler\r\nUtiliser Par :\r\n- Site Web"
+      }
+    }
+  }
+}

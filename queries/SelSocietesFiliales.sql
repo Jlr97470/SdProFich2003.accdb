@@ -1,0 +1,33 @@
+﻿SELECT
+  TBLSOCIETES.SocNum AS SocNumNiv0,
+  TBLSOCIETES.SocRaison AS SocRaisonNiv0,
+  TBLSOCIETES.SocTypCode AS SocTypCodeNiv0,
+  TBLSOCIETES_1.SocNum AS SocNumNiv1,
+  TBLSOCIETES_1.SocRaison AS SocRaisonNiv1,
+  TBLSOCIETES_1.SocTypCode AS SocTypCodeNiv1,
+  TBLSOCIETES_2.SocNum AS SocNumNiv2,
+  TBLSOCIETES_2.SocRaison AS SocRaisonNiv2,
+  TBLSOCIETES_2.SocAdresse AS SocAdresseNiv2,
+  TBLSOCIETES_2.SocTypCode AS SocTypCodeNiv2
+FROM
+  (
+    TBLSOCIETES
+    LEFT JOIN TBLSOCIETES AS TBLSOCIETES_1 ON TBLSOCIETES.SocNum = TBLSOCIETES_1.SocSocNum
+  )
+  LEFT JOIN TBLSOCIETES AS TBLSOCIETES_2 ON TBLSOCIETES_1.SocNum = TBLSOCIETES_2.SocSocNum
+WHERE
+  (
+    (
+      (TBLSOCIETES.SocTypCode) = "SD"
+    )
+    AND (
+      (TBLSOCIETES_1.SocTypCode) = "DR"
+    )
+    AND (
+      (TBLSOCIETES_2.SocTypCode) = "STA"
+    )
+  )
+ORDER BY
+  TBLSOCIETES.SocRaison,
+  TBLSOCIETES_1.SocRaison,
+  TBLSOCIETES_2.SocRaison;

@@ -1,0 +1,202 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelSocietesSTAVillesContactsTAInscrit"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes STA Villes, Contacts TA Inscrit"
+      }
+    },
+    "Columns": {
+      "ConCivCode": {
+        "Caption": "Civ",
+        "ColumnWidth": 1230,
+        "AggregateType": -1
+      },
+      "ConEMail": {
+        "Caption": "EMail",
+        "ColumnWidth": 1020,
+        "AggregateType": -1
+      },
+      "ConNom": {
+        "Caption": "Nom",
+        "ColumnWidth": 1725,
+        "AggregateType": -1
+      },
+      "ConNum": {
+        "ColumnWidth": 930,
+        "AggregateType": -1
+      },
+      "ConPrenom": {
+        "Caption": "Prenom",
+        "ColumnWidth": 1200,
+        "AggregateType": -1
+      },
+      "ConTelPort": {
+        "Caption": "Portable",
+        "ColumnWidth": 1140,
+        "AggregateType": -1
+      },
+      "SocVilCodePostal": {
+        "Caption": "CP",
+        "ColumnWidth": 705,
+        "AggregateType": -1
+      },
+      "SocVilNom": {
+        "Caption": "Ville",
+        "ColumnWidth": 2415,
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocAdh": {
+        "Caption": "Adh",
+        "ColumnWidth": 525,
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocAdresse": {
+        "Caption": "Adresse",
+        "ColumnWidth": 2910,
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocConNum": {
+        "Caption": "Chargée D'Affaire",
+        "ColumnWidth": 1665,
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocDateCre": {
+        "ColumnWidth": 2385,
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocDateMaj": {
+        "ColumnWidth": 2700,
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocEMail": {
+        "Caption": "EMail",
+        "ColumnWidth": 2970,
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocFax": {
+        "Caption": "Fax",
+        "ColumnWidth": 1470,
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocNotes": {
+        "Caption": "Notes",
+        "ColumnWidth": 690,
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocNum": {
+        "Caption": "Num",
+        "ColumnWidth": 585,
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocRaison": {
+        "Caption": "Raison",
+        "ColumnWidth": 3135,
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocSocNum": {
+        "Caption": "Filiaire",
+        "ColumnWidth": 750,
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocSTA": {
+        "Caption": "Code STA",
+        "ColumnWidth": 1245,
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocSTAOld": {
+        "Caption": "Code STA Old",
+        "ColumnWidth": 1425,
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocTel1": {
+        "Caption": "Telephone 1",
+        "ColumnWidth": 1470,
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocTel1Lib": {
+        "Caption": "Telephone 1 Libelle",
+        "ColumnWidth": 1845,
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocTel2": {
+        "Caption": "Telephone 2",
+        "ColumnWidth": 1170,
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocTel2Lib": {
+        "Caption": "Telephone 2 Libelle",
+        "ColumnWidth": 1845,
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocTypCode": {
+        "Caption": "Type",
+        "ColumnWidth": 795,
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocWeb": {
+        "Caption": "Web",
+        "ColumnWidth": 2640,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 44,
+        "top": 44,
+        "right": 969,
+        "bottom": 627
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 918,
+        "bottom": 407
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 543,
+      "Tables": [
+        {
+          "Name": "TBLSOCIETES",
+          "Alias": "",
+          "Left": 2,
+          "Top": 2,
+          "Right": 87,
+          "Bottom": 326,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLVILLES",
+          "Alias": "",
+          "Left": 117,
+          "Top": 192,
+          "Right": 199,
+          "Bottom": 276,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "SelContactsInscrit",
+          "Alias": "",
+          "Left": 330,
+          "Top": 21,
+          "Right": 528,
+          "Bottom": 435,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes STA Villes, Contacts TA Inscrit"
+      }
+    }
+  }
+}

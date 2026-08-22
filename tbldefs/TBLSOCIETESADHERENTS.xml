@@ -1,0 +1,125 @@
+﻿<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:od="urn:schemas-microsoft-com:officedata">
+  <xsd:element name="dataroot">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="TBLSOCIETESADHERENTS" minOccurs="0" maxOccurs="unbounded"></xsd:element>
+      </xsd:sequence>
+      <xsd:attribute name="generated" type="xsd:dateTime"></xsd:attribute>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="TBLSOCIETESADHERENTS">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <od:index index-name="CleSocAdhNum" index-key="SocAdhNum " primary="no" unique="no" clustered="no" order="asc"></od:index>
+        <od:index index-name="PrimaryKey" index-key="SocAdhSocNum SocAdhExeNum SocAdhDate " primary="yes" unique="yes" clustered="no" order="asc desc desc"></od:index>
+        <od:index index-name="TBLEXERCICESTBLSOCIETESADHERENT" index-key="SocAdhExeNum " primary="no" unique="no" clustered="no" order="asc"></od:index>
+        <od:index index-name="TBLSOCIETESTBLSOCIETESADHERENT" index-key="SocAdhSocNum " primary="no" unique="no" clustered="no" order="asc"></od:index>
+        <od:tableProperty name="OrderByOn" type="1" value="0"></od:tableProperty>
+        <od:tableProperty name="Description" type="10" value="Liste Des Societes Adherents"></od:tableProperty>
+        <od:tableProperty name="ValidationText" type="10" value="La Date D'Adhesion Ne Correspond Pas A L'Exercice"></od:tableProperty>
+        <od:tableProperty name="ValidationRule" type="12" value="(year([SocAdhDate])-1999)=[SocAdhExeNum]"></od:tableProperty>
+        <od:tableProperty name="Filter" type="12" value="(((TBLSOCIETESADHERENTS.SocAdhSocNum)=730))"></od:tableProperty>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="SocAdhNum" minOccurs="1" od:jetType="autonumber" od:sqlSType="int" od:autoUnique="yes" od:nonNullable="yes" type="xsd:int">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="2610"></od:fieldProperty>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="Description" type="10" value="Societes Adherent Numero"></od:fieldProperty>
+              <od:fieldProperty name="Caption" type="12" value="Societes Adherent Numero"></od:fieldProperty>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="SocAdhSocNum" minOccurs="1" od:jetType="longinteger" od:sqlSType="int" od:nonNullable="yes" type="xsd:int">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="3375"></od:fieldProperty>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="DecimalPlaces" type="2" value="255"></od:fieldProperty>
+              <od:fieldProperty name="Required" type="1" value="1"></od:fieldProperty>
+              <od:fieldProperty name="DisplayControl" type="3" value="111"></od:fieldProperty>
+              <od:fieldProperty name="Caption" type="12" value="Societes Adherent Societes Numero"></od:fieldProperty>
+              <od:fieldProperty name="Description" type="10" value="Societes Adherent Societes Numero"></od:fieldProperty>
+              <od:fieldProperty name="ValidationRule" type="12" value="&lt;&gt;0"></od:fieldProperty>
+              <od:fieldProperty name="ValidationText" type="10" value="Le Champ Societes Adherent Societes Numero Est Invalide"></od:fieldProperty>
+              <od:fieldProperty name="RowSourceType" type="10" value="Table/Query"></od:fieldProperty>
+              <od:fieldProperty name="RowSource" type="12" value="SELECT DISTINCTROW [TBLSOCIETES].[SocNum], [TBLSOCIETES].[SocSTA], [TBLSOCIETES].[SocRaison], [TBLSOCIETES].[SocAdh], [TBLSOCIETES].[SocTel1], [TBLSOCIETES].[SocTel2] FROM [TBLSOCIETES];"></od:fieldProperty>
+              <od:fieldProperty name="BoundColumn" type="3" value="1"></od:fieldProperty>
+              <od:fieldProperty name="ColumnCount" type="3" value="6"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHeads" type="1" value="1"></od:fieldProperty>
+              <od:fieldProperty name="ColumnWidths" type="10" value="1440;1440;1440;1440;1440;1440"></od:fieldProperty>
+              <od:fieldProperty name="ListRows" type="3" value="8"></od:fieldProperty>
+              <od:fieldProperty name="ListWidth" type="10" value="8640twip"></od:fieldProperty>
+              <od:fieldProperty name="LimitToList" type="1" value="1"></od:fieldProperty>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="SocAdhExeNum" minOccurs="1" od:jetType="byte" od:sqlSType="tinyint" od:nonNullable="yes" type="xsd:unsignedByte">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="3345"></od:fieldProperty>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="DecimalPlaces" type="2" value="255"></od:fieldProperty>
+              <od:fieldProperty name="Caption" type="12" value="Societes Adherent Exercice Numero"></od:fieldProperty>
+              <od:fieldProperty name="Required" type="1" value="1"></od:fieldProperty>
+              <od:fieldProperty name="DisplayControl" type="3" value="111"></od:fieldProperty>
+              <od:fieldProperty name="RowSourceType" type="10" value="Table/Query"></od:fieldProperty>
+              <od:fieldProperty name="RowSource" type="12" value="SELECT DISTINCTROW [TBLEXERCICES].[ExeNum], [TBLEXERCICES].[ExeExercice], [TBLEXERCICES].[ExeLibelle] FROM [TBLEXERCICES];"></od:fieldProperty>
+              <od:fieldProperty name="BoundColumn" type="3" value="1"></od:fieldProperty>
+              <od:fieldProperty name="ColumnCount" type="3" value="3"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHeads" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnWidths" type="10" value="0;1440;1440"></od:fieldProperty>
+              <od:fieldProperty name="ListRows" type="3" value="8"></od:fieldProperty>
+              <od:fieldProperty name="ListWidth" type="10" value="2880twip"></od:fieldProperty>
+              <od:fieldProperty name="LimitToList" type="1" value="1"></od:fieldProperty>
+              <od:fieldProperty name="Description" type="10" value="Societes Adherent Exercice Numero"></od:fieldProperty>
+              <od:fieldProperty name="ValidationRule" type="12" value="&lt;&gt;0"></od:fieldProperty>
+              <od:fieldProperty name="ValidationText" type="10" value="Le Champ Societes Adherent Exercice Numero Est Invalide"></od:fieldProperty>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="SocAdhDate" minOccurs="1" od:jetType="datetime" od:sqlSType="datetime" od:nonNullable="yes" type="xsd:dateTime">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="2310"></od:fieldProperty>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="Format" type="10" value="General Date"></od:fieldProperty>
+              <od:fieldProperty name="Required" type="1" value="1"></od:fieldProperty>
+              <od:fieldProperty name="Description" type="10" value="Societes Adherent Date"></od:fieldProperty>
+              <od:fieldProperty name="Caption" type="12" value="Societes Adherent Date"></od:fieldProperty>
+              <od:fieldProperty name="InputMask" type="10" value="99/99/0000;0;_"></od:fieldProperty>
+              <od:fieldProperty name="DefaultValue" type="12" value="=Date()"></od:fieldProperty>
+              <od:fieldProperty name="ValidationRule" type="12" value="IsDate([SocAdhDate])=True"></od:fieldProperty>
+              <od:fieldProperty name="ValidationText" type="10" value="Le Champ Societes Adherent Date Est Invalide"></od:fieldProperty>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="SocAdhEtat" minOccurs="1" od:jetType="yesno" od:sqlSType="bit" od:nonNullable="yes" type="xsd:boolean">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="3495"></od:fieldProperty>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="Description" type="10" value="Societes Adherent Etat"></od:fieldProperty>
+              <od:fieldProperty name="Format" type="10" value="True/False"></od:fieldProperty>
+              <od:fieldProperty name="Caption" type="12" value="Societes Adherent Etat"></od:fieldProperty>
+              <od:fieldProperty name="DefaultValue" type="12" value="=True"></od:fieldProperty>
+              <od:fieldProperty name="Required" type="1" value="1"></od:fieldProperty>
+              <od:fieldProperty name="ValidationRule" type="12" value="=True Or =False"></od:fieldProperty>
+              <od:fieldProperty name="ValidationText" type="10" value="Le ChampSocietes Adherent Etat Est Invalide"></od:fieldProperty>
+              <od:fieldProperty name="DisplayControl" type="3" value="106"></od:fieldProperty>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

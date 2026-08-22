@@ -1,0 +1,239 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelMailingSocDRConATCSocSTAAdhConTAInsResISOSoldesDetailler"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Situation Des STA"
+      },
+      "FrozenColumns": {
+        "Type": 3,
+        "Value": 1
+      }
+    },
+    "Columns": {
+      "MvtISO2001Sem1": {
+        "ColumnWidth": 1545,
+        "Description": "Sem1",
+        "AggregateType": -1
+      },
+      "MvtISO2001Sem2": {
+        "ColumnWidth": 1545,
+        "Description": "Sem2",
+        "AggregateType": -1
+      },
+      "MvtISO2002Sem1": {
+        "ColumnWidth": 1545,
+        "Description": "Sem1",
+        "AggregateType": -1
+      },
+      "MvtISO2002Sem2": {
+        "ColumnWidth": 1545,
+        "Description": "Sem2",
+        "AggregateType": -1
+      },
+      "MvtISO2003Sem1": {
+        "ColumnWidth": 1545,
+        "Description": "Sem1",
+        "AggregateType": -1
+      },
+      "MvtISO2003Sem2": {
+        "ColumnWidth": 1545,
+        "Description": "Sem2",
+        "AggregateType": -1
+      },
+      "MvtISO2004Sem1": {
+        "ColumnWidth": 1545,
+        "Description": "Sem1",
+        "AggregateType": -1
+      },
+      "MvtISO2004Sem2": {
+        "ColumnWidth": 1740,
+        "Description": "Sem2",
+        "AggregateType": -1
+      },
+      "SelSocDRConATCSocSTAAdhConTAIns.ATCConNom": {
+        "ColumnWidth": 1425,
+        "Description": "ATCNom",
+        "AggregateType": -1
+      },
+      "SelSocDRConATCSocSTAAdhConTAIns.ATCConNum": {
+        "ColumnWidth": 1695,
+        "Description": "ATCNum",
+        "AggregateType": -1
+      },
+      "SelSocDRConATCSocSTAAdhConTAIns.ATCConPrenom": {
+        "ColumnWidth": 1695,
+        "Description": "ATCPrenom",
+        "AggregateType": -1
+      },
+      "SelSocDRConATCSocSTAAdhConTAIns.ConCivCode": {
+        "ColumnWidth": 1230,
+        "Description": "Civilite",
+        "AggregateType": -1
+      },
+      "SelSocDRConATCSocSTAAdhConTAIns.ConFonCode": {
+        "ColumnWidth": 1305,
+        "Description": "Fonction",
+        "AggregateType": -1
+      },
+      "SelSocDRConATCSocSTAAdhConTAIns.ConNom": {
+        "ColumnWidth": 1575,
+        "Description": "Nom",
+        "AggregateType": -1
+      },
+      "SelSocDRConATCSocSTAAdhConTAIns.ConPrenom": {
+        "ColumnWidth": 2235,
+        "Description": "Prenom",
+        "AggregateType": -1
+      },
+      "SelSocDRConATCSocSTAAdhConTAIns.DRSocNum": {
+        "ColumnOrder": 2,
+        "ColumnWidth": 1575,
+        "Description": "DRNum",
+        "AggregateType": -1
+      },
+      "SelSocDRConATCSocSTAAdhConTAIns.DRSocRaison": {
+        "ColumnOrder": 1,
+        "ColumnWidth": 3840,
+        "Description": "DRRaison",
+        "AggregateType": -1
+      },
+      "SelSocDRConATCSocSTAAdhConTAIns.SocAdresse": {
+        "ColumnWidth": 3735,
+        "Description": "Adresse",
+        "AggregateType": -1
+      },
+      "SelSocDRConATCSocSTAAdhConTAIns.SocFax": {
+        "ColumnWidth": 1395,
+        "Description": "SocFax",
+        "AggregateType": -1
+      },
+      "SelSocDRConATCSocSTAAdhConTAIns.SocNum": {
+        "ColumnWidth": 1575,
+        "Description": "SocNum",
+        "AggregateType": -1
+      },
+      "SelSocDRConATCSocSTAAdhConTAIns.SocRaison": {
+        "ColumnWidth": 3060,
+        "Description": "Raison",
+        "AggregateType": -1
+      },
+      "SelSocDRConATCSocSTAAdhConTAIns.SocSTA": {
+        "ColumnWidth": 1785,
+        "Description": "Code STA",
+        "AggregateType": -1
+      },
+      "SelSocDRConATCSocSTAAdhConTAIns.SocTel1": {
+        "ColumnWidth": 1950,
+        "Description": "SocTel1",
+        "AggregateType": -1
+      },
+      "SelSocDRConATCSocSTAAdhConTAIns.SocTel2": {
+        "ColumnWidth": 1950,
+        "Description": "SocTel2",
+        "AggregateType": -1
+      },
+      "SelSocDRConATCSocSTAAdhConTAIns.SocVilCodePostal": {
+        "ColumnWidth": 1680,
+        "Description": "Code Postal",
+        "AggregateType": -1
+      },
+      "SelSocDRConATCSocSTAAdhConTAIns.SocVilNom": {
+        "ColumnWidth": 2325,
+        "Description": "Ville",
+        "AggregateType": -1
+      },
+      "Solde2001": {
+        "ColumnWidth": 1417,
+        "Description": "2001",
+        "AggregateType": -1
+      },
+      "Solde2002": {
+        "ColumnWidth": 1417,
+        "Description": "2002",
+        "AggregateType": -1
+      },
+      "Solde2003": {
+        "ColumnWidth": 1417,
+        "Description": "2003",
+        "AggregateType": -1
+      },
+      "Solde2004": {
+        "ColumnWidth": 1417,
+        "Description": "2004",
+        "AggregateType": -1
+      },
+      "TotalCredit2001": {
+        "ColumnWidth": 1417,
+        "Description": "TotalCredit2001",
+        "AggregateType": -1
+      },
+      "TotalCredit2002": {
+        "ColumnWidth": 1417,
+        "Description": "Credit",
+        "AggregateType": -1
+      },
+      "TotalCredit2003": {
+        "ColumnWidth": 1417,
+        "Description": "2003",
+        "AggregateType": -1
+      },
+      "TotalCredit2004": {
+        "ColumnWidth": 1417,
+        "Description": "2004",
+        "AggregateType": -1
+      },
+      "TotalDebit2001": {
+        "ColumnWidth": 1417,
+        "Description": "TotalDebit2001",
+        "AggregateType": -1
+      },
+      "TotalDebit2002": {
+        "ColumnWidth": 1417,
+        "Description": "Debit",
+        "AggregateType": -1
+      },
+      "TotalDebit2003": {
+        "ColumnWidth": 1417,
+        "Description": "Debit",
+        "AggregateType": -1
+      },
+      "TotalDebit2004": {
+        "ColumnWidth": 1417,
+        "Description": "2004",
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 2,
+      "Window": {
+        "left": -6,
+        "top": -25,
+        "right": 1154,
+        "bottom": 778
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1196,
+        "bottom": 475
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 2587,
+      "Tables": [
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Situation Des STA"
+      }
+    }
+  }
+}

@@ -1,0 +1,86 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelSocietesDRContactsATC"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes DR, Contacts ATC"
+      }
+    },
+    "Columns": {
+      "TBLSOCIETES.SocAdresse": {
+        "ColumnWidth": 3000,
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocNum": {
+        "ColumnWidth": 1575,
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocRaison": {
+        "ColumnWidth": 3870,
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocTypCode": {
+        "ColumnWidth": 1830,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": -459,
+        "top": 104,
+        "right": 1069,
+        "bottom": 600
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1521,
+        "bottom": 332
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "TBLVILLES",
+          "Alias": "",
+          "Left": 479,
+          "Top": 142,
+          "Right": 575,
+          "Bottom": 219,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLSOCIETES",
+          "Alias": "",
+          "Left": 0,
+          "Top": 6,
+          "Right": 134,
+          "Bottom": 293,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLCONTACTS",
+          "Alias": "",
+          "Left": 177,
+          "Top": 35,
+          "Right": 279,
+          "Bottom": 127,
+          "ScrollTop": 17
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes DR, Contacts ATC"
+      }
+    }
+  }
+}

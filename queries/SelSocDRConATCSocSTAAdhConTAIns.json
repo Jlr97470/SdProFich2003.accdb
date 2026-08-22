@@ -1,0 +1,147 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelSocDRConATCSocSTAAdhConTAIns"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes DR, Contacts ATC, Societes STA Adh, Contacts TA Inscrits"
+      }
+    },
+    "Columns": {
+      "ATCConCivCode": {
+        "ColumnWidth": 2025,
+        "AggregateType": -1
+      },
+      "ATCConFonCode": {
+        "ColumnWidth": 2280,
+        "AggregateType": -1
+      },
+      "ATCConInscrit": {
+        "ColumnWidth": 1545,
+        "AggregateType": -1
+      },
+      "ATCConNom": {
+        "ColumnWidth": 1425,
+        "AggregateType": -1
+      },
+      "ATCConNum": {
+        "ColumnWidth": 1695,
+        "AggregateType": -1
+      },
+      "ATCConPrenom": {
+        "ColumnWidth": 1695,
+        "AggregateType": -1
+      },
+      "ConCivCode": {
+        "ColumnWidth": 1230,
+        "AggregateType": -1
+      },
+      "ConFonCode": {
+        "ColumnWidth": 1305,
+        "AggregateType": -1
+      },
+      "ConNom": {
+        "ColumnWidth": 1575,
+        "AggregateType": -1
+      },
+      "ConPrenom": {
+        "ColumnWidth": 2235,
+        "AggregateType": -1
+      },
+      "DRSocNum": {
+        "ColumnWidth": 1575,
+        "AggregateType": -1
+      },
+      "DRSocRaison": {
+        "ColumnWidth": 3840,
+        "AggregateType": -1
+      },
+      "SocVilCodePostal": {
+        "ColumnWidth": 1680,
+        "AggregateType": -1
+      },
+      "SocVilNom": {
+        "ColumnWidth": 2325,
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocAdresse": {
+        "ColumnWidth": 3735,
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocRaison": {
+        "ColumnWidth": 3060,
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocTel1": {
+        "ColumnWidth": 1950,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 2,
+      "Window": {
+        "left": -4,
+        "top": -23,
+        "right": 1152,
+        "bottom": 701
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1149,
+        "bottom": 324
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 543,
+      "Tables": [
+        {
+          "Name": "TBLVILLES",
+          "Alias": "",
+          "Left": 263,
+          "Top": 29,
+          "Right": 359,
+          "Bottom": 121,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "SelSocietesDRContactsATC",
+          "Alias": "",
+          "Left": 23,
+          "Top": 19,
+          "Right": 209,
+          "Bottom": 216,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLSOCIETES",
+          "Alias": "",
+          "Left": 299,
+          "Top": 114,
+          "Right": 395,
+          "Bottom": 266,
+          "ScrollTop": 1
+        },
+        {
+          "Name": "SelContactsInscrit",
+          "Alias": "",
+          "Left": 573,
+          "Top": 76,
+          "Right": 800,
+          "Bottom": 183,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes DR, Contacts ATC, Societes STA Adh, Contacts TA Inscrits"
+      }
+    }
+  }
+}

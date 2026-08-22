@@ -1,0 +1,96 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelSocietesResultatsSemestresDetaillerReleves"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes, Resultats Des Remontees De Chaudieres Par Semestres Detailler A Date Releves\r\nUtiliser Par :\r\n- SelSocietesResultatsBonusDetaillerReleves\r\n"
+      },
+      "OrderByOn": {
+        "Type": 1,
+        "Value": true
+      }
+    },
+    "Columns": {
+      "SocResNbISO2004S2RelevesDebut": {
+        "ColumnWidth": 2250,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 40,
+        "top": 62,
+        "right": 1258,
+        "bottom": 761
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1207,
+        "bottom": 538
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "AnaSocietesResultatsSemestres",
+          "Alias": "",
+          "Left": 17,
+          "Top": 52,
+          "Right": 246,
+          "Bottom": 279,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "AnaSocietesResultatsTHEMASemestres",
+          "Alias": "",
+          "Left": 280,
+          "Top": 310,
+          "Right": 547,
+          "Bottom": 537,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "AnaSocietesResultatsISOSemestres",
+          "Alias": "",
+          "Left": 298,
+          "Top": 34,
+          "Right": 576,
+          "Bottom": 261,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "AnaSocietesResultatsChdGammesSemestresRelevesFin",
+          "Alias": "",
+          "Left": 674,
+          "Top": 22,
+          "Right": 1074,
+          "Bottom": 264,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "AnaSocietesResultatsChdGammesSemestresRelevesDebut",
+          "Alias": "",
+          "Left": 622,
+          "Top": 212,
+          "Right": 1066,
+          "Bottom": 424,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes, Resultats Des Remontees De Chaudieres Par Semestres Detailler A Date Releves\r\nUtiliser Par :\r\n- SelSocietesResultatsBonusDetaillerReleves\r\n"
+      }
+    }
+  }
+}

@@ -1,0 +1,297 @@
+﻿<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:od="urn:schemas-microsoft-com:officedata">
+  <xsd:element name="dataroot">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="TBLCHAUDIERESREMONTEES" minOccurs="0" maxOccurs="unbounded"></xsd:element>
+      </xsd:sequence>
+      <xsd:attribute name="generated" type="xsd:dateTime"></xsd:attribute>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="TBLCHAUDIERESREMONTEES">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <od:index index-name="CleChdRemChdArtRef" index-key="ChdRemChdArtRef " primary="no" unique="no" clustered="no" order="asc"></od:index>
+        <od:index index-name="CleChdRemExeSemNum" index-key="ChdRemSemNum " primary="no" unique="no" clustered="no" order="asc"></od:index>
+        <od:index index-name="CleChdRemNum" index-key="ChdRemNum " primary="no" unique="yes" clustered="no" order="asc"></od:index>
+        <od:index index-name="CleChdRemSD" index-key="ChdRemSD " primary="no" unique="no" clustered="no" order="asc"></od:index>
+        <od:index index-name="CleChdRemSerie" index-key="ChdRemSerie " primary="no" unique="yes" clustered="no" order="asc"></od:index>
+        <od:index index-name="CleChdRemServ" index-key="ChdRemServ " primary="no" unique="no" clustered="no" order="asc"></od:index>
+        <od:index index-name="CleChdRemSocNum" index-key="ChdRemSocNum " primary="no" unique="no" clustered="no" order="asc"></od:index>
+        <od:index index-name="PrimaryKey" index-key="ChdRemSocNum ChdRemDate ChdRemHeure ChdRemSerie " primary="yes" unique="yes" clustered="no" order="asc asc asc asc"></od:index>
+        <od:index index-name="TBLCHAUDIERESARTICLESTBLCHAUDIERESREMONTEES" index-key="ChdRemChdArtRef " primary="no" unique="no" clustered="no" order="asc"></od:index>
+        <od:index index-name="TBLSEMESTRESTBLCHAUDIERESREMONTEES" index-key="ChdRemSemNum " primary="no" unique="no" clustered="no" order="asc"></od:index>
+        <od:index index-name="TBLSOCIETESTBLCHAUDIERESREMONTEES" index-key="ChdRemSocNum " primary="no" unique="no" clustered="no" order="asc"></od:index>
+        <od:tableProperty name="OrderByOn" type="1" value="0"></od:tableProperty>
+        <od:tableProperty name="Description" type="10" value="Liste Des Remontées De Chaudiéres"></od:tableProperty>
+        <od:tableProperty name="Orientation" type="2" value="0"></od:tableProperty>
+        <od:tableProperty name="DefaultView" type="2" value="2"></od:tableProperty>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="ChdRemNum" minOccurs="1" od:jetType="autonumber" od:sqlSType="int" od:autoUnique="yes" od:nonNullable="yes" type="xsd:int">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="1710"></od:fieldProperty>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="Description" type="10" value="Chaudiére Remontée Numero"></od:fieldProperty>
+              <od:fieldProperty name="Caption" type="12" value="Chaudiére Remontée Numero"></od:fieldProperty>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="ChdRemSocNum" minOccurs="1" od:jetType="longinteger" od:sqlSType="int" od:nonNullable="yes" type="xsd:int">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="2370"></od:fieldProperty>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="DecimalPlaces" type="2" value="255"></od:fieldProperty>
+              <od:fieldProperty name="Caption" type="12" value="Chaudiére Remontée Société Numero"></od:fieldProperty>
+              <od:fieldProperty name="Required" type="1" value="1"></od:fieldProperty>
+              <od:fieldProperty name="DisplayControl" type="3" value="111"></od:fieldProperty>
+              <od:fieldProperty name="ValidationRule" type="12" value="&lt;&gt;0"></od:fieldProperty>
+              <od:fieldProperty name="Description" type="10" value="Chaudiére Remontée Société Numero"></od:fieldProperty>
+              <od:fieldProperty name="ValidationText" type="10" value="Le Champ Chaudiére Remontée Société Numero Est Invalide"></od:fieldProperty>
+              <od:fieldProperty name="RowSourceType" type="10" value="Table/Query"></od:fieldProperty>
+              <od:fieldProperty name="RowSource" type="12" value="SELECT TBLSOCIETES.SocNum, TBLSOCIETES.SocSTA, TBLSOCIETES.SocRaison, TBLSOCIETES.SocAdh, TBLSOCIETES.SocTel1, TBLSOCIETES.SocTel2, TBLSOCIETES.SocTypCode FROM TBLSOCIETES WHERE (((TBLSOCIETES.SocTypCode)=&quot;STA&quot;)) ORDER BY TBLSOCIETES.SocNum;"></od:fieldProperty>
+              <od:fieldProperty name="BoundColumn" type="3" value="1"></od:fieldProperty>
+              <od:fieldProperty name="ColumnCount" type="3" value="6"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHeads" type="1" value="1"></od:fieldProperty>
+              <od:fieldProperty name="ColumnWidths" type="10" value="0;2268;2268;2268;2268;2268"></od:fieldProperty>
+              <od:fieldProperty name="ListRows" type="3" value="8"></od:fieldProperty>
+              <od:fieldProperty name="ListWidth" type="10" value="11340twip"></od:fieldProperty>
+              <od:fieldProperty name="LimitToList" type="1" value="1"></od:fieldProperty>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="ChdRemDate" minOccurs="1" od:jetType="datetime" od:sqlSType="datetime" od:nonNullable="yes" type="xsd:dateTime">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="2310"></od:fieldProperty>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="Description" type="10" value="Chaudiére Remontée Date"></od:fieldProperty>
+              <od:fieldProperty name="Format" type="10" value="Short Date"></od:fieldProperty>
+              <od:fieldProperty name="Required" type="1" value="1"></od:fieldProperty>
+              <od:fieldProperty name="Caption" type="12" value="Chaudiére Remontée Date"></od:fieldProperty>
+              <od:fieldProperty name="InputMask" type="10" value="99/99/0000;0;_"></od:fieldProperty>
+              <od:fieldProperty name="DefaultValue" type="12" value="=Date()"></od:fieldProperty>
+              <od:fieldProperty name="ValidationRule" type="12" value="IsDate([ChdRemDate])=True"></od:fieldProperty>
+              <od:fieldProperty name="ValidationText" type="10" value="Le Champ Chaudiére Remontée Date Est Invalide"></od:fieldProperty>
+              <od:fieldProperty name="IMEMode" type="2" value="0"></od:fieldProperty>
+              <od:fieldProperty name="IMESentenceMode" type="2" value="3"></od:fieldProperty>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="ChdRemHeure" minOccurs="1" od:jetType="datetime" od:sqlSType="datetime" od:nonNullable="yes" type="xsd:dateTime">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="2445"></od:fieldProperty>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="Description" type="10" value="Chaudiére Remontée Heure"></od:fieldProperty>
+              <od:fieldProperty name="Format" type="10" value="Long Time"></od:fieldProperty>
+              <od:fieldProperty name="InputMask" type="10" value="09:00:00\ &gt;LL;0;_"></od:fieldProperty>
+              <od:fieldProperty name="Caption" type="12" value="Chaudiére Remontée Heure"></od:fieldProperty>
+              <od:fieldProperty name="DefaultValue" type="12" value="=time()"></od:fieldProperty>
+              <od:fieldProperty name="Required" type="1" value="1"></od:fieldProperty>
+              <od:fieldProperty name="ValidationRule" type="12" value="IsDate([ChdRemHeure])=True"></od:fieldProperty>
+              <od:fieldProperty name="ValidationText" type="10" value="Le Champ Chaudiére Remontée Heure Est Invalide"></od:fieldProperty>
+              <od:fieldProperty name="IMEMode" type="2" value="0"></od:fieldProperty>
+              <od:fieldProperty name="IMESentenceMode" type="2" value="3"></od:fieldProperty>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="ChdRemSerie" minOccurs="1" od:jetType="text" od:sqlSType="nvarchar" od:nonNullable="yes">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="2850"></od:fieldProperty>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="Description" type="10" value="Chaudiére Remontée N° De Serie"></od:fieldProperty>
+              <od:fieldProperty name="InputMask" type="10" value="&gt;AAAAAAAAaa"></od:fieldProperty>
+              <od:fieldProperty name="Caption" type="12" value="Chaudiére Remontée N° de Serie"></od:fieldProperty>
+              <od:fieldProperty name="DefaultValue" type="12" value="&quot;XXXXXXXX&quot;"></od:fieldProperty>
+              <od:fieldProperty name="Required" type="1" value="1"></od:fieldProperty>
+              <od:fieldProperty name="AllowZeroLength" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ValidationRule" type="12" value="Is Not Null"></od:fieldProperty>
+              <od:fieldProperty name="ValidationText" type="10" value="Le Champ Chaudiére Remontée N° De Serie Est Obligatoire"></od:fieldProperty>
+              <od:fieldProperty name="DisplayControl" type="3" value="109"></od:fieldProperty>
+              <od:fieldProperty name="IMEMode" type="2" value="0"></od:fieldProperty>
+              <od:fieldProperty name="IMESentenceMode" type="2" value="3"></od:fieldProperty>
+              <od:fieldProperty name="UnicodeCompression" type="1" value="1"></od:fieldProperty>
+            </xsd:appinfo>
+          </xsd:annotation>
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:maxLength value="10"></xsd:maxLength>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="ChdRemChdArtRef" minOccurs="1" od:jetType="text" od:sqlSType="nvarchar" od:nonNullable="yes">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="4395"></od:fieldProperty>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="Description" type="10" value="Chaudiére Remontée Chaudiére Articles Référence"></od:fieldProperty>
+              <od:fieldProperty name="InputMask" type="10" value="&gt;AAAAAAAA"></od:fieldProperty>
+              <od:fieldProperty name="Caption" type="12" value="Chaudiére Remontée Chaudiére Articles Référence"></od:fieldProperty>
+              <od:fieldProperty name="Required" type="1" value="1"></od:fieldProperty>
+              <od:fieldProperty name="AllowZeroLength" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="DisplayControl" type="3" value="111"></od:fieldProperty>
+              <od:fieldProperty name="ValidationRule" type="12" value="Is Not Null"></od:fieldProperty>
+              <od:fieldProperty name="ValidationText" type="10" value="Le Champ Chaudiére Remontée Chaudiére Articles Référence Est Obligatoire"></od:fieldProperty>
+              <od:fieldProperty name="RowSourceType" type="10" value="Table/Query"></od:fieldProperty>
+              <od:fieldProperty name="RowSource" type="12" value="SELECT TBLCHAUDIERESARTICLES.ChdArtRef, TBLCHAUDIERESARTICLES.ChdArtGamme, TBLCHAUDIERESARTICLES.ChdArtLibelle FROM TBLCHAUDIERESARTICLES ORDER BY TBLCHAUDIERESARTICLES.ChdArtRef;"></od:fieldProperty>
+              <od:fieldProperty name="BoundColumn" type="3" value="1"></od:fieldProperty>
+              <od:fieldProperty name="ColumnCount" type="3" value="3"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHeads" type="1" value="1"></od:fieldProperty>
+              <od:fieldProperty name="ListRows" type="3" value="8"></od:fieldProperty>
+              <od:fieldProperty name="ListWidth" type="10" value="6804twip"></od:fieldProperty>
+              <od:fieldProperty name="LimitToList" type="1" value="1"></od:fieldProperty>
+              <od:fieldProperty name="ColumnWidths" type="10" value="2268;2268;2268"></od:fieldProperty>
+              <od:fieldProperty name="IMEMode" type="2" value="0"></od:fieldProperty>
+              <od:fieldProperty name="IMESentenceMode" type="2" value="3"></od:fieldProperty>
+              <od:fieldProperty name="UnicodeCompression" type="1" value="1"></od:fieldProperty>
+            </xsd:appinfo>
+          </xsd:annotation>
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:maxLength value="8"></xsd:maxLength>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="ChdRemSemNum" minOccurs="1" od:jetType="byte" od:sqlSType="tinyint" od:nonNullable="yes" type="xsd:unsignedByte">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="3480"></od:fieldProperty>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="Description" type="10" value="Chaudiére Remontée Semestre Numero"></od:fieldProperty>
+              <od:fieldProperty name="DecimalPlaces" type="2" value="255"></od:fieldProperty>
+              <od:fieldProperty name="Required" type="1" value="1"></od:fieldProperty>
+              <od:fieldProperty name="DisplayControl" type="3" value="111"></od:fieldProperty>
+              <od:fieldProperty name="Caption" type="12" value="Chaudiére Remontée Semestre Numero"></od:fieldProperty>
+              <od:fieldProperty name="RowSourceType" type="10" value="Table/Query"></od:fieldProperty>
+              <od:fieldProperty name="RowSource" type="12" value="SELECT TBLSEMESTRES.SemNum, TBLSEMESTRES.SemDebut, TBLSEMESTRES.SemFin, TBLSEMESTRES.SemLibelle FROM TBLSEMESTRES ORDER BY TBLSEMESTRES.SemNum;"></od:fieldProperty>
+              <od:fieldProperty name="BoundColumn" type="3" value="1"></od:fieldProperty>
+              <od:fieldProperty name="ColumnCount" type="3" value="4"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHeads" type="1" value="1"></od:fieldProperty>
+              <od:fieldProperty name="ValidationRule" type="12" value="&lt;&gt;0"></od:fieldProperty>
+              <od:fieldProperty name="ValidationText" type="10" value="Le Champ Chaudiére Remontée Semestre Numero Est Invalide"></od:fieldProperty>
+              <od:fieldProperty name="ColumnWidths" type="10" value="0;0;0;2268"></od:fieldProperty>
+              <od:fieldProperty name="ListRows" type="3" value="8"></od:fieldProperty>
+              <od:fieldProperty name="ListWidth" type="10" value="2268twip"></od:fieldProperty>
+              <od:fieldProperty name="LimitToList" type="1" value="1"></od:fieldProperty>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="ChdRemSD" minOccurs="1" od:jetType="datetime" od:sqlSType="datetime" od:nonNullable="yes" type="xsd:dateTime">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="4125"></od:fieldProperty>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="Description" type="10" value="Chaudiére Remontée Date Arrivée Saunier Duval"></od:fieldProperty>
+              <od:fieldProperty name="Format" type="10" value="Short Date"></od:fieldProperty>
+              <od:fieldProperty name="Required" type="1" value="1"></od:fieldProperty>
+              <od:fieldProperty name="InputMask" type="10" value="99/99/0000;0;_"></od:fieldProperty>
+              <od:fieldProperty name="Caption" type="12" value="Chaudiére Remontée Date Arrivée Saunier Duval"></od:fieldProperty>
+              <od:fieldProperty name="ValidationRule" type="12" value="IsDate([ChdRemSD])=True"></od:fieldProperty>
+              <od:fieldProperty name="ValidationText" type="10" value="Le Champ Chaudiére Remontée Date Arrivée Saunier Duval Est Invalide"></od:fieldProperty>
+              <od:fieldProperty name="IMEMode" type="2" value="0"></od:fieldProperty>
+              <od:fieldProperty name="IMESentenceMode" type="2" value="3"></od:fieldProperty>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="ChdRemServ" minOccurs="1" od:jetType="datetime" od:sqlSType="datetime" od:nonNullable="yes" type="xsd:dateTime">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="3945"></od:fieldProperty>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="Description" type="10" value="Chaudiére Remontée Date De Mise En Service"></od:fieldProperty>
+              <od:fieldProperty name="Caption" type="12" value="Chaudiére Remontée Date de mise en service"></od:fieldProperty>
+              <od:fieldProperty name="Required" type="1" value="1"></od:fieldProperty>
+              <od:fieldProperty name="Format" type="10" value="Short Date"></od:fieldProperty>
+              <od:fieldProperty name="InputMask" type="10" value="99/99/0000;0;_"></od:fieldProperty>
+              <od:fieldProperty name="ValidationRule" type="12" value="IsDate([ChdRemServ])=True"></od:fieldProperty>
+              <od:fieldProperty name="ValidationText" type="10" value="Le Champ Chaudiére Remontée Date De Mise En Service Est Invalide"></od:fieldProperty>
+              <od:fieldProperty name="IMEMode" type="2" value="0"></od:fieldProperty>
+              <od:fieldProperty name="IMESentenceMode" type="2" value="3"></od:fieldProperty>
+            </xsd:appinfo>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="ChdRemRemp" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="3195"></od:fieldProperty>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="Description" type="10" value="Chaudiére Remontée Remplacement"></od:fieldProperty>
+              <od:fieldProperty name="Caption" type="12" value="Chaudiére Remontée Remplacement"></od:fieldProperty>
+              <od:fieldProperty name="Required" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="AllowZeroLength" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="DisplayControl" type="3" value="109"></od:fieldProperty>
+              <od:fieldProperty name="IMEMode" type="2" value="0"></od:fieldProperty>
+              <od:fieldProperty name="IMESentenceMode" type="2" value="3"></od:fieldProperty>
+              <od:fieldProperty name="UnicodeCompression" type="1" value="1"></od:fieldProperty>
+            </xsd:appinfo>
+          </xsd:annotation>
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:maxLength value="50"></xsd:maxLength>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="ChdRemBene" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="2925"></od:fieldProperty>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="Description" type="10" value="Chaudiére Remontée Bénéficiaire"></od:fieldProperty>
+              <od:fieldProperty name="Caption" type="12" value="Chaudiére Remontée Bénéficiaire"></od:fieldProperty>
+              <od:fieldProperty name="Required" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="AllowZeroLength" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="DisplayControl" type="3" value="109"></od:fieldProperty>
+              <od:fieldProperty name="IMEMode" type="2" value="0"></od:fieldProperty>
+              <od:fieldProperty name="IMESentenceMode" type="2" value="3"></od:fieldProperty>
+              <od:fieldProperty name="UnicodeCompression" type="1" value="1"></od:fieldProperty>
+            </xsd:appinfo>
+          </xsd:annotation>
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:maxLength value="50"></xsd:maxLength>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+        <xsd:element name="ChdRemDescription" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+          <xsd:annotation>
+            <xsd:appinfo>
+              <od:fieldProperty name="ColumnWidth" type="3" value="2895"></od:fieldProperty>
+              <od:fieldProperty name="ColumnOrder" type="3" value="0"></od:fieldProperty>
+              <od:fieldProperty name="ColumnHidden" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="Description" type="10" value="Chaudiére Remontée Description"></od:fieldProperty>
+              <od:fieldProperty name="Caption" type="12" value="Chaudiére Remontée Description"></od:fieldProperty>
+              <od:fieldProperty name="Required" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="AllowZeroLength" type="1" value="0"></od:fieldProperty>
+              <od:fieldProperty name="DisplayControl" type="3" value="109"></od:fieldProperty>
+              <od:fieldProperty name="IMEMode" type="2" value="0"></od:fieldProperty>
+              <od:fieldProperty name="IMESentenceMode" type="2" value="3"></od:fieldProperty>
+              <od:fieldProperty name="UnicodeCompression" type="1" value="1"></od:fieldProperty>
+            </xsd:appinfo>
+          </xsd:annotation>
+          <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+              <xsd:maxLength value="50"></xsd:maxLength>
+            </xsd:restriction>
+          </xsd:simpleType>
+        </xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

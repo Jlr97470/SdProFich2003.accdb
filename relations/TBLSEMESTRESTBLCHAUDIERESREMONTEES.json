@@ -1,0 +1,18 @@
+﻿{
+  "Info": {
+    "Class": "clsDbRelation",
+    "Description": "Database relationship"
+  },
+  "Items": {
+    "Name": "TBLSEMESTRESTBLCHAUDIERESREMONTEES",
+    "Attributes": 256,
+    "Table": "TBLSEMESTRES",
+    "ForeignTable": "TBLCHAUDIERESREMONTEES",
+    "Fields": [
+      {
+        "Name": "SemNum",
+        "ForeignName": "ChdRemSemNum"
+      }
+    ]
+  }
+}

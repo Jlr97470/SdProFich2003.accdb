@@ -1,0 +1,65 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelSocietesResultatsSemestres"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes, Resultats Des Remontees De Chaudieres Par Semestres\r\nUtiliser Par :\r\n- SFrmFicheSocietesResultatsChaudieres"
+      }
+    },
+    "Columns": {
+      "TBLSEMESTRES.SemLibelle": {
+        "ColumnWidth": 1875,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 18,
+        "top": 40,
+        "right": 1010,
+        "bottom": 534
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 985,
+        "bottom": 318
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "UniSocietesResultats",
+          "Alias": "",
+          "Left": 16,
+          "Top": 6,
+          "Right": 134,
+          "Bottom": 120,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLSEMESTRES",
+          "Alias": "",
+          "Left": 172,
+          "Top": 6,
+          "Right": 268,
+          "Bottom": 120,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes, Resultats Des Remontees De Chaudieres Par Semestres\r\nUtiliser Par :\r\n- SFrmFicheSocietesResultatsChaudieres"
+      }
+    }
+  }
+}

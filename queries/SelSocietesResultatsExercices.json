@@ -1,0 +1,82 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelSocietesResultatsExercices"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes Et Resultats Par Exercices"
+      }
+    },
+    "Columns": {
+      "SocResNbChd": {
+        "ColumnWidth": 1305,
+        "AggregateType": -1
+      },
+      "SocResNbISO": {
+        "ColumnWidth": 1245,
+        "AggregateType": -1
+      },
+      "SocResNbTHEMA": {
+        "ColumnWidth": 1545,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 18,
+        "top": 40,
+        "right": 1010,
+        "bottom": 686
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 985,
+        "bottom": 470
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 543,
+      "Tables": [
+        {
+          "Name": "TBLEXERCICES",
+          "Alias": "",
+          "Left": 409,
+          "Top": 36,
+          "Right": 538,
+          "Bottom": 135,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "UniSocietesResultats",
+          "Alias": "",
+          "Left": 38,
+          "Top": 6,
+          "Right": 195,
+          "Bottom": 135,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLSEMESTRES",
+          "Alias": "",
+          "Left": 225,
+          "Top": 35,
+          "Right": 355,
+          "Bottom": 164,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes Et Resultats Par Exercices"
+      }
+    }
+  }
+}

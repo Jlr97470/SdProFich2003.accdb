@@ -1,0 +1,839 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelMailingSocietesSTAAdhConTAInsResultatsCall2"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "OrderByOn": {
+        "Type": 1,
+        "Value": true
+      },
+      "Description": {
+        "Type": 10,
+        "Value": "Liste Des Reponses Au Call 2 Des STA Adherents"
+      }
+    },
+    "Columns": {
+      "Qst1": {
+        "ColumnWidth": 600,
+        "Description": "COORDONNEES PROFESSIONNELLES",
+        "AggregateType": -1
+      },
+      "Qst10": {
+        "ColumnWidth": 600,
+        "Description": "CHAUDIERE ISOFAST EN FONCTIONNEMENT",
+        "AggregateType": -1
+      },
+      "Qst100": {
+        "ColumnWidth": 600,
+        "Description": "COMMENTAIRES",
+        "AggregateType": -1
+      },
+      "Qst101": {
+        "ColumnWidth": 600,
+        "Description": "THERMOFORMES",
+        "AggregateType": -1
+      },
+      "Qst102": {
+        "ColumnWidth": 600,
+        "Description": "QUANTITE",
+        "AggregateType": -1
+      },
+      "Qst103": {
+        "ColumnWidth": 600,
+        "Description": "COMMENTAIRES",
+        "AggregateType": -1
+      },
+      "Qst104": {
+        "ColumnWidth": 600,
+        "Description": "GUIRLANDES",
+        "AggregateType": -1
+      },
+      "Qst105": {
+        "ColumnWidth": 600,
+        "Description": "QUANTITE",
+        "AggregateType": -1
+      },
+      "Qst106": {
+        "ColumnWidth": 600,
+        "Description": "COMMENTAIRES",
+        "AggregateType": -1
+      },
+      "Qst107": {
+        "ColumnWidth": 600,
+        "Description": "BANDEROLLES",
+        "AggregateType": -1
+      },
+      "Qst108": {
+        "ColumnWidth": 600,
+        "Description": "QUANTITE",
+        "AggregateType": -1
+      },
+      "Qst109": {
+        "ColumnWidth": 600,
+        "Description": "COMMENTAIRES",
+        "AggregateType": -1
+      },
+      "Qst11": {
+        "ColumnWidth": 600,
+        "Description": "CHAUDIERE ISOFAST FACTICE",
+        "AggregateType": -1
+      },
+      "Qst110": {
+        "ColumnWidth": 600,
+        "Description": "ENSEIGNES EXTERIEURES",
+        "AggregateType": -1
+      },
+      "Qst111": {
+        "ColumnWidth": 600,
+        "Description": "QUANTITE",
+        "AggregateType": -1
+      },
+      "Qst112": {
+        "ColumnWidth": 600,
+        "Description": "ENSEIGNES INTERIEURES",
+        "AggregateType": -1
+      },
+      "Qst113": {
+        "ColumnWidth": 600,
+        "Description": "QUANTITE",
+        "AggregateType": -1
+      },
+      "Qst114": {
+        "ColumnWidth": 600,
+        "Description": "AUTOCOLLANTS",
+        "AggregateType": -1
+      },
+      "Qst115": {
+        "ColumnWidth": 600,
+        "Description": "QUANTITE",
+        "AggregateType": -1
+      },
+      "Qst116": {
+        "ColumnWidth": 600,
+        "Description": "PLAQUES MAGNETIQUES",
+        "AggregateType": -1
+      },
+      "Qst117": {
+        "ColumnWidth": 600,
+        "Description": "QUANTITE",
+        "AggregateType": -1
+      },
+      "Qst12": {
+        "ColumnWidth": 600,
+        "Description": "CHAUDIERE ISOSPLIT D'EXPO",
+        "AggregateType": -1
+      },
+      "Qst120": {
+        "ColumnWidth": 600,
+        "Description": "AFFICHES",
+        "AggregateType": -1
+      },
+      "Qst121": {
+        "ColumnWidth": 600,
+        "Description": "QUANTITE",
+        "AggregateType": -1
+      },
+      "Qst122": {
+        "ColumnWidth": 600,
+        "Description": "THERMOFORMES",
+        "AggregateType": -1
+      },
+      "Qst123": {
+        "ColumnWidth": 600,
+        "Description": "QUANTITE",
+        "AggregateType": -1
+      },
+      "Qst124": {
+        "ColumnWidth": 600,
+        "Description": "GUIRLANDES",
+        "AggregateType": -1
+      },
+      "Qst125": {
+        "ColumnWidth": 600,
+        "Description": "QUANTITE",
+        "AggregateType": -1
+      },
+      "Qst126": {
+        "ColumnWidth": 600,
+        "Description": "BANDEROLLES",
+        "AggregateType": -1
+      },
+      "Qst127": {
+        "ColumnWidth": 600,
+        "Description": "QUANTITE",
+        "AggregateType": -1
+      },
+      "Qst128": {
+        "ColumnWidth": 600,
+        "Description": "SOUHAITEZ DOCUMENTATION",
+        "AggregateType": -1
+      },
+      "Qst129": {
+        "ColumnWidth": 600,
+        "Description": "CLIMATISATION",
+        "AggregateType": -1
+      },
+      "Qst13": {
+        "ColumnWidth": 600,
+        "Description": "CHAUDIERE ISOSPLIT EN FONCTIONNEMENT",
+        "AggregateType": -1
+      },
+      "Qst130": {
+        "ColumnWidth": 600,
+        "Description": "HAUTEUR",
+        "AggregateType": -1
+      },
+      "Qst131": {
+        "ColumnWidth": 600,
+        "Description": "DEVISE",
+        "AggregateType": -1
+      },
+      "Qst132": {
+        "ColumnWidth": 600,
+        "Description": "CLIMATISATION",
+        "AggregateType": -1
+      },
+      "Qst133": {
+        "ColumnWidth": 600,
+        "Description": "FIOUL",
+        "AggregateType": -1
+      },
+      "Qst134": {
+        "ColumnWidth": 600,
+        "Description": "SOLAIRE",
+        "AggregateType": -1
+      },
+      "Qst135": {
+        "ColumnWidth": 600,
+        "Description": "ELECTRICITE",
+        "AggregateType": -1
+      },
+      "Qst136": {
+        "ColumnWidth": 600,
+        "Description": "POMPE A CHALEUR",
+        "AggregateType": -1
+      },
+      "Qst137": {
+        "ColumnWidth": 7710,
+        "Description": "REMARQUES",
+        "AggregateType": -1
+      },
+      "Qst14": {
+        "ColumnWidth": 600,
+        "Description": "CHAUDIERE ISOSPLIT FACTICE",
+        "AggregateType": -1
+      },
+      "Qst15": {
+        "ColumnWidth": 600,
+        "Description": "CHAUDIERE ISOTWIN D'EXPO",
+        "AggregateType": -1
+      },
+      "Qst16": {
+        "ColumnWidth": 600,
+        "Description": "CHAUDIERE ISOTWIN EN FONCTIONNEMENT",
+        "AggregateType": -1
+      },
+      "Qst17": {
+        "ColumnWidth": 600,
+        "Description": "CHAUDIERE ISOTWIN FACTICE",
+        "AggregateType": -1
+      },
+      "Qst18": {
+        "ColumnWidth": 600,
+        "Description": "CHAUDIERE ISOMAX D'EXPO",
+        "AggregateType": -1
+      },
+      "Qst19": {
+        "ColumnWidth": 600,
+        "Description": "CHAUDIERE ISOMAX EN FONCTIONNEMENT",
+        "AggregateType": -1
+      },
+      "Qst2": {
+        "ColumnWidth": 600,
+        "Description": "DISPOSEZ SHOW ROOM",
+        "AggregateType": -1
+      },
+      "Qst20": {
+        "ColumnWidth": 600,
+        "Description": "CHAUDIERE ISOMAX FACTICE",
+        "AggregateType": -1
+      },
+      "Qst21": {
+        "ColumnWidth": 600,
+        "Description": "CHAUFFE EAU OPALIA D'EXPO",
+        "AggregateType": -1
+      },
+      "Qst22": {
+        "ColumnWidth": 600,
+        "Description": "CHAUFFE EAU OPALIA EN FONCTIONNEMENT",
+        "AggregateType": -1
+      },
+      "Qst23": {
+        "ColumnWidth": 600,
+        "Description": "CHAUFFE EAU OPALIA FACTICE",
+        "AggregateType": -1
+      },
+      "Qst24": {
+        "ColumnWidth": 600,
+        "Description": "CLIMATISEUR MURAL D'EXPO",
+        "AggregateType": -1
+      },
+      "Qst25": {
+        "ColumnWidth": 600,
+        "Description": "CLIMATISEUR MURAL EN FONCTIONNEMENT",
+        "AggregateType": -1
+      },
+      "Qst26": {
+        "ColumnWidth": 600,
+        "Description": "CLIMATISEUR MURAL FACTICE",
+        "AggregateType": -1
+      },
+      "Qst27": {
+        "ColumnWidth": 600,
+        "Description": "CLIMATISEUR CONSOLE D'EXPO",
+        "AggregateType": -1
+      },
+      "Qst28": {
+        "ColumnWidth": 600,
+        "Description": "CLIMATISEUR CONSOLE EN FONCTIONNEMENT",
+        "AggregateType": -1
+      },
+      "Qst29": {
+        "ColumnWidth": 600,
+        "Description": "CLIMATISEUR CONSOLE FACTICE",
+        "AggregateType": -1
+      },
+      "Qst3": {
+        "ColumnWidth": 600,
+        "Description": "CHAUDIERE THEMA D'EXPO",
+        "AggregateType": -1
+      },
+      "Qst30": {
+        "ColumnWidth": 600,
+        "Description": "CLIMATISEUR PLAFONIER D'EXPO",
+        "AggregateType": -1
+      },
+      "Qst31": {
+        "ColumnWidth": 600,
+        "Description": "CLIMATISEUR PLAFONIER EN FONCTIONNEMENT",
+        "AggregateType": -1
+      },
+      "Qst32": {
+        "ColumnWidth": 600,
+        "Description": "CLIMATISEUR PLAFONIER FACTICE",
+        "AggregateType": -1
+      },
+      "Qst33": {
+        "ColumnWidth": 600,
+        "Description": "CLIMATISEUR CASSETTE D'EXPO",
+        "AggregateType": -1
+      },
+      "Qst34": {
+        "ColumnWidth": 600,
+        "Description": "CLIMATISEUR CASSETTE EN FONCTIONNEMENT",
+        "AggregateType": -1
+      },
+      "Qst35": {
+        "ColumnWidth": 600,
+        "Description": "CLIMATISEUR CASSETTE FACTICE",
+        "AggregateType": -1
+      },
+      "Qst36": {
+        "ColumnWidth": 600,
+        "Description": "CLIMATISEUR GAINABLE D'EXPO",
+        "AggregateType": -1
+      },
+      "Qst37": {
+        "ColumnWidth": 600,
+        "Description": "CLIMATISEUR GAINABLE EN FONCTIONNEMENT",
+        "AggregateType": -1
+      },
+      "Qst38": {
+        "ColumnWidth": 600,
+        "Description": "CLIMATISEUR GAINABLE FACTICE",
+        "AggregateType": -1
+      },
+      "Qst39": {
+        "ColumnWidth": 600,
+        "Description": "EQUIPE SHOW ROOM",
+        "AggregateType": -1
+      },
+      "Qst4": {
+        "ColumnWidth": 600,
+        "Description": "CHAUDIERE THEMA EN FONCTIONNEMENT",
+        "AggregateType": -1
+      },
+      "Qst40": {
+        "ColumnWidth": 600,
+        "Description": "CHAUDIERE THEMA D'EXPO",
+        "AggregateType": -1
+      },
+      "Qst41": {
+        "ColumnWidth": 600,
+        "Description": "CHAUDIERE THEMA EN FONCTIONNEMENT",
+        "AggregateType": -1
+      },
+      "Qst42": {
+        "ColumnWidth": 600,
+        "Description": "CHAUDIERE THEMA FACTICE",
+        "AggregateType": -1
+      },
+      "Qst43": {
+        "ColumnWidth": 600,
+        "Description": "CHAUDIERE THEMAPLUS D'EXPO",
+        "AggregateType": -1
+      },
+      "Qst44": {
+        "ColumnWidth": 600,
+        "Description": "CHAUDIERE THEMAPLUS EN FONCTIONNEMENT",
+        "AggregateType": -1
+      },
+      "Qst45": {
+        "ColumnWidth": 600,
+        "Description": "CHAUDIERE THEMAPLUS FACTICE",
+        "AggregateType": -1
+      },
+      "Qst46": {
+        "ColumnWidth": 600,
+        "Description": "CHAUDIERE ISOFAST D'EXPO",
+        "AggregateType": -1
+      },
+      "Qst47": {
+        "ColumnWidth": 600,
+        "Description": "CHAUDIERE ISOFAST EN FONCTIONNEMENT",
+        "AggregateType": -1
+      },
+      "Qst48": {
+        "ColumnWidth": 600,
+        "Description": "CHAUDIERE ISOFAST FACTICE",
+        "AggregateType": -1
+      },
+      "Qst49": {
+        "ColumnWidth": 600,
+        "Description": "CHAUDIERE ISOSPLIT D'EXPO",
+        "AggregateType": -1
+      },
+      "Qst5": {
+        "ColumnWidth": 600,
+        "Description": "CHAUDIERE THEMA FACTICE",
+        "AggregateType": -1
+      },
+      "Qst50": {
+        "ColumnWidth": 600,
+        "Description": "CHAUDIERE ISOSPLIT EN FONCTIONNEMENT",
+        "AggregateType": -1
+      },
+      "Qst51": {
+        "ColumnWidth": 600,
+        "Description": "CHAUDIERE ISOSPLIT FACTICE",
+        "AggregateType": -1
+      },
+      "Qst52": {
+        "ColumnWidth": 600,
+        "Description": "CHAUDIERE ISOTWIN D'EXPO",
+        "AggregateType": -1
+      },
+      "Qst53": {
+        "ColumnWidth": 600,
+        "Description": "CHAUDIERE ISOTWIN EN FONCTIONNEMENT",
+        "AggregateType": -1
+      },
+      "Qst54": {
+        "ColumnWidth": 600,
+        "Description": "CHAUDIERE ISOTWIN FACTICE",
+        "AggregateType": -1
+      },
+      "Qst55": {
+        "ColumnWidth": 600,
+        "Description": "CHAUDIERE ISOMAX D'EXPO",
+        "AggregateType": -1
+      },
+      "Qst56": {
+        "ColumnWidth": 600,
+        "Description": "CHAUDIERE ISOMAX EN FONCTIONNEMENT",
+        "AggregateType": -1
+      },
+      "Qst57": {
+        "ColumnWidth": 600,
+        "Description": "CHAUDIERE ISOMAX FACTICE",
+        "AggregateType": -1
+      },
+      "Qst58": {
+        "ColumnWidth": 600,
+        "Description": "CHAUFFE EAU OPALIA D'EXPO",
+        "AggregateType": -1
+      },
+      "Qst59": {
+        "ColumnWidth": 600,
+        "Description": "CHAUFFE EAU OPALIA EN FONCTIONNEMENT",
+        "AggregateType": -1
+      },
+      "Qst6": {
+        "ColumnWidth": 600,
+        "Description": "CHAUDIERE THEMAPLUS D'EXPO",
+        "AggregateType": -1
+      },
+      "Qst60": {
+        "ColumnWidth": 600,
+        "Description": "CHAUFFE EAU OPALIA FACTICE",
+        "AggregateType": -1
+      },
+      "Qst61": {
+        "ColumnWidth": 600,
+        "Description": "CLIMATISEUR MURAL D'EXPO",
+        "AggregateType": -1
+      },
+      "Qst62": {
+        "ColumnWidth": 600,
+        "Description": "CLIMATISEUR MURAL EN FONCTIONNEMENT",
+        "AggregateType": -1
+      },
+      "Qst63": {
+        "ColumnWidth": 600,
+        "Description": "CLIMATISEUR MURAL FACTICE",
+        "AggregateType": -1
+      },
+      "Qst64": {
+        "ColumnWidth": 600,
+        "Description": "CLIMATISEUR CONSOLE D'EXPO",
+        "AggregateType": -1
+      },
+      "Qst65": {
+        "ColumnWidth": 600,
+        "Description": "CLIMATISEUR CONSOLE EN FONCTIONNEMENT",
+        "AggregateType": -1
+      },
+      "Qst66": {
+        "ColumnWidth": 600,
+        "Description": "CLIMATISEUR CONSOLE FACTICE",
+        "AggregateType": -1
+      },
+      "Qst67": {
+        "ColumnWidth": 600,
+        "Description": "CLIMATISEUR PLAFONIER D'EXPO",
+        "AggregateType": -1
+      },
+      "Qst68": {
+        "ColumnWidth": 600,
+        "Description": "CLIMATISEUR PLAFONIER EN FONCTIONNEMENT",
+        "AggregateType": -1
+      },
+      "Qst69": {
+        "ColumnWidth": 600,
+        "Description": "CLIMATISEUR PLAFONIER FACTICE",
+        "AggregateType": -1
+      },
+      "Qst7": {
+        "ColumnWidth": 600,
+        "Description": "CHAUDIERE THEMAPLUS EN FONCTIONNEMENT",
+        "AggregateType": -1
+      },
+      "Qst70": {
+        "ColumnWidth": 600,
+        "Description": "CLIMATISEUR CASSETTE D'EXPO",
+        "AggregateType": -1
+      },
+      "Qst71": {
+        "ColumnWidth": 600,
+        "Description": "CLIMATISEUR CASSETTE EN FONCTIONNEMENT",
+        "AggregateType": -1
+      },
+      "Qst72": {
+        "ColumnWidth": 600,
+        "Description": "CLIMATISEUR CASSETTE FACTICE",
+        "AggregateType": -1
+      },
+      "Qst73": {
+        "ColumnWidth": 600,
+        "Description": "CLIMATISEUR GAINABLE D'EXPO",
+        "AggregateType": -1
+      },
+      "Qst74": {
+        "ColumnWidth": 600,
+        "Description": "CLIMATISEUR GAINABLE EN FONCTIONNEMENT",
+        "AggregateType": -1
+      },
+      "Qst75": {
+        "ColumnWidth": 600,
+        "Description": "CLIMATISEUR GAINABLE FACTICE",
+        "AggregateType": -1
+      },
+      "Qst76": {
+        "ColumnWidth": 600,
+        "Description": "FINANCER",
+        "AggregateType": -1
+      },
+      "Qst77": {
+        "ColumnWidth": 2340,
+        "Description": "HAUTEUR",
+        "AggregateType": -1
+      },
+      "Qst78": {
+        "ColumnWidth": 2340,
+        "Description": "DEVISE",
+        "AggregateType": -1
+      },
+      "Qst79": {
+        "ColumnWidth": 705,
+        "Description": "DISPOSEZ PRESENTOIRS",
+        "AggregateType": -1
+      },
+      "Qst8": {
+        "ColumnWidth": 600,
+        "Description": "CHAUDIERE THEMAPLUS FACTICE",
+        "AggregateType": -1
+      },
+      "Qst80": {
+        "ColumnWidth": 705,
+        "Description": "SOUHAITEZ PRESENTOIRS",
+        "AggregateType": -1
+      },
+      "Qst81": {
+        "ColumnWidth": 2340,
+        "Description": "HAUTEUR",
+        "AggregateType": -1
+      },
+      "Qst82": {
+        "ColumnWidth": 2340,
+        "Description": "DEVISE",
+        "AggregateType": -1
+      },
+      "Qst83": {
+        "ColumnWidth": 705,
+        "Description": "ENSEIGNES EXTERIEURES",
+        "AggregateType": -1
+      },
+      "Qst84": {
+        "ColumnWidth": 2340,
+        "Description": "QUANTITE",
+        "AggregateType": -1
+      },
+      "Qst85": {
+        "ColumnWidth": 2340,
+        "Description": "COMMENTAIRES",
+        "AggregateType": -1
+      },
+      "Qst86": {
+        "ColumnWidth": 600,
+        "Description": "ENSEIGNES INTERIEURES",
+        "AggregateType": -1
+      },
+      "Qst87": {
+        "ColumnWidth": 2340,
+        "Description": "QUANTITE",
+        "AggregateType": -1
+      },
+      "Qst88": {
+        "ColumnWidth": 2340,
+        "Description": "COMMENTAIRES",
+        "AggregateType": -1
+      },
+      "Qst89": {
+        "ColumnWidth": 600,
+        "Description": "AUTOCOLLANTS",
+        "AggregateType": -1
+      },
+      "Qst9": {
+        "ColumnWidth": 600,
+        "Description": "CHAUDIERE ISOFAST D'EXPO",
+        "AggregateType": -1
+      },
+      "Qst90": {
+        "ColumnWidth": 600,
+        "Description": "QUANTITE",
+        "AggregateType": -1
+      },
+      "Qst91": {
+        "ColumnWidth": 600,
+        "Description": "COMMENTAIRES",
+        "AggregateType": -1
+      },
+      "Qst92": {
+        "ColumnWidth": 600,
+        "Description": "PLAQUES MAGNETIQUES",
+        "AggregateType": -1
+      },
+      "Qst93": {
+        "ColumnWidth": 600,
+        "Description": "QUANTITE",
+        "AggregateType": -1
+      },
+      "Qst94": {
+        "ColumnWidth": 600,
+        "Description": "COMMENTAIRES",
+        "AggregateType": -1
+      },
+      "Qst95": {
+        "ColumnWidth": 600,
+        "Description": "KAKEMONOS",
+        "AggregateType": -1
+      },
+      "Qst96": {
+        "ColumnWidth": 600,
+        "Description": "QUANTITE",
+        "AggregateType": -1
+      },
+      "Qst97": {
+        "ColumnWidth": 600,
+        "Description": "COMMENTAIRES",
+        "AggregateType": -1
+      },
+      "Qst98": {
+        "ColumnWidth": 600,
+        "Description": "AFFICHES",
+        "AggregateType": -1
+      },
+      "Qst99": {
+        "ColumnWidth": 600,
+        "Description": "QUANTITE",
+        "AggregateType": -1
+      },
+      "SelSocietesSTAVillesContactsTAInscrit.ConNom": {
+        "ColumnWidth": 1575,
+        "Description": "Nom",
+        "AggregateType": -1
+      },
+      "SelSocietesSTAVillesContactsTAInscrit.ConPrenom": {
+        "ColumnWidth": 1515,
+        "Description": "Prenom",
+        "AggregateType": -1
+      },
+      "SelSocietesSTAVillesContactsTAInscrit.ConTelPort": {
+        "ColumnWidth": 1230,
+        "Description": "Port",
+        "AggregateType": -1
+      },
+      "SelSocietesSTAVillesContactsTAInscrit.SocEMail": {
+        "ColumnWidth": 3150,
+        "Description": "EMail",
+        "AggregateType": -1
+      },
+      "SelSocietesSTAVillesContactsTAInscrit.SocFax": {
+        "ColumnWidth": 1470,
+        "Description": "Fax",
+        "AggregateType": -1
+      },
+      "SelSocietesSTAVillesContactsTAInscrit.SocRaison": {
+        "ColumnWidth": 3270,
+        "Description": "Raison",
+        "AggregateType": -1
+      },
+      "SelSocietesSTAVillesContactsTAInscrit.SocSTA": {
+        "ColumnWidth": 1245,
+        "Description": "Code STA",
+        "AggregateType": -1
+      },
+      "SelSocietesSTAVillesContactsTAInscrit.SocTel1": {
+        "ColumnWidth": 1470,
+        "Description": "Tel1",
+        "AggregateType": -1
+      },
+      "SelSocietesSTAVillesContactsTAInscrit.SocTel2": {
+        "ColumnWidth": 1470,
+        "Description": "Tel2",
+        "AggregateType": -1
+      },
+      "SelSocietesSTAVillesContactsTAInscrit.SocVilCodePostal": {
+        "ColumnWidth": 1755,
+        "Description": "Code Postal",
+        "AggregateType": -1
+      },
+      "SelSocietesSTAVillesContactsTAInscrit.SocVilNom": {
+        "ColumnWidth": 2670,
+        "Description": "Ville",
+        "AggregateType": -1
+      },
+      "SelSocietesSTAVillesContactsTAInscrit.SocWeb": {
+        "ColumnWidth": 2250,
+        "Description": "Web",
+        "AggregateType": -1
+      },
+      "SocAdr1": {
+        "ColumnWidth": 2580,
+        "Description": "Adresse",
+        "AggregateType": -1
+      },
+      "SocAdr2": {
+        "ColumnWidth": 2100,
+        "Description": "Adresse",
+        "AggregateType": -1
+      },
+      "SocAdr3": {
+        "ColumnWidth": 2580,
+        "Description": "Adresse",
+        "AggregateType": -1
+      },
+      "TBLSOCIETESAPPELS3.SocAppDate": {
+        "ColumnWidth": 1860,
+        "Description": "AppDate",
+        "AggregateType": -1
+      },
+      "TBLSOCIETESAPPELS3.SocAppHeure": {
+        "ColumnWidth": 1965,
+        "Description": "AppHeure",
+        "AggregateType": -1
+      },
+      "TBLSOCIETESAPPELS3.SocAppNotes": {
+        "ColumnWidth": 2970,
+        "Description": "AppNotes",
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 40,
+        "top": 62,
+        "right": 1258,
+        "bottom": 647
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1207,
+        "bottom": 409
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "SelSocietesSTAVillesContactsTAInscrit",
+          "Alias": "",
+          "Left": 472,
+          "Top": 5,
+          "Right": 824,
+          "Bottom": 367,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLSOCIETESCALL2",
+          "Alias": "",
+          "Left": 220,
+          "Top": 128,
+          "Right": 392,
+          "Bottom": 235,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLSOCIETESAPPELS3",
+          "Alias": "",
+          "Left": 38,
+          "Top": 6,
+          "Right": 189,
+          "Bottom": 113,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Liste Des Reponses Au Call 2 Des STA Adherents"
+      }
+    }
+  }
+}

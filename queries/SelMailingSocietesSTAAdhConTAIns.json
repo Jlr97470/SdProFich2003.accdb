@@ -1,0 +1,134 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelMailingSocietesSTAAdhConTAIns"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Liste Des STA Adherents"
+      }
+    },
+    "Columns": {
+      "ConNom": {
+        "ColumnWidth": 1575,
+        "Description": "Nom",
+        "AggregateType": -1
+      },
+      "ConPrenom": {
+        "ColumnWidth": 1515,
+        "Description": "Prenom",
+        "AggregateType": -1
+      },
+      "ConTelPort": {
+        "ColumnWidth": 1470,
+        "Description": "Portable",
+        "AggregateType": -1
+      },
+      "SocAdr": {
+        "ColumnWidth": 2580,
+        "Description": "Adresse",
+        "AggregateType": -1
+      },
+      "SocEMail": {
+        "ColumnWidth": 3150,
+        "Description": "EMAIL",
+        "AggregateType": -1
+      },
+      "SocVilCodePostal": {
+        "ColumnWidth": 1245,
+        "Description": "Code Postal",
+        "AggregateType": -1
+      },
+      "SocVilNom": {
+        "ColumnWidth": 2670,
+        "Description": "Ville",
+        "AggregateType": -1
+      },
+      "SocWeb": {
+        "ColumnWidth": 1395,
+        "Description": "Web",
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocFax": {
+        "ColumnWidth": 1470,
+        "Description": "Fax",
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocRaison": {
+        "Description": "Raison",
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocSTA": {
+        "ColumnWidth": 1245,
+        "Description": "Code STA",
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocTel1": {
+        "ColumnWidth": 1470,
+        "Description": "Tel1",
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocTel2": {
+        "ColumnWidth": 1470,
+        "Description": "Tel2",
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 47,
+        "top": 69,
+        "right": 1130,
+        "bottom": 654
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1076,
+        "bottom": 409
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 543,
+      "Tables": [
+        {
+          "Name": "TBLVILLES",
+          "Alias": "",
+          "Left": 176,
+          "Top": 189,
+          "Right": 272,
+          "Bottom": 253,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLSOCIETES",
+          "Alias": "",
+          "Left": 8,
+          "Top": 7,
+          "Right": 146,
+          "Bottom": 251,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "SelContactsInscrit",
+          "Alias": "",
+          "Left": 367,
+          "Top": 12,
+          "Right": 620,
+          "Bottom": 331,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Liste Des STA Adherents"
+      }
+    }
+  }
+}

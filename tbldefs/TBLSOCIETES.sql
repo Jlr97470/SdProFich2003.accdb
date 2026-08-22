@@ -1,0 +1,23 @@
+﻿CREATE TABLE [TBLSOCIETES] (
+  [SocNum] AUTOINCREMENT CONSTRAINT [CleSocNum] UNIQUE,
+  [SocConNum] LONG,
+  [SocSocNum] LONG,
+  [SocTypCode] VARCHAR (4) CONSTRAINT [TBLSOCIETESTYPESTBLSOCIETES] REFERENCES [TBLSOCIETESTYPES] ([SocTypCode]) ON UPDATE CASCADE ,
+  [SocAdh] BIT,
+  [SocDateCre] DATETIME,
+  [SocDateMaj] DATETIME,
+  [SocSTA] VARCHAR (10) CONSTRAINT [CleSocSTA] UNIQUE,
+  [SocSTAOld] VARCHAR (10) CONSTRAINT [CleSocSTAOld] UNIQUE,
+  [SocRaison] VARCHAR (120),
+  [SocAdresse] VARCHAR (120),
+  [SocVilNum] LONG,
+  [SocTel1] VARCHAR (10),
+  [SocTel1Lib] VARCHAR (30),
+  [SocTel2] VARCHAR (10),
+  [SocTel2Lib] VARCHAR (30),
+  [SocFax] VARCHAR (10),
+  [SocEMail] LONGTEXT,
+  [SocWeb] LONGTEXT,
+  [SocNotes] LONGTEXT,
+   CONSTRAINT [PrimaryKey] PRIMARY KEY ([SocRaison], [SocAdresse], [SocVilNum])
+)

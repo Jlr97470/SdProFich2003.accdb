@@ -1,0 +1,141 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelSocietesPointsUtilsISOExercicesDetailler"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes, Points Et Utilisations ISO Par Exercices Detailler\r\nUtiliser Par :\r\n- Site Web"
+      },
+      "RowHeight": {
+        "Type": 3,
+        "Value": 255
+      }
+    },
+    "Columns": {
+      "PointISO2001Sem1": {
+        "ColumnWidth": 1665,
+        "AggregateType": -1
+      },
+      "PointISO2001Sem2": {
+        "ColumnWidth": 1665,
+        "AggregateType": -1
+      },
+      "PointISO2002Sem1": {
+        "ColumnWidth": 1665,
+        "AggregateType": -1
+      },
+      "PointISO2002Sem2": {
+        "ColumnWidth": 1665,
+        "AggregateType": -1
+      },
+      "PointISO2003Sem1": {
+        "ColumnWidth": 1665,
+        "AggregateType": -1
+      },
+      "PointISO2003Sem2": {
+        "ColumnWidth": 1665,
+        "AggregateType": -1
+      },
+      "PointISO2004Sem1": {
+        "ColumnWidth": 1665,
+        "AggregateType": -1
+      },
+      "PointISO2004Sem2": {
+        "ColumnWidth": 1665,
+        "AggregateType": -1
+      },
+      "SoldeISO2001Sem1": {
+        "ColumnWidth": 1710,
+        "AggregateType": -1
+      },
+      "SoldeISO2001Sem2": {
+        "ColumnWidth": 1710,
+        "AggregateType": -1
+      },
+      "SoldeISO2002Sem1": {
+        "ColumnWidth": 1710,
+        "AggregateType": -1
+      },
+      "SoldeISO2002Sem2": {
+        "ColumnWidth": 1710,
+        "AggregateType": -1
+      },
+      "SoldeISO2003Sem1": {
+        "ColumnWidth": 1545,
+        "AggregateType": -1
+      },
+      "SoldeISO2003Sem2": {
+        "ColumnWidth": 1545,
+        "AggregateType": -1
+      },
+      "SoldeISO2004Sem1": {
+        "ColumnWidth": 1545,
+        "AggregateType": -1
+      },
+      "SoldeISO2004Sem2": {
+        "ColumnWidth": 1545,
+        "AggregateType": -1
+      },
+      "UtilISO2001Sem1": {
+        "ColumnWidth": 1500,
+        "AggregateType": -1
+      },
+      "UtilISO2001Sem2": {
+        "ColumnWidth": 1500,
+        "AggregateType": -1
+      },
+      "UtilISO2002Sem1": {
+        "ColumnWidth": 1500,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 18,
+        "top": 40,
+        "right": 1010,
+        "bottom": 636
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 985,
+        "bottom": 420
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 543,
+      "Tables": [
+        {
+          "Name": "TBLMOUVEMENTS",
+          "Alias": "",
+          "Left": 38,
+          "Top": 6,
+          "Right": 275,
+          "Bottom": 195,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLEXERCICES",
+          "Alias": "",
+          "Left": 313,
+          "Top": 6,
+          "Right": 409,
+          "Bottom": 90,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes, Points Et Utilisations ISO Par Exercices Detailler\r\nUtiliser Par :\r\n- Site Web"
+      }
+    }
+  }
+}

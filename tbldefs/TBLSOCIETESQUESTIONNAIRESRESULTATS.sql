@@ -1,0 +1,7 @@
+﻿CREATE TABLE [TBLSOCIETESQUESTIONNAIRESRESULTATS] (
+  [SocQstResNum] AUTOINCREMENT CONSTRAINT [CleConQstResNum] UNIQUE,
+  [SocQstResSocNum] LONG,
+  [SocQstResSocQstTypIDNum] LONG,
+  [SocQstResValeur] LONGTEXT,
+   CONSTRAINT [PrimaryKey] PRIMARY KEY ([SocQstResSocNum], [SocQstResSocQstTypIDNum])
+)

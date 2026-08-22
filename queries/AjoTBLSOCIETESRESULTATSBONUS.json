@@ -1,0 +1,54 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "AjoTBLSOCIETESRESULTATSBONUS"
+  },
+  "Items": {
+    "QueryType": 64,
+    "QueryProperties": {
+      "RecordLocks": {
+        "Type": 2,
+        "Value": 2
+      },
+      "Description": {
+        "Type": 10,
+        "Value": "Ajout Des Resultats (Bonus Rea/ISO) Dans La Table TBLSOCIETESRESULTATSBONUS"
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 47,
+        "top": 30,
+        "right": 1130,
+        "bottom": 599
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1051,
+        "bottom": 376
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 651,
+      "Tables": [
+        {
+          "Name": "SelSocietesResultatsBonusDetailler",
+          "Alias": "",
+          "Left": 491,
+          "Top": 6,
+          "Right": 792,
+          "Bottom": 354,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Ajout Des Resultats (Bonus Rea/ISO) Dans La Table TBLSOCIETESRESULTATSBONUS"
+      }
+    }
+  }
+}

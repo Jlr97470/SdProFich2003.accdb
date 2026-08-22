@@ -1,0 +1,18 @@
+﻿{
+  "Info": {
+    "Class": "clsDbRelation",
+    "Description": "Database relationship"
+  },
+  "Items": {
+    "Name": "TBLSOCIETESTYPESTBLSOCIETES",
+    "Attributes": 256,
+    "Table": "TBLSOCIETESTYPES",
+    "ForeignTable": "TBLSOCIETES",
+    "Fields": [
+      {
+        "Name": "SocTypCode",
+        "ForeignName": "SocTypCode"
+      }
+    ]
+  }
+}

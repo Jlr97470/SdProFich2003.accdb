@@ -1,0 +1,152 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelEtatRelevesSocietesSoldesMouvements"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "ODBCTimeout": {
+        "Type": 3,
+        "Value": 0
+      },
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes, Mouvements Detailler A Date Releves\r\nUtiliser Par\r\n- SEtaSocietesSoldesRelevesMouvements"
+      }
+    },
+    "Columns": {
+      "MvtCredit2001": {
+        "Caption": "Credit 2001",
+        "AggregateType": -1
+      },
+      "MvtCredit2002": {
+        "Caption": "Credit 2002",
+        "AggregateType": -1
+      },
+      "MvtCredit2003": {
+        "Caption": "Credit 2003",
+        "AggregateType": -1
+      },
+      "MvtCredit2004": {
+        "Caption": "Credit 2003",
+        "AggregateType": -1
+      },
+      "MvtDate": {
+        "Caption": "Date",
+        "ColumnWidth": 1140,
+        "AggregateType": -1
+      },
+      "MvtDebit2001": {
+        "Caption": "Debit 2001",
+        "AggregateType": -1
+      },
+      "MvtDebit2002": {
+        "Caption": "Debit 2002",
+        "AggregateType": -1
+      },
+      "MvtDebit2003": {
+        "Caption": "Debit 2003",
+        "AggregateType": -1
+      },
+      "MvtDebit2004": {
+        "Caption": "Debit 2003",
+        "AggregateType": -1
+      },
+      "MvtMvtDate": {
+        "Caption": "Date",
+        "ColumnWidth": 1140,
+        "AggregateType": -1
+      },
+      "MvtQuantite": {
+        "Caption": "Qte",
+        "AggregateType": -1
+      },
+      "TBLMOUVEMENTS.MvtIntitule": {
+        "Caption": "Intitule",
+        "ColumnWidth": 3165,
+        "AggregateType": -1
+      },
+      "TBLMOUVEMENTS.MvtSocNum": {
+        "ColumnWidth": 1005,
+        "AggregateType": -1
+      },
+      "TBLMOUVEMENTSNATURES.MvtNatCode": {
+        "Caption": "Nature",
+        "ColumnWidth": 1050,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 2,
+      "Window": {
+        "left": -4,
+        "top": -23,
+        "right": 1152,
+        "bottom": 776
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1149,
+        "bottom": 263
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 2591,
+      "Tables": [
+        {
+          "Name": "TBLMOUVEMENTSNATURES",
+          "Alias": "",
+          "Left": 38,
+          "Top": 6,
+          "Right": 134,
+          "Bottom": 98,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLEXERCICES",
+          "Alias": "",
+          "Left": 172,
+          "Top": 6,
+          "Right": 268,
+          "Bottom": 98,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLCHAUDIERESARTICLES",
+          "Alias": "",
+          "Left": 306,
+          "Top": 6,
+          "Right": 402,
+          "Bottom": 98,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLMOUVEMENTS",
+          "Alias": "",
+          "Left": 440,
+          "Top": 6,
+          "Right": 536,
+          "Bottom": 113,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLCHAUDIERESREMONTEES",
+          "Alias": "",
+          "Left": 574,
+          "Top": 6,
+          "Right": 670,
+          "Bottom": 113,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes, Mouvements Detailler A Date Releves\r\nUtiliser Par\r\n- SEtaSocietesSoldesRelevesMouvements"
+      }
+    }
+  }
+}

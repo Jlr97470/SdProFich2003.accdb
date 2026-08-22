@@ -1,0 +1,161 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelSocietesSoldesExercicesDetaillerReleves"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes, Soldes Par Exercices Detailler A Date Releves\r\nUtiliser Par :\r\n- SelSocietesResultatsBonusDetaillerReleves"
+      },
+      "OrderByOn": {
+        "Type": 1,
+        "Value": true
+      }
+    },
+    "Columns": {
+      "Solde2002RelevesDebut": {
+        "ColumnWidth": 2280,
+        "AggregateType": -1
+      },
+      "Solde2002RelevesFin": {
+        "ColumnWidth": 2040,
+        "AggregateType": -1
+      },
+      "Solde2003RelevesDebut": {
+        "ColumnWidth": 2280,
+        "AggregateType": -1
+      },
+      "Solde2003RelevesFin": {
+        "ColumnWidth": 2040,
+        "AggregateType": -1
+      },
+      "Solde2004RelevesDebut": {
+        "ColumnWidth": 2280,
+        "AggregateType": -1
+      },
+      "Solde2004RelevesFin": {
+        "ColumnWidth": 2040,
+        "AggregateType": -1
+      },
+      "SoldeRelevesDebut": {
+        "ColumnWidth": 1860,
+        "AggregateType": -1
+      },
+      "SoldeRelevesFin": {
+        "ColumnWidth": 1620,
+        "AggregateType": -1
+      },
+      "TotalCredit2002RelevesDebut": {
+        "ColumnWidth": 2715,
+        "AggregateType": -1
+      },
+      "TotalCredit2002RelevesFin": {
+        "ColumnWidth": 2475,
+        "AggregateType": -1
+      },
+      "TotalCredit2003RelevesDebut": {
+        "ColumnWidth": 2715,
+        "AggregateType": -1
+      },
+      "TotalCredit2003RelevesFin": {
+        "ColumnWidth": 2475,
+        "AggregateType": -1
+      },
+      "TotalCredit2004RelevesDebut": {
+        "ColumnWidth": 2715,
+        "AggregateType": -1
+      },
+      "TotalCredit2004RelevesFin": {
+        "ColumnWidth": 2475,
+        "AggregateType": -1
+      },
+      "TotalCreditRelevesDebut": {
+        "ColumnWidth": 2295,
+        "AggregateType": -1
+      },
+      "TotalCreditRelevesFin": {
+        "ColumnWidth": 2055,
+        "AggregateType": -1
+      },
+      "TotalDebit2002RelevesDebut": {
+        "ColumnWidth": 2655,
+        "AggregateType": -1
+      },
+      "TotalDebit2002RelevesFin": {
+        "ColumnWidth": 2415,
+        "AggregateType": -1
+      },
+      "TotalDebit2003RelevesDebut": {
+        "ColumnWidth": 2655,
+        "AggregateType": -1
+      },
+      "TotalDebit2003RelevesFin": {
+        "ColumnWidth": 2415,
+        "AggregateType": -1
+      },
+      "TotalDebit2004RelevesDebut": {
+        "ColumnWidth": 2655,
+        "AggregateType": -1
+      },
+      "TotalDebit2004RelevesFin": {
+        "ColumnWidth": 2415,
+        "AggregateType": -1
+      },
+      "TotalDebitRelevesDebut": {
+        "ColumnWidth": 2235,
+        "AggregateType": -1
+      },
+      "TotalDebitRelevesFin": {
+        "ColumnWidth": 1995,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 47,
+        "top": 69,
+        "right": 1130,
+        "bottom": 480
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1076,
+        "bottom": 235
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 543,
+      "Tables": [
+        {
+          "Name": "TBLEXERCICES",
+          "Alias": "",
+          "Left": 343,
+          "Top": 15,
+          "Right": 475,
+          "Bottom": 92,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLMOUVEMENTS",
+          "Alias": "",
+          "Left": 180,
+          "Top": 14,
+          "Right": 313,
+          "Bottom": 181,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes, Soldes Par Exercices Detailler A Date Releves\r\nUtiliser Par :\r\n- SelSocietesResultatsBonusDetaillerReleves"
+      }
+    }
+  }
+}

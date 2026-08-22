@@ -1,0 +1,18 @@
+﻿{
+  "Info": {
+    "Class": "clsDbRelation",
+    "Description": "Database relationship"
+  },
+  "Items": {
+    "Name": "TBLMOUVEMENTSNATURESTBLMOUVEMENTS",
+    "Attributes": 256,
+    "Table": "TBLMOUVEMENTSNATURES",
+    "ForeignTable": "TBLMOUVEMENTS",
+    "Fields": [
+      {
+        "Name": "MvtNatNum",
+        "ForeignName": "MvtMvtNatNum"
+      }
+    ]
+  }
+}

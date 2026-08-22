@@ -1,0 +1,18 @@
+﻿{
+  "Info": {
+    "Class": "clsDbRelation",
+    "Description": "Database relationship"
+  },
+  "Items": {
+    "Name": "TBLCADEAUXACHATSTBLMOUVEMENTS",
+    "Attributes": 2,
+    "Table": "TBLCADEAUXACHATS",
+    "ForeignTable": "TBLMOUVEMENTS",
+    "Fields": [
+      {
+        "Name": "CadAchNum",
+        "ForeignName": "MvtDossier"
+      }
+    ]
+  }
+}

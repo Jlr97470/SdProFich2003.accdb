@@ -1,0 +1,18 @@
+﻿{
+  "Info": {
+    "Class": "clsDbRelation",
+    "Description": "Database relationship"
+  },
+  "Items": {
+    "Name": "TBLCADEAUXARTICLESTBLCADEAUXACHATS",
+    "Attributes": 256,
+    "Table": "TBLCADEAUXARTICLES",
+    "ForeignTable": "TBLCADEAUXACHATS",
+    "Fields": [
+      {
+        "Name": "CadArtNum",
+        "ForeignName": "CadAchCadArtNum"
+      }
+    ]
+  }
+}

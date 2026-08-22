@@ -1,0 +1,174 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelMailingSocDRConATCSocSTAAdhConTAInsResSemestresDetSPLITBis"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Situation Des STA"
+      },
+      "OrderByOn": {
+        "Type": 1,
+        "Value": true
+      }
+    },
+    "Columns": {
+      "SocResNbISO2002S1": {
+        "ColumnWidth": 2025,
+        "AggregateType": -1
+      },
+      "SocResNbISOSTD2003S1": {
+        "ColumnWidth": 2475,
+        "AggregateType": -1
+      },
+      "SocResNbISOSTD2003S2": {
+        "ColumnWidth": 2475,
+        "AggregateType": -1
+      },
+      "SocResNbISOSTD2004S1": {
+        "ColumnWidth": 2475,
+        "AggregateType": -1
+      },
+      "SocResNbISOSTD2004S2": {
+        "ColumnWidth": 2475,
+        "AggregateType": -1
+      },
+      "SocResPourISO2000S1": {
+        "ColumnWidth": 2265,
+        "Format": {
+          "Type": "dbText",
+          "Value": "Percent"
+        },
+        "AggregateType": -1
+      },
+      "SocResPourISO2000S2": {
+        "ColumnWidth": 2265,
+        "Format": {
+          "Type": "dbText",
+          "Value": "Percent"
+        },
+        "AggregateType": -1
+      },
+      "SocResPourISO2001S1": {
+        "ColumnWidth": 2265,
+        "Format": {
+          "Type": "dbText",
+          "Value": "Percent"
+        },
+        "AggregateType": -1
+      },
+      "SocResPourISO2001S2": {
+        "ColumnWidth": 2265,
+        "Format": {
+          "Type": "dbText",
+          "Value": "Percent"
+        },
+        "AggregateType": -1
+      },
+      "SocResPourISO2002S1": {
+        "ColumnWidth": 2265,
+        "Format": {
+          "Type": "dbText",
+          "Value": "Percent"
+        },
+        "AggregateType": -1
+      },
+      "SocResPourISO2002S2": {
+        "ColumnWidth": 2265,
+        "Format": {
+          "Type": "dbText",
+          "Value": "Percent"
+        },
+        "AggregateType": -1
+      },
+      "SocResPourISO2003S1": {
+        "ColumnWidth": 2265,
+        "Format": {
+          "Type": "dbText",
+          "Value": "Percent"
+        },
+        "AggregateType": -1
+      },
+      "SocResPourISO2003S2": {
+        "ColumnWidth": 1980,
+        "Format": {
+          "Type": "dbText",
+          "Value": "Percent"
+        },
+        "AggregateType": -1
+      },
+      "SocResPourISO2004S1": {
+        "ColumnWidth": 2265,
+        "Format": {
+          "Type": "dbText",
+          "Value": "Percent"
+        },
+        "AggregateType": -1
+      },
+      "SocResPourISO2004S2": {
+        "ColumnWidth": 1980,
+        "Format": {
+          "Type": "dbText",
+          "Value": "Percent"
+        },
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 47,
+        "top": 69,
+        "right": 1258,
+        "bottom": 722
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1200,
+        "bottom": 477
+      },
+      "GridLeft": 0,
+      "GridTop": 480,
+      "ColumnsShown": 543,
+      "Tables": [
+        {
+          "Name": "SelSocDRConATCSocSTAAdhConTAIns",
+          "Alias": "",
+          "Left": 0,
+          "Top": 6,
+          "Right": 134,
+          "Bottom": 369,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "AnaSocietesResultatsISOSPLITSemestres",
+          "Alias": "",
+          "Left": 164,
+          "Top": 184,
+          "Right": 414,
+          "Bottom": 385,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "SelSocietesResultatsSemestresDetailler",
+          "Alias": "",
+          "Left": 164,
+          "Top": 5,
+          "Right": 415,
+          "Bottom": 170,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Situation Des STA"
+      }
+    }
+  }
+}

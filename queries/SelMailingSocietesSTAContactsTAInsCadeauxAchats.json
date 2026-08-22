@@ -1,0 +1,193 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelMailingSocietesSTAContactsTAInsCadeauxAchats"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Achats Cadeaux"
+      }
+    },
+    "Columns": {
+      "CadAchAdresse": {
+        "Caption": "Adresse",
+        "ColumnWidth": 2250,
+        "Description": "Adresse",
+        "AggregateType": -1
+      },
+      "CadAchTel": {
+        "Caption": "Telephone",
+        "ColumnWidth": 1200,
+        "Description": "Telephone",
+        "AggregateType": -1
+      },
+      "CadAchVilCodePostal": {
+        "Caption": "Code Postal",
+        "ColumnWidth": 1290,
+        "Description": "Code Postal",
+        "AggregateType": -1
+      },
+      "CadAchVilNom": {
+        "Caption": "Ville",
+        "ColumnWidth": 2460,
+        "Description": "Ville",
+        "AggregateType": -1
+      },
+      "CadExeExercice": {
+        "Caption": "Catalogue",
+        "ColumnWidth": 1125,
+        "Description": "Catalogue",
+        "AggregateType": -1
+      },
+      "ConNom": {
+        "Caption": "Nom",
+        "ColumnWidth": 1470,
+        "Description": "Nom",
+        "AggregateType": -1
+      },
+      "ConPrenom": {
+        "Caption": "Prenom",
+        "ColumnWidth": 1800,
+        "Description": "Prenom",
+        "AggregateType": -1
+      },
+      "TBLCADEAUXACHATS.CadAchDateSaisie": {
+        "Caption": "Date Saisie",
+        "ColumnWidth": 1230,
+        "Description": "Date Saisie",
+        "AggregateType": -1
+      },
+      "TBLCADEAUXACHATS.CadAchNum": {
+        "Caption": "Numero",
+        "ColumnWidth": 900,
+        "Description": "Numero",
+        "AggregateType": -1
+      },
+      "TBLCADEAUXACHATS.CadAchQuantite": {
+        "Caption": "Quantite",
+        "ColumnWidth": 960,
+        "Description": "Quantite",
+        "AggregateType": -1
+      },
+      "TBLCADEAUXARTICLES.CadArtDescription": {
+        "Caption": "Description",
+        "ColumnWidth": 4440,
+        "Description": "Description",
+        "AggregateType": -1
+      },
+      "TBLCADEAUXARTICLES.CadArtRef": {
+        "Caption": "Reference",
+        "ColumnWidth": 1125,
+        "Description": "Reference",
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocRaison": {
+        "Caption": "Raison Sociale",
+        "ColumnWidth": 3450,
+        "Description": "Raison Sociale",
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 2,
+      "Window": {
+        "left": -4,
+        "top": -23,
+        "right": 1152,
+        "bottom": 776
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1149,
+        "bottom": 492
+      },
+      "GridLeft": 288,
+      "GridTop": 0,
+      "ColumnsShown": 2591,
+      "Tables": [
+        {
+          "Name": "TBLVILLES",
+          "Alias": "",
+          "Left": 164,
+          "Top": -25,
+          "Right": 260,
+          "Bottom": 67,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLSOCIETES",
+          "Alias": "",
+          "Left": 9,
+          "Top": -263,
+          "Right": 134,
+          "Bottom": 84,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "SelContactsInscrit",
+          "Alias": "",
+          "Left": 270,
+          "Top": -58,
+          "Right": 410,
+          "Bottom": 394,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLVILLES_1",
+          "Alias": "",
+          "Left": 443,
+          "Top": 137,
+          "Right": 602,
+          "Bottom": 229,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLVILLES_2",
+          "Alias": "",
+          "Left": 441,
+          "Top": 287,
+          "Right": 600,
+          "Bottom": 379,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLEXERCICES",
+          "Alias": "",
+          "Left": 609,
+          "Top": -277,
+          "Right": 747,
+          "Bottom": -200,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLCADEAUXARTICLES",
+          "Alias": "",
+          "Left": 440,
+          "Top": -277,
+          "Right": 579,
+          "Bottom": -155,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLCADEAUXACHATS",
+          "Alias": "",
+          "Left": 271,
+          "Top": -278,
+          "Right": 410,
+          "Bottom": -66,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Achats Cadeaux"
+      }
+    }
+  }
+}

@@ -1,0 +1,81 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelSocietesSoldesISOExercices"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes, Soldes ISO Par Exercices"
+      }
+    },
+    "Columns": {
+      "Solde": {
+        "ColumnWidth": 615,
+        "AggregateType": -1
+      },
+      "TBLMOUVEMENTS.MvtExeNum": {
+        "ColumnWidth": 2685,
+        "AggregateType": -1
+      },
+      "TBLMOUVEMENTS.MvtSocNum": {
+        "ColumnWidth": 2610,
+        "AggregateType": -1
+      },
+      "TotalCredit": {
+        "ColumnWidth": 1065,
+        "AggregateType": -1
+      },
+      "TotalDebit": {
+        "ColumnWidth": 975,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 84,
+        "top": 106,
+        "right": 1130,
+        "bottom": 759
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1035,
+        "bottom": 492
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 543,
+      "Tables": [
+        {
+          "Name": "TBLEXERCICES",
+          "Alias": "",
+          "Left": 192,
+          "Top": 6,
+          "Right": 288,
+          "Bottom": 83,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLMOUVEMENTS",
+          "Alias": "",
+          "Left": 38,
+          "Top": 6,
+          "Right": 154,
+          "Bottom": 188,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes, Soldes ISO Par Exercices"
+      }
+    }
+  }
+}

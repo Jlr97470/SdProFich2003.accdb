@@ -1,0 +1,126 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelSocietesDRContactsATCInscrit"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes DR, Contacts ATC Inscrit"
+      },
+      "OrderByOn": {
+        "Type": 1,
+        "Value": true
+      }
+    },
+    "Columns": {
+      "ATCConCivCode": {
+        "ColumnWidth": 2085,
+        "AggregateType": -1
+      },
+      "ATCConFonCode": {
+        "ColumnWidth": 2280,
+        "AggregateType": -1
+      },
+      "ATCConInscrit": {
+        "ColumnWidth": 1545,
+        "AggregateType": -1
+      },
+      "ATCConNom": {
+        "ColumnWidth": 1710,
+        "AggregateType": -1
+      },
+      "ATCConNum": {
+        "ColumnWidth": 1695,
+        "AggregateType": -1
+      },
+      "ATCConPrenom": {
+        "ColumnWidth": 1695,
+        "AggregateType": -1
+      },
+      "ATCConTelPort": {
+        "ColumnWidth": 2535,
+        "AggregateType": -1
+      },
+      "SocVilCodePostal": {
+        "ColumnWidth": 1680,
+        "AggregateType": -1
+      },
+      "SocVilNom": {
+        "ColumnWidth": 2370,
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocAdresse": {
+        "ColumnWidth": 3000,
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocNum": {
+        "ColumnWidth": 1575,
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocRaison": {
+        "ColumnWidth": 3870,
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocTypCode": {
+        "ColumnWidth": 1830,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": -446,
+        "top": 131,
+        "right": 1082,
+        "bottom": 551
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1521,
+        "bottom": 256
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 2587,
+      "Tables": [
+        {
+          "Name": "TBLVILLES",
+          "Alias": "",
+          "Left": 443,
+          "Top": 6,
+          "Right": 539,
+          "Bottom": 83,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLSOCIETES",
+          "Alias": "",
+          "Left": 8,
+          "Top": 3,
+          "Right": 178,
+          "Bottom": 230,
+          "ScrollTop": 4
+        },
+        {
+          "Name": "TBLCONTACTS",
+          "Alias": "",
+          "Left": 226,
+          "Top": 2,
+          "Right": 405,
+          "Bottom": 229,
+          "ScrollTop": 5
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes DR, Contacts ATC Inscrit"
+      }
+    }
+  }
+}

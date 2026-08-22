@@ -1,0 +1,196 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelSocietesSTAContactsTAInsChaudieresRemontees"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes STA, Contacts TA Inscrits, Chaudieres Remontées, Articles\r\nUtiliser Par :\r\n- FrmRecherche\r\n- FrmLstChaudieresRemontees"
+      },
+      "OrderByOn": {
+        "Type": 1,
+        "Value": true
+      }
+    },
+    "Columns": {
+      "ChdSemLibelle": {
+        "Caption": "Semestre",
+        "Description": "Semestre",
+        "AggregateType": -1
+      },
+      "ConNom": {
+        "Caption": "Nom",
+        "Description": "Nom",
+        "AggregateType": -1
+      },
+      "ConPrenom": {
+        "Caption": "Prenom",
+        "Description": "Prenom",
+        "AggregateType": -1
+      },
+      "SocVilCodePostal": {
+        "Caption": "Code Postal",
+        "Description": "Code Postal",
+        "AggregateType": -1
+      },
+      "SocVilNom": {
+        "Caption": "Ville",
+        "Description": "Ville",
+        "AggregateType": -1
+      },
+      "TBLCHAUDIERESARTICLES.ChdArtGamme": {
+        "Caption": "Gamme",
+        "Description": "Gamme",
+        "AggregateType": -1
+      },
+      "TBLCHAUDIERESARTICLES.ChdArtLibelle": {
+        "Caption": "Libelle",
+        "Description": "Libelle",
+        "AggregateType": -1
+      },
+      "TBLCHAUDIERESARTICLES.ChdArtRef": {
+        "Caption": "Reference",
+        "Description": "Reference",
+        "AggregateType": -1
+      },
+      "TBLCHAUDIERESREMONTEES.ChdRemBene": {
+        "Caption": "Beneficiaire",
+        "Description": "Beneficiaire",
+        "AggregateType": -1
+      },
+      "TBLCHAUDIERESREMONTEES.ChdRemDate": {
+        "Caption": "Date Saisie",
+        "Description": "Date Saisie",
+        "AggregateType": -1
+      },
+      "TBLCHAUDIERESREMONTEES.ChdRemNum": {
+        "Caption": "Numero",
+        "Description": "Numero",
+        "AggregateType": -1
+      },
+      "TBLCHAUDIERESREMONTEES.ChdRemRemp": {
+        "Caption": "Remplacement",
+        "Description": "Remplacement",
+        "AggregateType": -1
+      },
+      "TBLCHAUDIERESREMONTEES.ChdRemSD": {
+        "Caption": "Date SD",
+        "Description": "Date SD",
+        "AggregateType": -1
+      },
+      "TBLCHAUDIERESREMONTEES.ChdRemSerie": {
+        "Caption": "N° Serie",
+        "Description": "N° Serie",
+        "AggregateType": -1
+      },
+      "TBLCHAUDIERESREMONTEES.ChdRemServ": {
+        "Caption": "Date Mise En Service",
+        "Description": "Date Mise En Service",
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocAdresse": {
+        "Caption": "Adresse",
+        "Description": "Adresse",
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocRaison": {
+        "Caption": "Raison",
+        "Description": "Raison",
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocSTA": {
+        "Caption": "Code STA",
+        "Description": "Code STA",
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocTel1": {
+        "Caption": "Telephone",
+        "Description": "Telephone",
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 2,
+      "Window": {
+        "left": -6,
+        "top": -32,
+        "right": 1274,
+        "bottom": 865
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1153,
+        "bottom": 495
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 543,
+      "Tables": [
+        {
+          "Name": "TBLVILLES",
+          "Alias": "",
+          "Left": 503,
+          "Top": 262,
+          "Right": 599,
+          "Bottom": 361,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLSOCIETES",
+          "Alias": "",
+          "Left": 385,
+          "Top": 18,
+          "Right": 473,
+          "Bottom": 372,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "SelContactsInscrit",
+          "Alias": "",
+          "Left": 628,
+          "Top": 3,
+          "Right": 747,
+          "Bottom": 462,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLSEMESTRES",
+          "Alias": "",
+          "Left": 206,
+          "Top": 203,
+          "Right": 362,
+          "Bottom": 347,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLCHAUDIERESREMONTEES",
+          "Alias": "",
+          "Left": 6,
+          "Top": 3,
+          "Right": 176,
+          "Bottom": 252,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLCHAUDIERESARTICLES",
+          "Alias": "",
+          "Left": 206,
+          "Top": 78,
+          "Right": 363,
+          "Bottom": 192,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes STA, Contacts TA Inscrits, Chaudieres Remontées, Articles\r\nUtiliser Par :\r\n- FrmRecherche\r\n- FrmLstChaudieresRemontees"
+      }
+    }
+  }
+}

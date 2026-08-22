@@ -1,0 +1,18 @@
+﻿{
+  "Info": {
+    "Class": "clsDbRelation",
+    "Description": "Database relationship"
+  },
+  "Items": {
+    "Name": "TBLVILLESTBLCONTACTS",
+    "Attributes": 256,
+    "Table": "TBLVILLES",
+    "ForeignTable": "TBLCONTACTS",
+    "Fields": [
+      {
+        "Name": "VilNum",
+        "ForeignName": "ConVilNum"
+      }
+    ]
+  }
+}

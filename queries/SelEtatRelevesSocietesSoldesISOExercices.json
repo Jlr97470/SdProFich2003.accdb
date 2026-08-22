@@ -1,0 +1,59 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelEtatRelevesSocietesSoldesISOExercices"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes, Soldes ISO Par Exercices A Date De Releves\r\nUtiliser Par :\r\n- SEtaSocietesSoldesRelevesISOExercices"
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 66,
+        "top": 88,
+        "right": 1565,
+        "bottom": 634
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1492,
+        "bottom": 190
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 2591,
+      "Tables": [
+        {
+          "Name": "TBLEXERCICES",
+          "Alias": "",
+          "Left": 313,
+          "Top": 6,
+          "Right": 409,
+          "Bottom": 85,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLMOUVEMENTS",
+          "Alias": "",
+          "Left": 38,
+          "Top": 6,
+          "Right": 275,
+          "Bottom": 160,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes, Soldes ISO Par Exercices A Date De Releves\r\nUtiliser Par :\r\n- SEtaSocietesSoldesRelevesISOExercices"
+      }
+    }
+  }
+}

@@ -1,0 +1,513 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelMailingSocDRConATCSocSTAAdhConTAInsResultatsDetailler"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "RecordLocks": {
+        "Type": 2,
+        "Value": 2
+      },
+      "OrderByOn": {
+        "Type": 1,
+        "Value": true
+      },
+      "Description": {
+        "Type": 10,
+        "Value": "RESULTATS MENSUELS ARMELLE"
+      },
+      "UseTransaction": {
+        "Type": 1,
+        "Value": false
+      }
+    },
+    "Columns": {
+      "Ann2001": {
+        "ColumnOrder": 49,
+        "AggregateType": -1
+      },
+      "BonusRea2003": {
+        "ColumnOrder": 55,
+        "AggregateType": -1
+      },
+      "BonusRea2004": {
+        "ColumnOrder": 60,
+        "AggregateType": -1
+      },
+      "CDP2002RESULTATS.NbChd2002S1": {
+        "ColumnOrder": 16,
+        "AggregateType": -1
+      },
+      "CDP2002RESULTATS.NbChd2002S2": {
+        "ColumnOrder": 24,
+        "AggregateType": -1
+      },
+      "CDP2002RESULTATS.NbISO2002S1": {
+        "ColumnOrder": 14,
+        "AggregateType": -1
+      },
+      "CDP2002RESULTATS.NbISO2002S2": {
+        "ColumnOrder": 22,
+        "AggregateType": -1
+      },
+      "CDP2002RESULTATS.NbTHEMA2002S1": {
+        "ColumnOrder": 15,
+        "AggregateType": -1
+      },
+      "CDP2002RESULTATS.NbTHEMA2002S2": {
+        "ColumnOrder": 23,
+        "AggregateType": -1
+      },
+      "CDP2002RESULTATS.ObjBonusMul2002S1": {
+        "ColumnOrder": 18,
+        "AggregateType": -1
+      },
+      "CDP2002RESULTATS.ObjBonusMul2002S2": {
+        "ColumnOrder": 26,
+        "AggregateType": -1
+      },
+      "CDP2002RESULTATS.ObjNbChd2002S1": {
+        "ColumnOrder": 17,
+        "AggregateType": -1
+      },
+      "CDP2002RESULTATS.ObjNbChd2002S2": {
+        "ColumnOrder": 25,
+        "AggregateType": -1
+      },
+      "CDP2002RESULTATS.Report2002S1": {
+        "ColumnOrder": 19,
+        "AggregateType": -1
+      },
+      "CDP2002RESULTATS.Report2002S2": {
+        "ColumnOrder": 27,
+        "AggregateType": -1
+      },
+      "CDP2002RESULTATS.TotalReport2002S1": {
+        "ColumnOrder": 20,
+        "AggregateType": -1
+      },
+      "CDP2002RESULTATS.TotalReport2002S2": {
+        "ColumnOrder": 28,
+        "AggregateType": -1
+      },
+      "MvtISO2001Sem1": {
+        "ColumnOrder": 65,
+        "ColumnWidth": 1740,
+        "Description": "BONUS ISO2001Sem1",
+        "AggregateType": -1
+      },
+      "MvtISO2001Sem2": {
+        "ColumnOrder": 66,
+        "ColumnWidth": 1740,
+        "Description": "BONUS ISO2001Sem2",
+        "AggregateType": -1
+      },
+      "MvtISO2002Sem1": {
+        "ColumnOrder": 67,
+        "ColumnWidth": 1740,
+        "Description": "BONUS ISO2002Sem1",
+        "AggregateType": -1
+      },
+      "MvtISO2002Sem2": {
+        "ColumnOrder": 68,
+        "ColumnWidth": 1740,
+        "Description": "BONUS ISO2002Sem2",
+        "AggregateType": -1
+      },
+      "MvtISO2003Sem1": {
+        "ColumnOrder": 69,
+        "ColumnWidth": 1740,
+        "AggregateType": -1
+      },
+      "MvtISO2003Sem2": {
+        "ColumnOrder": 70,
+        "ColumnWidth": 1740,
+        "AggregateType": -1
+      },
+      "MvtISO2004Sem1": {
+        "ColumnOrder": 71,
+        "ColumnWidth": 1740,
+        "AggregateType": -1
+      },
+      "MvtISO2004Sem2": {
+        "ColumnOrder": 72,
+        "ColumnWidth": 1740,
+        "AggregateType": -1
+      },
+      "ObjPerISO2002S1": {
+        "ColumnOrder": 21,
+        "Format": {
+          "Type": "dbText",
+          "Value": "Percent"
+        },
+        "AggregateType": -1
+      },
+      "ObjPerISO2002S2": {
+        "ColumnOrder": 29,
+        "Format": {
+          "Type": "dbText",
+          "Value": "Percent"
+        },
+        "AggregateType": -1
+      },
+      "PointsRea2003": {
+        "ColumnOrder": 56,
+        "ColumnWidth": 1500,
+        "AggregateType": -1
+      },
+      "PointsRea2004": {
+        "ColumnOrder": 61,
+        "ColumnWidth": 1680,
+        "AggregateType": -1
+      },
+      "SelSocDRConATCSocSTAAdhConTAIns.ATCConNom": {
+        "ColumnOrder": 2,
+        "ColumnWidth": 1425,
+        "Description": "ATC NOM",
+        "AggregateType": -1
+      },
+      "SelSocDRConATCSocSTAAdhConTAIns.ATCConPrenom": {
+        "ColumnOrder": 3,
+        "ColumnWidth": 1695,
+        "Description": "ATC Prenom",
+        "AggregateType": -1
+      },
+      "SelSocDRConATCSocSTAAdhConTAIns.ConNom": {
+        "ColumnOrder": 12,
+        "AggregateType": -1
+      },
+      "SelSocDRConATCSocSTAAdhConTAIns.ConPrenom": {
+        "ColumnOrder": 13,
+        "AggregateType": -1
+      },
+      "SelSocDRConATCSocSTAAdhConTAIns.DRSocRaison": {
+        "ColumnOrder": 1,
+        "ColumnWidth": 3840,
+        "Description": "DR",
+        "AggregateType": -1
+      },
+      "SelSocDRConATCSocSTAAdhConTAIns.SocAdresse": {
+        "ColumnOrder": 6,
+        "ColumnWidth": 2925,
+        "Description": "Adresse",
+        "AggregateType": -1
+      },
+      "SelSocDRConATCSocSTAAdhConTAIns.SocFax": {
+        "ColumnOrder": 11,
+        "ColumnWidth": 1470,
+        "Description": "Fax",
+        "AggregateType": -1
+      },
+      "SelSocDRConATCSocSTAAdhConTAIns.SocRaison": {
+        "ColumnOrder": 5,
+        "ColumnWidth": 2310,
+        "Description": "Raison Sociale",
+        "AggregateType": -1
+      },
+      "SelSocDRConATCSocSTAAdhConTAIns.SocSTA": {
+        "ColumnOrder": 4,
+        "ColumnWidth": 1785,
+        "Description": "Code STA",
+        "AggregateType": -1
+      },
+      "SelSocDRConATCSocSTAAdhConTAIns.SocTel1": {
+        "ColumnOrder": 9,
+        "ColumnWidth": 1950,
+        "Description": "Tel",
+        "AggregateType": -1
+      },
+      "SelSocDRConATCSocSTAAdhConTAIns.SocTel2": {
+        "ColumnOrder": 10,
+        "ColumnWidth": 1950,
+        "Description": "Tel 2",
+        "AggregateType": -1
+      },
+      "SelSocDRConATCSocSTAAdhConTAIns.SocVilCodePostal": {
+        "ColumnOrder": 7,
+        "ColumnWidth": 1680,
+        "Description": "CP",
+        "AggregateType": -1
+      },
+      "SelSocDRConATCSocSTAAdhConTAIns.SocVilNom": {
+        "ColumnOrder": 8,
+        "ColumnWidth": 2175,
+        "Description": "Ville",
+        "AggregateType": -1
+      },
+      "SocResNbChd2003S1": {
+        "ColumnOrder": 32,
+        "ColumnWidth": 2115,
+        "Description": "NbChd2003S1",
+        "AggregateType": -1
+      },
+      "SocResNbChd2003S2": {
+        "ColumnOrder": 36,
+        "ColumnWidth": 2115,
+        "AggregateType": -1
+      },
+      "SocResNbChd2004S1": {
+        "ColumnOrder": 40,
+        "ColumnWidth": 2115,
+        "Description": "NbChd2003S1",
+        "AggregateType": -1
+      },
+      "SocResNbChd2004S2": {
+        "ColumnOrder": 44,
+        "ColumnWidth": 2115,
+        "AggregateType": -1
+      },
+      "SocResNbISO2003S1": {
+        "ColumnOrder": 30,
+        "ColumnWidth": 2100,
+        "Description": "NbISO2003S1",
+        "AggregateType": -1
+      },
+      "SocResNbISO2003S2": {
+        "ColumnOrder": 34,
+        "ColumnWidth": 2100,
+        "AggregateType": -1
+      },
+      "SocResNbISO2004S1": {
+        "ColumnOrder": 38,
+        "ColumnWidth": 2100,
+        "Description": "NbISO2003S1",
+        "AggregateType": -1
+      },
+      "SocResNbISO2004S2": {
+        "ColumnOrder": 42,
+        "ColumnWidth": 2100,
+        "AggregateType": -1
+      },
+      "SocResNbTHEMA2003S1": {
+        "ColumnOrder": 31,
+        "ColumnWidth": 2445,
+        "Description": "NbTHEMA2003S1",
+        "AggregateType": -1
+      },
+      "SocResNbTHEMA2003S2": {
+        "ColumnOrder": 35,
+        "ColumnWidth": 2445,
+        "AggregateType": -1
+      },
+      "SocResNbTHEMA2004S1": {
+        "ColumnOrder": 39,
+        "ColumnWidth": 2445,
+        "Description": "NbTHEMA2003S1",
+        "AggregateType": -1
+      },
+      "SocResNbTHEMA2004S2": {
+        "ColumnOrder": 43,
+        "ColumnWidth": 2445,
+        "AggregateType": -1
+      },
+      "SocResPourISO2003S1": {
+        "ColumnOrder": 33,
+        "ColumnWidth": 2265,
+        "Description": "%ISO2003S1",
+        "Format": {
+          "Type": "dbText",
+          "Value": "Percent"
+        },
+        "AggregateType": -1
+      },
+      "SocResPourISO2003S2": {
+        "ColumnOrder": 37,
+        "Description": "%ISO2003S1",
+        "Format": {
+          "Type": "dbText",
+          "Value": "Percent"
+        },
+        "AggregateType": -1
+      },
+      "SocResPourISO2004S1": {
+        "ColumnOrder": 41,
+        "ColumnWidth": 2265,
+        "Description": "%ISO2004S1",
+        "Format": {
+          "Type": "dbText",
+          "Value": "Percent"
+        },
+        "AggregateType": -1
+      },
+      "SocResPourISO2004S2": {
+        "ColumnOrder": 45,
+        "ColumnWidth": 2265,
+        "Description": "%ISO2004S2",
+        "Format": {
+          "Type": "dbText",
+          "Value": "Percent"
+        },
+        "AggregateType": -1
+      },
+      "Solde2001": {
+        "ColumnOrder": 48,
+        "ColumnWidth": 1095,
+        "Description": "Solde2001",
+        "AggregateType": -1
+      },
+      "Solde2002": {
+        "ColumnOrder": 52,
+        "Description": "Solde2002",
+        "AggregateType": -1
+      },
+      "Solde2003": {
+        "ColumnOrder": 57,
+        "ColumnWidth": 1095,
+        "AggregateType": -1
+      },
+      "Solde20032004": {
+        "ColumnOrder": 63,
+        "Description": "Solde",
+        "AggregateType": -1
+      },
+      "Solde2004": {
+        "ColumnOrder": 62,
+        "AggregateType": -1
+      },
+      "SoldeISOVal": {
+        "ColumnOrder": 73,
+        "ColumnWidth": 1815,
+        "Description": "Valeur En Euro",
+        "Format": {
+          "Type": "dbText",
+          "Value": "#,##0.00 €;-#,##0.00 €"
+        },
+        "AggregateType": -1
+      },
+      "SoldeVal": {
+        "ColumnOrder": 64,
+        "ColumnWidth": 1815,
+        "Description": "Valeur En Euro",
+        "Format": {
+          "Type": "dbText",
+          "Value": "#,##0.00 €;-#,##0.00 €"
+        },
+        "AggregateType": -1
+      },
+      "TotalCredit2001": {
+        "ColumnOrder": 47,
+        "Description": "TotalCredit2001",
+        "AggregateType": -1
+      },
+      "TotalCredit2002": {
+        "ColumnOrder": 51,
+        "Description": "TotalCredit2002",
+        "AggregateType": -1
+      },
+      "TotalCredit2003": {
+        "ColumnOrder": 54,
+        "ColumnWidth": 1530,
+        "Description": "TotalCredit2003",
+        "AggregateType": -1
+      },
+      "TotalCredit2004": {
+        "ColumnOrder": 59,
+        "Description": "TotalCredit2003",
+        "AggregateType": -1
+      },
+      "TotalDebit2001": {
+        "ColumnOrder": 46,
+        "Description": "TotalDebit2001",
+        "AggregateType": -1
+      },
+      "TotalDebit2002": {
+        "ColumnOrder": 50,
+        "ColumnWidth": 1470,
+        "Description": "TotalDebit2002",
+        "AggregateType": -1
+      },
+      "TotalDebit2003": {
+        "ColumnOrder": 53,
+        "Description": "TotalDebit2003",
+        "AggregateType": -1
+      },
+      "TotalDebit2004": {
+        "ColumnOrder": 58,
+        "Description": "TotalDebit2003",
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 40,
+        "top": 62,
+        "right": 1258,
+        "bottom": 679
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1207,
+        "bottom": 441
+      },
+      "GridLeft": 64,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "SelSocDRConATCSocSTAAdhConTAIns",
+          "Alias": "",
+          "Left": 94,
+          "Top": 91,
+          "Right": 261,
+          "Bottom": 364,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "SelSocietesResultatsSemestresDetailler",
+          "Alias": "",
+          "Left": 322,
+          "Top": 52,
+          "Right": 742,
+          "Bottom": 145,
+          "ScrollTop": 1
+        },
+        {
+          "Name": "SelSocietesSoldesExercicesDetailler",
+          "Alias": "",
+          "Left": 308,
+          "Top": 193,
+          "Right": 533,
+          "Bottom": 286,
+          "ScrollTop": 9
+        },
+        {
+          "Name": "SelSocietesSoldesISOSemestresDetailler",
+          "Alias": "",
+          "Left": 38,
+          "Top": -58,
+          "Right": 283,
+          "Bottom": 35,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLSOCIETESRESULTATSBONUS",
+          "Alias": "",
+          "Left": 306,
+          "Top": 414,
+          "Right": 533,
+          "Bottom": 507,
+          "ScrollTop": 9
+        },
+        {
+          "Name": "CDP2002RESULTATS",
+          "Alias": "",
+          "Left": 780,
+          "Top": -58,
+          "Right": 974,
+          "Bottom": 323,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "RESULTATS MENSUELS ARMELLE"
+      }
+    }
+  }
+}

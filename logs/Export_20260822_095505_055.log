@@ -1,0 +1,470 @@
+﻿-------------------------------------
+Beginning Export of Source Files
+SdProFich2003.accdb
+VCS Version 5.0.1
+Export Format: 5.0.0
+Full Path: D:\MES_SOURCES\ACCESS\SOURCES\DELTAINFORMATIQUE\ACCESS_2007-2016\SD COEUR DE PRO 2003\SdProFich2003.accdb
+Export Folder: D:\MES_SOURCES\GITHUB\SdProFich2003.accdb\
+22/08/2026 09:55:05
+Performing Full Export
+-------------------------------------
+Scanning source files...
+No db connections found in this database.
+No vbe forms found in this database.
+No saved specs found in this database.
+No commandbars found in this database.
+No shared images found in this database.
+No imex specs found in this database.
+No forms found in this database.
+No macros found in this database.
+No reports found in this database.
+No table data found in this database.
+No table data macros found in this database.
+No hidden attributes found in this database.
+-------------------------------------
+Exporting project...            SdProFich2003.accdb
+[1]
+-------------------------------------
+Exporting vb project...         db3
+[1]
+-------------------------------------
+Exporting vbe references...     stdole
+[4]
+-------------------------------------
+Exporting proj properties...    Current Project Properties (Access)
+[2]
+-------------------------------------
+Exporting modules...            ModGestionFonctions
+  ModSQL
+[2]
+-------------------------------------
+Exporting themes...             Thème Office
+[1]
+-------------------------------------
+Exporting db properties...      Database Properties (DAO)
+
+-------------------------------------
+ERROR: Your drive isn't ready! Reconnect S: to continue.
+Source: modFileAccess.GetUncPath
+-------------------------------------
+[48]
+-------------------------------------
+Exporting tables...             CDP2002CHAUDIERESREMONTEES
+    Sanitized in 0,001 seconds.
+  CDP2002CHAUDIERESREMONTEES (SQL)
+  CDP2002RESULTATS
+    Sanitized in 0,002 seconds.
+  CDP2002RESULTATS (SQL)
+  TBLCADEAUXACHATS
+    Sanitized in 0,001 seconds.
+  TBLCADEAUXACHATS (SQL)
+  TBLCADEAUXARTICLES
+    Sanitized in 0,001 seconds.
+  TBLCADEAUXARTICLES (SQL)
+  TBLCHAUDIERESARTICLES
+    Sanitized in 0,001 seconds.
+  TBLCHAUDIERESARTICLES (SQL)
+  TBLCHAUDIERESREMONTEES
+    Sanitized in 0,001 seconds.
+  TBLCHAUDIERESREMONTEES (SQL)
+  TBLCIVILITES
+    Sanitized in 0,000 seconds.
+  TBLCIVILITES (SQL)
+  TBLCONTACTS
+    Sanitized in 0,002 seconds.
+  TBLCONTACTS (SQL)
+  TBLCONTACTSFONCTIONS
+    Sanitized in 0,000 seconds.
+  TBLCONTACTSFONCTIONS (SQL)
+  TBLDEPARTEMENTS
+    Sanitized in 0,001 seconds.
+  TBLDEPARTEMENTS (SQL)
+  TBLEXERCICES
+    Sanitized in 0,001 seconds.
+  TBLEXERCICES (SQL)
+  TBLMACHINES
+    Sanitized in 0,001 seconds.
+  TBLMACHINES (SQL)
+  TBLMACHINESCONNEXIONS
+    Sanitized in 0,001 seconds.
+  TBLMACHINESCONNEXIONS (SQL)
+  TBLMACHINESMESSAGES
+    Sanitized in 0,001 seconds.
+  TBLMACHINESMESSAGES (SQL)
+  TBLMENU
+    Sanitized in 0,001 seconds.
+  TBLMENU (SQL)
+  TBLMOUVEMENTS
+    Sanitized in 0,001 seconds.
+  TBLMOUVEMENTS (SQL)
+  TBLMOUVEMENTSNATURES
+    Sanitized in 0,001 seconds.
+  TBLMOUVEMENTSNATURES (SQL)
+  TBLPARAMETRESGENERAUX
+    Sanitized in 0,001 seconds.
+  TBLPARAMETRESGENERAUX (SQL)
+  TBLSEMESTRES
+    Sanitized in 0,001 seconds.
+  TBLSEMESTRES (SQL)
+  TBLSOCIETES
+    Sanitized in 0,002 seconds.
+  TBLSOCIETES (SQL)
+  TBLSOCIETESADHERENTS
+    Sanitized in 0,001 seconds.
+  TBLSOCIETESADHERENTS (SQL)
+  TBLSOCIETESAPPELS2
+    Sanitized in 0,001 seconds.
+  TBLSOCIETESAPPELS2 (SQL)
+  TBLSOCIETESAPPELS3
+    Sanitized in 0,001 seconds.
+  TBLSOCIETESAPPELS3 (SQL)
+  TBLSOCIETESCALL1
+    Sanitized in 0,004 seconds.
+  TBLSOCIETESCALL1 (SQL)
+  TBLSOCIETESCALL2
+    Sanitized in 0,010 seconds.
+  TBLSOCIETESCALL2 (SQL)
+  TBLSOCIETESCALL3
+    Sanitized in 0,002 seconds.
+  TBLSOCIETESCALL3 (SQL)
+  TBLSOCIETESQUESTIONNAIRES
+    Sanitized in 0,001 seconds.
+  TBLSOCIETESQUESTIONNAIRES (SQL)
+  TBLSOCIETESQUESTIONNAIRESRESULTATS
+    Sanitized in 0,001 seconds.
+  TBLSOCIETESQUESTIONNAIRESRESULTATS (SQL)
+  TBLSOCIETESQUESTIONNAIRESTYPES
+    Sanitized in 0,001 seconds.
+  TBLSOCIETESQUESTIONNAIRESTYPES (SQL)
+  TBLSOCIETESQUESTIONNAIRESTYPESID
+    Sanitized in 0,001 seconds.
+  TBLSOCIETESQUESTIONNAIRESTYPESID (SQL)
+  TBLSOCIETESRESULTATS
+    Sanitized in 0,001 seconds.
+  TBLSOCIETESRESULTATS (SQL)
+  TBLSOCIETESRESULTATSBONUS
+    Sanitized in 0,001 seconds.
+  TBLSOCIETESRESULTATSBONUS (SQL)
+  TBLSOCIETESTYPES
+    Sanitized in 0,001 seconds.
+  TBLSOCIETESTYPES (SQL)
+  TBLTYPESIDTYPES
+    Sanitized in 0,001 seconds.
+  TBLTYPESIDTYPES (SQL)
+  TBLVILLES
+    Sanitized in 0,001 seconds.
+  TBLVILLES (SQL)
+[35]
+-------------------------------------
+Exporting queries...            AjoTBLSOCIETESRESULTATSBONUS
+  AjoTBLSOCIETESRESULTATSBONUS
+  AnaSocietesResultats
+  AnaSocietesResultats
+  AnaSocietesResultatsChdGammesSemestresRelevesDebut
+  AnaSocietesResultatsChdGammesSemestresRelevesDebut
+  AnaSocietesResultatsChdGammesSemestresRelevesFin
+  AnaSocietesResultatsChdGammesSemestresRelevesFin
+  AnaSocietesResultatsExercices
+  AnaSocietesResultatsExercices
+  AnaSocietesResultatsISOExercices
+  AnaSocietesResultatsISOExercices
+  AnaSocietesResultatsISOSemestres
+  AnaSocietesResultatsISOSemestres
+  AnaSocietesResultatsISOSPLITSemestres
+  AnaSocietesResultatsISOSPLITSemestres
+  AnaSocietesResultatsSemestres
+  AnaSocietesResultatsSemestres
+  AnaSocietesResultatsTHEMAExercices
+  AnaSocietesResultatsTHEMAExercices
+  AnaSocietesResultatsTHEMASemestres
+  AnaSocietesResultatsTHEMASemestres
+  SelCadeauxArticles
+  SelCadeauxArticles
+  SelChaudieresArticlesSemestres
+  SelChaudieresArticlesSemestres
+  SelContactsFonctions
+  SelContactsFonctions
+  SelContactsInscrit
+  SelContactsInscrit
+  SelContactsNonInscrit
+  SelContactsNonInscrit
+  SelContactsVilles
+  SelContactsVilles
+  SelEtatRelevesSocietesSoldesISOExercices
+  SelEtatRelevesSocietesSoldesISOExercices
+  SelEtatRelevesSocietesSoldesMouvements
+  SelEtatRelevesSocietesSoldesMouvements
+  SelEtatRelevesSocietesSoldesSTAAdhConTAIns
+  SelEtatRelevesSocietesSoldesSTAAdhConTAIns
+  SelFichiersDetailler
+  SelFichiersDetailler
+  SelMailingSocDRConATCSocSTAAdhConTAIns
+  SelMailingSocDRConATCSocSTAAdhConTAIns
+  SelMailingSocDRConATCSocSTAAdhConTAInsResISOSoldesDetailler
+  SelMailingSocDRConATCSocSTAAdhConTAInsResISOSoldesDetailler
+  SelMailingSocDRConATCSocSTAAdhConTAInsResISOSoldesDetaillerBis
+  SelMailingSocDRConATCSocSTAAdhConTAInsResISOSoldesDetaillerBis
+  SelMailingSocDRConATCSocSTAAdhConTAInsResSemestresDetailler
+  SelMailingSocDRConATCSocSTAAdhConTAInsResSemestresDetailler
+  SelMailingSocDRConATCSocSTAAdhConTAInsResSemestresDetaillerBis
+  SelMailingSocDRConATCSocSTAAdhConTAInsResSemestresDetaillerBis
+  SelMailingSocDRConATCSocSTAAdhConTAInsResSemestresDetaillerSPLIT
+  SelMailingSocDRConATCSocSTAAdhConTAInsResSemestresDetaillerSPLIT
+  SelMailingSocDRConATCSocSTAAdhConTAInsResSemestresDetSPLITBis
+  SelMailingSocDRConATCSocSTAAdhConTAInsResSemestresDetSPLITBis
+  SelMailingSocDRConATCSocSTAAdhConTAInsResultatsDetailler
+  SelMailingSocDRConATCSocSTAAdhConTAInsResultatsDetailler
+  SelMailingSocDRConATCSocSTAAdhConTAInsResultatsDetSPLIT
+  SelMailingSocDRConATCSocSTAAdhConTAInsResultatsDetSPLIT
+  SelMailingSocietesSTAAdhConTAIns
+  SelMailingSocietesSTAAdhConTAIns
+  SelMailingSocietesSTAAdhConTAInsResultatsCall1
+  SelMailingSocietesSTAAdhConTAInsResultatsCall1
+  SelMailingSocietesSTAAdhConTAInsResultatsCall2
+  SelMailingSocietesSTAAdhConTAInsResultatsCall2
+  SelMailingSocietesSTAAdhConTAInsResultatsCall3
+  SelMailingSocietesSTAAdhConTAInsResultatsCall3
+  SelMailingSocietesSTAContactsTAInsCadeauxAchats
+  SelMailingSocietesSTAContactsTAInsCadeauxAchats
+  SelMailingSocietesSTAContactsTAInsChaudieresRemontees
+  SelMailingSocietesSTAContactsTAInsChaudieresRemontees
+  SelMouvementsCadeaux
+  SelMouvementsCadeaux
+  SelMouvementsChaudieres
+  SelMouvementsChaudieres
+  SelMouvementsNaturesExercices
+  SelMouvementsNaturesExercices
+  SelMouvementsRegularisationCheques
+  SelMouvementsRegularisationCheques
+  SelMouvementsUtilsBonusISO
+  SelMouvementsUtilsBonusISO
+  SelParametresDetailler
+  SelParametresDetailler
+  SelParametresGeneralsDetailler
+  SelParametresGeneralsDetailler
+  SelParametresGenerauxDetailler
+  SelParametresGenerauxDetailler
+  SelSocDRConATCAdhResultatsExercicesDetailler
+  SelSocDRConATCAdhResultatsExercicesDetailler
+  SelSocDRConATCSocSTAAdhConTAIns
+  SelSocDRConATCSocSTAAdhConTAIns
+  SelSocDRConATCSocSTAAdhConTAInsDateAdh
+  SelSocDRConATCSocSTAAdhConTAInsDateAdh
+  SelSocDRConATCSocSTAAdhConTAInsResultatsExercicesDetailler
+  SelSocDRConATCSocSTAAdhConTAInsResultatsExercicesDetailler
+  SelSocietesAdherentsExercices
+  SelSocietesAdherentsExercices
+  SelSocietesAppels2
+  SelSocietesAppels2
+  SelSocietesAppels3
+  SelSocietesAppels3
+  SelSocietesDRContactsATC
+  SelSocietesDRContactsATC
+  SelSocietesDRContactsATCInscrit
+  SelSocietesDRContactsATCInscrit
+  SelSocietesDRContactsDRATCInscrit
+  SelSocietesDRContactsDRATCInscrit
+  SelSocietesFiliales
+  SelSocietesFiliales
+  SelSocietesPointsUtilsISOExercicesDetailler
+  SelSocietesPointsUtilsISOExercicesDetailler
+  SelSocietesPointsUtilsISOSemestresDetailler
+  SelSocietesPointsUtilsISOSemestresDetailler
+  SelSocietesQuestionnairesTypes
+  SelSocietesQuestionnairesTypes
+  SelSocietesQuestionnairesTypesID
+  SelSocietesQuestionnairesTypesID
+  SelSocietesResultatsBonusDetailler
+  SelSocietesResultatsBonusDetailler
+  SelSocietesResultatsBonusDetaillerReleves
+  SelSocietesResultatsBonusDetaillerReleves
+  SelSocietesResultatsExercices
+  SelSocietesResultatsExercices
+  SelSocietesResultatsExercices2000
+  SelSocietesResultatsExercices2000
+  SelSocietesResultatsExercices2001
+  SelSocietesResultatsExercices2001
+  SelSocietesResultatsExercices2002
+  SelSocietesResultatsExercices2002
+  SelSocietesResultatsExercices2003
+  SelSocietesResultatsExercices2003
+  SelSocietesResultatsExercicesDetailler
+  SelSocietesResultatsExercicesDetailler
+  SelSocietesResultatsSemestres
+  SelSocietesResultatsSemestres
+  SelSocietesResultatsSemestresDetailler
+  SelSocietesResultatsSemestresDetailler
+  SelSocietesResultatsSemestresDetaillerReleves
+  SelSocietesResultatsSemestresDetaillerReleves
+  SelSocietesSoldes
+  SelSocietesSoldes
+  SelSocietesSoldesExercices
+  SelSocietesSoldesExercices
+  SelSocietesSoldesExercicesDetailler
+  SelSocietesSoldesExercicesDetailler
+  SelSocietesSoldesExercicesDetaillerReleves
+  SelSocietesSoldesExercicesDetaillerReleves
+  SelSocietesSoldesISOExercices
+  SelSocietesSoldesISOExercices
+  SelSocietesSoldesISOSem
+  SelSocietesSoldesISOSem
+  SelSocietesSoldesISOSemestres
+  SelSocietesSoldesISOSemestres
+  SelSocietesSoldesISOSemestresDetailler
+  SelSocietesSoldesISOSemestresDetailler
+  SelSocietesSTAAdhVillesContactsTAInscrit
+  SelSocietesSTAAdhVillesContactsTAInscrit
+  SelSocietesSTAContactsTAInsCadeauxAchats
+  SelSocietesSTAContactsTAInsCadeauxAchats
+  SelSocietesSTAContactsTAInsChaudieresRemontees
+  SelSocietesSTAContactsTAInsChaudieresRemontees
+  SelSocietesSTAVillesContactsTAInscrit
+  SelSocietesSTAVillesContactsTAInscrit
+  SelSocietesVilles
+  SelSocietesVilles
+  SelSocietesVillesContactsInscrit
+  SelSocietesVillesContactsInscrit
+  SelVillesDepartementsCode
+  SelVillesDepartementsCode
+  SupTBLSOCIETESRESULTATSBONUS
+  SupTBLSOCIETESRESULTATSBONUS
+  UniSocietesResultats
+  UniSocietesResultats
+[87]
+-------------------------------------
+Exporting relations...          {8499CEDA-8120-474D-8641-1D0A13780FBF}
+  {AAB7093B-C85C-413C-8268-389F42956EC5}
+  {EB223FCF-5C1E-4015-9D19-1150DEBE1F44}
+  MSysAccessStorageSTGREL
+  Reference
+  TBLCADEAUXACHATSTBLMOUVEMENTS
+  TBLCADEAUXARTICLESTBLCADEAUXACHATS
+  TBLCHAUDIERESARTICLESTBLCHAUDIERESREMONTEES
+  TBLCIVILITESTBLCONTACTS
+  TBLCONTACTSFONCTIONSTBLCONTACTS
+  TBLCONTACTSTBLSOCIETES
+  TBLEXERCICESTBLCADEAUXARTICLES
+  TBLEXERCICESTBLMOUVEMENTS
+  TBLEXERCICESTBLSEMESTRES
+  TBLEXERCICESTBLSOCIETESADHERENT
+  TBLMACHINESMESSAGESTBLMACHINES
+  TBLMACHINESTBLMACHINESCONNEXIONS
+  TBLMACHINESTBLMACHINESMESSAGES
+  TBLMACHINESTBLMACHINESMESSAGES1
+  TBLMACHINESTBLMACHINESMESSAGES2
+  TBLMACHINESTBLMACHINESMESSAGES3
+  TBLMACHINESTBLMACHINESMESSAGES4
+  TBLMOUVEMENTSNATURESTBLMOUVEMENTS
+  TBLSEMESTRESTBLCHAUDIERESREMONTEES
+  TBLSEMESTRESTBLSOCIETESRESULTATS
+  TBLSOCIETESTBLCADEAUXACHATS
+  TBLSOCIETESTBLCHAUDIERESREMONTEES
+  TBLSOCIETESTBLCONTACTS
+  TBLSOCIETESTBLCONTACTSQUESTIONNAIRES
+  TBLSOCIETESTBLCONTACTSQUESTIONNAIRESRESULTATS
+  TBLSOCIETESTBLMOUVEMENTS
+  TBLSOCIETESTBLSOCIETES
+  TBLSOCIETESTBLSOCIETESADHERENT
+  TBLSOCIETESTBLSOCIETESAPPELS2
+  TBLSOCIETESTBLSOCIETESAPPELS3
+  TBLSOCIETESTBLSOCIETESCALL1
+  TBLSOCIETESTBLSOCIETESCALL2
+  TBLSOCIETESTBLSOCIETESCALL3
+  TBLSOCIETESTBLSOCIETESRESULTATS
+  TBLSOCIETESTBLSOCIETESRESULTATSBONUS
+  TBLSOCIETESTYPESTBLSOCIETES
+  TBLTYPESIDTYPESTBLCONTACTSQUESTIONNAIRESTYPESID
+  TBLVILLESTBLCONTACTS
+  TBLVILLESTBLCONTACTS1
+  TBLVILLESTBLSOCIETES
+[45]
+-------------------------------------
+Exporting doc properties...     Database Documents
+[5]
+-------------------------------------
+Exporting nav pane groups...    Groups
+[1]
+-------------------------------------
+Done. (4,78 seconds)
+--------------------------------------------------
+                PERFORMANCE REPORTS
+--------------------------------------------------
+Category                      Count     Seconds
+--------------------------------------------------
+Queries                       87        3,67
+Tables                        35        0,57
+Relations                     45        0,18
+DB Properties                 48        0,07
+Modules                       2         0,04
+Nav Pane Groups               1         0,03
+Doc Properties                5         0,03
+VBE References                4         0,02
+VB Project                    1         0,02
+Themes                        1         0,02
+Project                       1         0,02
+Proj Properties               2         0,02
+DB Connections                0         0,01
+Table Data Macros             0         0,01
+Shared Images                 0         0,00
+IMEX Specs                    0         0,00
+Table Data                    0         0,00
+CommandBars                   0         0,00
+VBE Forms                     0         0,00
+Saved Specs                   0         0,00
+Reports                       0         0,00
+Hidden Attributes             0         0,00
+Forms                         0         0,00
+Macros                        0         0,00
+--------------------------------------------------
+TOTALS:                       232       4,72
+--------------------------------------------------
+
+--------------------------------------------------
+Operations                    Count     Seconds
+--------------------------------------------------
+Format SQL                    87        1,34
+Convert to JSON               185       1,29
+Parse LvProp                  87        0,46
+Console Updates               18        0,23
+Write JSON                    87        0,20
+App.ExportXML()               35        0,19
+Reconstruct SQL               87        0,16
+Write File                    333       0,10
+Read MSysQueries              87        0,06
+Save Table SQL                35        0,05
+Verify Path                   456       0,04
+Get File Property Hash        177       0,04
+Scan DB Objects               1         0,04
+Read MSysObjects              87        0,04
+Read File Bytes               125       0,02
+Get Modified Date             512       0,02
+Compute SHA256                492       0,02
+Sanitize XML                  35        0,02
+Format XML                    31        0,01
+Increment Progress            2         0,01
+Delete File                   73        0,01
+Format XML (alt)              4         0,01
+Parse LvExtra                 87        0,01
+Check for linked table        35        0,01
+Read File                     37        0,01
+Export VBE Module             2         0,00
+Write SQL                     87        0,00
+Get @Folder Annotation        4         0,00
+modFileAccess.GetUncPath      4         0,00
+Get VBA Hash                  2         0,00
+Cache Back-End Connections    1         0,00
+Quick Count Objects           1         0,00
+Sanitize VBA Code             2         0,00
+Export Theme                  1         0,00
+Close Open Objects            1         0,00
+Quick Count Files             1         0,00
+File Pattern Exists (API)     14        0,00
+Clear Orphaned Files          9         0,00
+Scan Folder Contents (API)    1         0,00
+Clear Files by Ext            10        0,00
+--------------------------------------------------
+Other Operations                        0,36
+TOTAL RUNTIME:                          4,78
+--------------------------------------------------
+
+

@@ -1,0 +1,84 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelSocietesAppels2"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Appels Par Societes"
+      }
+    },
+    "Columns": {
+      "TBLSOCIETESAPPELS2.SocAppDate": {
+        "ColumnWidth": 1860,
+        "AggregateType": -1
+      },
+      "TBLSOCIETESAPPELS2.SocAppDateRappel": {
+        "ColumnWidth": 2520,
+        "AggregateType": -1
+      },
+      "TBLSOCIETESAPPELS2.SocAppHeure": {
+        "ColumnWidth": 1965,
+        "AggregateType": -1
+      },
+      "TBLSOCIETESAPPELS2.SocAppHeureRappel": {
+        "ColumnWidth": 2625,
+        "AggregateType": -1
+      },
+      "TBLSOCIETESAPPELS2.SocAppNom": {
+        "ColumnWidth": 1860,
+        "AggregateType": -1
+      },
+      "TBLSOCIETESAPPELS2.SocAppNotes": {
+        "ColumnWidth": 12435,
+        "AggregateType": -1
+      },
+      "TBLSOCIETESAPPELS2.SocAppNum": {
+        "ColumnWidth": 2130,
+        "AggregateType": -1
+      },
+      "TBLSOCIETESAPPELS2.SocAppSocNum": {
+        "ColumnWidth": 2850,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 40,
+        "top": 62,
+        "right": 1258,
+        "bottom": 382
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1207,
+        "bottom": 144
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "TBLSOCIETESAPPELS2",
+          "Alias": "",
+          "Left": 38,
+          "Top": 6,
+          "Right": 134,
+          "Bottom": 113,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Appels Par Societes"
+      }
+    }
+  }
+}

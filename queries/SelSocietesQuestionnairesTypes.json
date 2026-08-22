@@ -1,0 +1,76 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelSocietesQuestionnairesTypes"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "ODBCTimeout": {
+        "Type": 3,
+        "Value": 0
+      },
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Questionnaires Types Des Societes\r\nUtiliser Par:\r\n- FrmSaisiesQuestionnairesTypes"
+      }
+    },
+    "Columns": {
+      "TBLSOCIETESQUESTIONNAIRESTYPES.SocQstTypCode": {
+        "Caption": "Code",
+        "AggregateType": -1
+      },
+      "TBLSOCIETESQUESTIONNAIRESTYPES.SocQstTypDateDebut": {
+        "Caption": "Date Debut",
+        "AggregateType": -1
+      },
+      "TBLSOCIETESQUESTIONNAIRESTYPES.SocQstTypDateFin": {
+        "Caption": "Date Fin",
+        "AggregateType": -1
+      },
+      "TBLSOCIETESQUESTIONNAIRESTYPES.SocQstTypLibelle": {
+        "Caption": "Libelle",
+        "AggregateType": -1
+      },
+      "TBLSOCIETESQUESTIONNAIRESTYPES.SocQstTypNbResultat": {
+        "Caption": "Nb Resultat",
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 11,
+        "top": 177,
+        "right": 1175,
+        "bottom": 497
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1157,
+        "bottom": 144
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "TBLSOCIETESQUESTIONNAIRESTYPES",
+          "Alias": "",
+          "Left": 38,
+          "Top": 6,
+          "Right": 134,
+          "Bottom": 105,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Questionnaires Types Des Societes\r\nUtiliser Par:\r\n- FrmSaisiesQuestionnairesTypes"
+      }
+    }
+  }
+}

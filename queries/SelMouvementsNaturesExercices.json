@@ -1,0 +1,103 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelMouvementsNaturesExercices"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "ODBCTimeout": {
+        "Type": 3,
+        "Value": 0
+      },
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Mouvements, Natures Et Exercices\r\nUtiliser Par:\r\n- FrmFicheSocietes"
+      }
+    },
+    "Columns": {
+      "TBLEXERCICES.ExeExercice": {
+        "Caption": "Exercice",
+        "AggregateType": -1
+      },
+      "TBLMOUVEMENTS.MvtCredit": {
+        "Caption": "Credit",
+        "AggregateType": -1
+      },
+      "TBLMOUVEMENTS.MvtDate": {
+        "Caption": "Date",
+        "AggregateType": -1
+      },
+      "TBLMOUVEMENTS.MvtDebit": {
+        "Caption": "Debit",
+        "AggregateType": -1
+      },
+      "TBLMOUVEMENTS.MvtIntitule": {
+        "Caption": "Intitule",
+        "ColumnWidth": 3240,
+        "AggregateType": -1
+      },
+      "TBLMOUVEMENTS.MvtQuantite": {
+        "Caption": "Qte",
+        "AggregateType": -1
+      },
+      "TBLMOUVEMENTSNATURES.MvtNatCode": {
+        "Caption": "Nature",
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 47,
+        "top": 69,
+        "right": 1122,
+        "bottom": 679
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1068,
+        "bottom": 434
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "TBLMOUVEMENTSNATURES",
+          "Alias": "",
+          "Left": 2,
+          "Top": 2,
+          "Right": 160,
+          "Bottom": 86,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLEXERCICES",
+          "Alias": "",
+          "Left": 330,
+          "Top": 3,
+          "Right": 426,
+          "Bottom": 87,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLMOUVEMENTS",
+          "Alias": "",
+          "Left": 190,
+          "Top": 2,
+          "Right": 300,
+          "Bottom": 176,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Mouvements, Natures Et Exercices\r\nUtiliser Par:\r\n- FrmFicheSocietes"
+      }
+    }
+  }
+}

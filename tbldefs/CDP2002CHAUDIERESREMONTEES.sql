@@ -1,0 +1,15 @@
+﻿CREATE TABLE [CDP2002CHAUDIERESREMONTEES] (
+  [SocNum] LONG,
+  [RCDate] DATETIME,
+  [RCSerie] VARCHAR (15),
+  [RCRef] VARCHAR (50),
+  [RCExe] SHORT,
+  [RCEtape] BYTE,
+  [RCNum] AUTOINCREMENT,
+  [RCDServ] DATETIME,
+  [RCDateSD] DATETIME,
+  [RCRemp] VARCHAR (200),
+  [RCBene] VARCHAR (100),
+  [RCDescription] VARCHAR (50),
+   CONSTRAINT [PrimaryKey] PRIMARY KEY ([SocNum], [RCDate], [RCSerie])
+)

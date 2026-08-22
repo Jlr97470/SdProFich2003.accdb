@@ -1,0 +1,67 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelFichiersDetailler"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Fichiers Detailler"
+      }
+    },
+    "Columns": {
+      "FicCode1": {
+        "ColumnWidth": 1065,
+        "AggregateType": -1
+      },
+      "FicCode2": {
+        "ColumnWidth": 4185,
+        "AggregateType": -1
+      },
+      "FicType1": {
+        "ColumnWidth": 975,
+        "AggregateType": -1
+      },
+      "FicType2": {
+        "ColumnWidth": 975,
+        "AggregateType": -1
+      },
+      "TBLFICHIERS.FicValeur": {
+        "ColumnWidth": 7905,
+        "AggregateType": -1
+      },
+      "TBLFICHIERS.FicValide": {
+        "ColumnWidth": 2355,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 45,
+        "top": 94,
+        "right": 1081,
+        "bottom": 702
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1029,
+        "bottom": 432
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 2587,
+      "Tables": [
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Fichiers Detailler"
+      }
+    }
+  }
+}

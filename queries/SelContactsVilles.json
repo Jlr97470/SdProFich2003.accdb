@@ -1,0 +1,159 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelContactsVilles"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Contacts, Villes\r\nUtiliser Par :\r\n- FrmRecherche\r\n- FrmLstContacts"
+      }
+    },
+    "Columns": {
+      "ConPerVilCodePostal": {
+        "ColumnWidth": 1545,
+        "AggregateType": -1
+      },
+      "ConPerVilNom": {
+        "ColumnWidth": 2025,
+        "AggregateType": -1
+      },
+      "ConVilCodePostal": {
+        "Caption": "CP",
+        "ColumnWidth": 600,
+        "AggregateType": -1
+      },
+      "ConVilNom": {
+        "Caption": "Ville",
+        "ColumnWidth": 1755,
+        "AggregateType": -1
+      },
+      "TBLCONTACTS.ConAdresse": {
+        "Caption": "Adresse",
+        "ColumnWidth": 2490,
+        "AggregateType": -1
+      },
+      "TBLCONTACTS.ConCivCode": {
+        "Caption": "Code",
+        "ColumnWidth": 720,
+        "AggregateType": -1
+      },
+      "TBLCONTACTS.ConFonCode": {
+        "Caption": "Fonctions",
+        "ColumnWidth": 960,
+        "AggregateType": -1
+      },
+      "TBLCONTACTS.ConInscrit": {
+        "Caption": "Inscrit",
+        "ColumnWidth": 675,
+        "AggregateType": -1
+      },
+      "TBLCONTACTS.ConNom": {
+        "Caption": "Nom",
+        "ColumnWidth": 1350,
+        "AggregateType": -1
+      },
+      "TBLCONTACTS.ConNotes": {
+        "ColumnWidth": 1410,
+        "AggregateType": -1
+      },
+      "TBLCONTACTS.ConNum": {
+        "Caption": "Num",
+        "ColumnWidth": 525,
+        "AggregateType": -1
+      },
+      "TBLCONTACTS.ConPerAdr": {
+        "ColumnWidth": 2805,
+        "AggregateType": -1
+      },
+      "TBLCONTACTS.ConPrenom": {
+        "Caption": "Prenom",
+        "ColumnWidth": 1050,
+        "AggregateType": -1
+      },
+      "TBLCONTACTS.ConSocNum": {
+        "Caption": "Societes",
+        "ColumnWidth": 870,
+        "AggregateType": -1
+      },
+      "TBLCONTACTS.ConTelB": {
+        "Caption": "TelB",
+        "ColumnWidth": 1230,
+        "AggregateType": -1
+      },
+      "TBLCONTACTS.ConTelBLib": {
+        "ColumnWidth": 3045,
+        "AggregateType": -1
+      },
+      "TBLCONTACTS.ConTelD": {
+        "Caption": "TelD",
+        "ColumnWidth": 1770,
+        "AggregateType": -1
+      },
+      "TBLCONTACTS.ConTelDLib": {
+        "ColumnWidth": 3555,
+        "AggregateType": -1
+      },
+      "TBLCONTACTS.ConTelPort": {
+        "Caption": "TelPort",
+        "ColumnWidth": 1230,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": -60,
+        "top": 62,
+        "right": 1104,
+        "bottom": 509
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1157,
+        "bottom": 271
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "TBLCONTACTS",
+          "Alias": "",
+          "Left": 44,
+          "Top": 6,
+          "Right": 134,
+          "Bottom": 420,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLVILLES",
+          "Alias": "",
+          "Left": 164,
+          "Top": 140,
+          "Right": 247,
+          "Bottom": 224,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLVILLES_1",
+          "Alias": "",
+          "Left": 164,
+          "Top": 292,
+          "Right": 246,
+          "Bottom": 376,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Contacts, Villes\r\nUtiliser Par :\r\n- FrmRecherche\r\n- FrmLstContacts"
+      }
+    }
+  }
+}

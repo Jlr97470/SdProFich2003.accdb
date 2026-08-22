@@ -1,0 +1,64 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "UniSocietesResultats"
+  },
+  "Items": {
+    "QueryType": 128,
+    "OptionFlag": 3,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Union Des Resultats Des Remontees De Chaudieres Par Semestres 2000-2001-2002-2003-2004\r\nUtiliser Par :\r\n- SelSocietesResultatsSemestres\r\n- AnaSocietesResultats(Type)Semestres\r\n- SelSocietesResultatsExercices\r\n- SelSocietesResultatsExercices(Année)"
+      }
+    },
+    "Columns": {
+      "SocResNbChd": {
+        "ColumnWidth": 1455,
+        "AggregateType": -1
+      },
+      "SocResNbISO": {
+        "ColumnWidth": 1440,
+        "AggregateType": -1
+      },
+      "SocResNbTHEMA": {
+        "ColumnWidth": 1785,
+        "AggregateType": -1
+      },
+      "TBLSOCIETESRESULTATS.SocResSemNum": {
+        "ColumnWidth": 1680,
+        "AggregateType": -1
+      },
+      "TBLSOCIETESRESULTATS.SocResSocNum": {
+        "ColumnWidth": 1620,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": -55,
+        "top": 110,
+        "right": 1097,
+        "bottom": 430
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1145,
+        "bottom": 144
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 2058,
+      "Tables": [
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Union Des Resultats Des Remontees De Chaudieres Par Semestres 2000-2001-2002-2003-2004\r\nUtiliser Par :\r\n- SelSocietesResultatsSemestres\r\n- AnaSocietesResultats(Type)Semestres\r\n- SelSocietesResultatsExercices\r\n- SelSocietesResultatsExercices(Année)"
+      }
+    }
+  }
+}

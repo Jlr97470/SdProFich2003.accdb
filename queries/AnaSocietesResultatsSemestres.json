@@ -1,0 +1,114 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "AnaSocietesResultatsSemestres"
+  },
+  "Items": {
+    "QueryType": 16,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Analyse Des Resultats Des Societes, Total Des Remontees De Chaudieres Par Semestres\r\nUtiliser Par :\r\n- SelSocietesResultatsSemestresDetailler"
+      }
+    },
+    "Columns": {
+      "SocResNbChd2000S1": {
+        "ColumnWidth": 2115,
+        "AggregateType": -1
+      },
+      "SocResNbChd2000S2": {
+        "ColumnWidth": 2115,
+        "AggregateType": -1
+      },
+      "SocResNbChd2001S1": {
+        "ColumnWidth": 2115,
+        "AggregateType": -1
+      },
+      "SocResNbChd2001S2": {
+        "ColumnWidth": 2115,
+        "AggregateType": -1
+      },
+      "SocResNbChd2002S1": {
+        "ColumnWidth": 2115,
+        "AggregateType": -1
+      },
+      "SocResNbChd2002S2": {
+        "ColumnWidth": 2115,
+        "AggregateType": -1
+      },
+      "SocResNbChd2003S1": {
+        "ColumnWidth": 2115,
+        "AggregateType": -1
+      },
+      "SocResNbChd2003S2": {
+        "ColumnWidth": 2115,
+        "AggregateType": -1
+      },
+      "SocResNbChd2004S1": {
+        "ColumnWidth": 2115,
+        "AggregateType": -1
+      },
+      "SocResNbChd2004S2": {
+        "ColumnWidth": 2115,
+        "AggregateType": -1
+      },
+      "SocResNbChdTotal": {
+        "ColumnWidth": 1875,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": -37,
+        "top": 102,
+        "right": 1046,
+        "bottom": 532
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1076,
+        "bottom": 254
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 559,
+      "Tables": [
+        {
+          "Name": "TBLEXERCICES",
+          "Alias": "",
+          "Left": 553,
+          "Top": 111,
+          "Right": 649,
+          "Bottom": 195,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "UniSocietesResultats",
+          "Alias": "",
+          "Left": 159,
+          "Top": 10,
+          "Right": 297,
+          "Bottom": 139,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLSEMESTRES",
+          "Alias": "",
+          "Left": 346,
+          "Top": 159,
+          "Right": 448,
+          "Bottom": 288,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Analyse Des Resultats Des Societes, Total Des Remontees De Chaudieres Par Semestres\r\nUtiliser Par :\r\n- SelSocietesResultatsSemestresDetailler"
+      }
+    }
+  }
+}

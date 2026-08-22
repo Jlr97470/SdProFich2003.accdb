@@ -1,0 +1,344 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelMailingSocDRConATCSocSTAAdhConTAInsResSemestresDetailler"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Situation Des STA"
+      },
+      "OrderByOn": {
+        "Type": 1,
+        "Value": true
+      }
+    },
+    "Columns": {
+      "SelSocDRConATCSocSTAAdhConTAIns.ATCConCivCode": {
+        "ColumnWidth": 4155,
+        "Description": "ATCConCivCode",
+        "AggregateType": -1
+      },
+      "SelSocDRConATCSocSTAAdhConTAIns.ATCConFonCode": {
+        "ColumnWidth": 2115,
+        "Description": "ATCConFonCode",
+        "AggregateType": -1
+      },
+      "SelSocDRConATCSocSTAAdhConTAIns.ATCConInscrit": {
+        "ColumnWidth": 1417,
+        "Description": "ATCConInscrit",
+        "AggregateType": -1
+      },
+      "SelSocDRConATCSocSTAAdhConTAIns.ATCConNom": {
+        "Description": "ATCConNom",
+        "AggregateType": -1
+      },
+      "SelSocDRConATCSocSTAAdhConTAIns.ATCConNum": {
+        "ColumnWidth": 1590,
+        "Description": "ATCConNum",
+        "AggregateType": -1
+      },
+      "SelSocDRConATCSocSTAAdhConTAIns.ATCConPrenom": {
+        "ColumnWidth": 1417,
+        "Description": "ATCConPrenom",
+        "AggregateType": -1
+      },
+      "SelSocDRConATCSocSTAAdhConTAIns.ConCivCode": {
+        "ColumnWidth": 1417,
+        "Description": "ConCivCode",
+        "AggregateType": -1
+      },
+      "SelSocDRConATCSocSTAAdhConTAIns.ConFonCode": {
+        "ColumnWidth": 1417,
+        "Description": "ConFonCode",
+        "AggregateType": -1
+      },
+      "SelSocDRConATCSocSTAAdhConTAIns.ConNom": {
+        "ColumnWidth": 1417,
+        "Description": "ConNom",
+        "AggregateType": -1
+      },
+      "SelSocDRConATCSocSTAAdhConTAIns.ConPrenom": {
+        "ColumnWidth": 1417,
+        "Description": "ConPrenom",
+        "AggregateType": -1
+      },
+      "SelSocDRConATCSocSTAAdhConTAIns.DRSocNum": {
+        "ColumnWidth": 1680,
+        "Description": "DRSocNum",
+        "AggregateType": -1
+      },
+      "SelSocDRConATCSocSTAAdhConTAIns.DRSocRaison": {
+        "ColumnWidth": 3900,
+        "Description": "DRSocRaison",
+        "AggregateType": -1
+      },
+      "SelSocDRConATCSocSTAAdhConTAIns.SocVilCodePostal": {
+        "ColumnWidth": 1417,
+        "AggregateType": -1
+      },
+      "SelSocDRConATCSocSTAAdhConTAIns.SocVilNom": {
+        "ColumnWidth": 1417,
+        "AggregateType": -1
+      },
+      "SocResNbChd2000S1": {
+        "Description": "S1",
+        "AggregateType": -1
+      },
+      "SocResNbChd2000S2": {
+        "Description": "S2",
+        "AggregateType": -1
+      },
+      "SocResNbChd2001S1": {
+        "Description": "S1",
+        "AggregateType": -1
+      },
+      "SocResNbChd2001S2": {
+        "Description": "S2",
+        "AggregateType": -1
+      },
+      "SocResNbChd2002S1": {
+        "Description": "S1",
+        "AggregateType": -1
+      },
+      "SocResNbChd2002S2": {
+        "Description": "S2",
+        "AggregateType": -1
+      },
+      "SocResNbChd2003S1": {
+        "Description": "S1",
+        "AggregateType": -1
+      },
+      "SocResNbChd2003S2": {
+        "Description": "S2",
+        "AggregateType": -1
+      },
+      "SocResNbChd2004S1": {
+        "Description": "S1",
+        "AggregateType": -1
+      },
+      "SocResNbChd2004S2": {
+        "Description": "S2",
+        "AggregateType": -1
+      },
+      "SocResNbISO2000S1": {
+        "ColumnWidth": 2115,
+        "Description": "S1",
+        "AggregateType": -1
+      },
+      "SocResNbISO2000S2": {
+        "ColumnWidth": 2670,
+        "Description": "S2",
+        "AggregateType": -1
+      },
+      "SocResNbISO2001S1": {
+        "Description": "S1",
+        "AggregateType": -1
+      },
+      "SocResNbISO2001S2": {
+        "Description": "S2",
+        "AggregateType": -1
+      },
+      "SocResNbISO2002S1": {
+        "Description": "S1",
+        "AggregateType": -1
+      },
+      "SocResNbISO2002S2": {
+        "Description": "S2",
+        "AggregateType": -1
+      },
+      "SocResNbISO2003S1": {
+        "Description": "S1",
+        "AggregateType": -1
+      },
+      "SocResNbISO2003S2": {
+        "Description": "S2",
+        "AggregateType": -1
+      },
+      "SocResNbISO2004S1": {
+        "Description": "S1",
+        "AggregateType": -1
+      },
+      "SocResNbISO2004S2": {
+        "Description": "S2",
+        "AggregateType": -1
+      },
+      "SocResNbTHEMA2000S1": {
+        "Description": "S1",
+        "AggregateType": -1
+      },
+      "SocResNbTHEMA2000S2": {
+        "Description": "S2",
+        "AggregateType": -1
+      },
+      "SocResNbTHEMA2001S1": {
+        "Description": "S1",
+        "AggregateType": -1
+      },
+      "SocResNbTHEMA2001S2": {
+        "Description": "S2",
+        "AggregateType": -1
+      },
+      "SocResNbTHEMA2002S1": {
+        "Description": "S1",
+        "AggregateType": -1
+      },
+      "SocResNbTHEMA2002S2": {
+        "Description": "S2",
+        "AggregateType": -1
+      },
+      "SocResNbTHEMA2003S1": {
+        "Description": "S1",
+        "AggregateType": -1
+      },
+      "SocResNbTHEMA2003S2": {
+        "Description": "S2",
+        "AggregateType": -1
+      },
+      "SocResNbTHEMA2004S1": {
+        "Description": "S1",
+        "AggregateType": -1
+      },
+      "SocResNbTHEMA2004S2": {
+        "Description": "S2",
+        "AggregateType": -1
+      },
+      "SocResPourISO2000S1": {
+        "ColumnWidth": 2385,
+        "Description": "S1",
+        "Format": {
+          "Type": "dbText",
+          "Value": "Percent"
+        },
+        "AggregateType": -1
+      },
+      "SocResPourISO2000S2": {
+        "ColumnWidth": 1980,
+        "Description": "S2",
+        "Format": {
+          "Type": "dbText",
+          "Value": "Percent"
+        },
+        "AggregateType": -1
+      },
+      "SocResPourISO2001S1": {
+        "ColumnWidth": 1980,
+        "Description": "S1",
+        "Format": {
+          "Type": "dbText",
+          "Value": "Percent"
+        },
+        "AggregateType": -1
+      },
+      "SocResPourISO2001S2": {
+        "ColumnWidth": 1980,
+        "Description": "S2",
+        "Format": {
+          "Type": "dbText",
+          "Value": "Percent"
+        },
+        "AggregateType": -1
+      },
+      "SocResPourISO2002S1": {
+        "ColumnWidth": 1980,
+        "Description": "S1",
+        "Format": {
+          "Type": "dbText",
+          "Value": "Percent"
+        },
+        "AggregateType": -1
+      },
+      "SocResPourISO2002S2": {
+        "ColumnWidth": 1980,
+        "Description": "S2",
+        "Format": {
+          "Type": "dbText",
+          "Value": "Percent"
+        },
+        "AggregateType": -1
+      },
+      "SocResPourISO2003S1": {
+        "ColumnWidth": 2310,
+        "Description": "S1",
+        "Format": {
+          "Type": "dbText",
+          "Value": "Percent"
+        },
+        "AggregateType": -1
+      },
+      "SocResPourISO2003S2": {
+        "ColumnWidth": 2310,
+        "Description": "S2",
+        "Format": {
+          "Type": "dbText",
+          "Value": "Percent"
+        },
+        "AggregateType": -1
+      },
+      "SocResPourISO2004S1": {
+        "ColumnWidth": 2310,
+        "Description": "S1",
+        "Format": {
+          "Type": "dbText",
+          "Value": "Percent"
+        },
+        "AggregateType": -1
+      },
+      "SocResPourISO2004S2": {
+        "ColumnWidth": 2310,
+        "Description": "S2",
+        "Format": {
+          "Type": "dbText",
+          "Value": "Percent"
+        },
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 40,
+        "top": 62,
+        "right": 1258,
+        "bottom": 646
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1207,
+        "bottom": 408
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "SelSocDRConATCSocSTAAdhConTAIns",
+          "Alias": "",
+          "Left": 26,
+          "Top": 142,
+          "Right": 364,
+          "Bottom": 325,
+          "ScrollTop": 5
+        },
+        {
+          "Name": "SelSocietesResultatsSemestresDetailler",
+          "Alias": "",
+          "Left": 394,
+          "Top": 21,
+          "Right": 897,
+          "Bottom": 294,
+          "ScrollTop": 25
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Situation Des STA"
+      }
+    }
+  }
+}

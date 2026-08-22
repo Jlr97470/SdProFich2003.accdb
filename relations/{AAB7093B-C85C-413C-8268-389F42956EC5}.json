@@ -1,0 +1,18 @@
+﻿{
+  "Info": {
+    "Class": "clsDbRelation",
+    "Description": "Database relationship"
+  },
+  "Items": {
+    "Name": "{AAB7093B-C85C-413C-8268-389F42956EC5}",
+    "Attributes": 256,
+    "Table": "TBLSOCIETESQUESTIONNAIRESTYPESID",
+    "ForeignTable": "TBLSOCIETESQUESTIONNAIRESRESULTATS",
+    "Fields": [
+      {
+        "Name": "SocQstTypIDNum",
+        "ForeignName": "SocQstResSocQstTypIDNum"
+      }
+    ]
+  }
+}

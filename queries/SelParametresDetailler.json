@@ -1,0 +1,101 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelParametresDetailler"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Parametres Detailler"
+      }
+    },
+    "Columns": {
+      "ParCode1": {
+        "ColumnOrder": 5,
+        "ColumnWidth": 1905,
+        "AggregateType": -1
+      },
+      "ParCode2": {
+        "ColumnOrder": 6,
+        "ColumnWidth": 3570,
+        "AggregateType": -1
+      },
+      "ParCode3": {
+        "ColumnOrder": 7,
+        "ColumnWidth": 945,
+        "AggregateType": -1
+      },
+      "ParCode4": {
+        "ColumnOrder": 1,
+        "ColumnWidth": 945,
+        "AggregateType": -1
+      },
+      "ParCode5": {
+        "ColumnOrder": 1,
+        "ColumnWidth": 5610,
+        "AggregateType": -1
+      },
+      "ParType1": {
+        "ColumnOrder": 2,
+        "ColumnWidth": 915,
+        "AggregateType": -1
+      },
+      "ParType2": {
+        "ColumnOrder": 3,
+        "ColumnWidth": 915,
+        "AggregateType": -1
+      },
+      "TBLPARAMETRES.ParCode": {
+        "ColumnOrder": 4,
+        "ColumnWidth": 9750,
+        "AggregateType": -1
+      },
+      "TBLPARAMETRES.ParType": {
+        "ColumnOrder": 1,
+        "ColumnWidth": 1470,
+        "AggregateType": -1
+      },
+      "TBLPARAMETRES.ParValeur": {
+        "ColumnWidth": 1605,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 40,
+        "top": 22,
+        "right": 1258,
+        "bottom": 342
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1211,
+        "bottom": 144
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "TBLPARAMETRES",
+          "Alias": "",
+          "Left": 38,
+          "Top": 6,
+          "Right": 134,
+          "Bottom": 105,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Parametres Detailler"
+      }
+    }
+  }
+}

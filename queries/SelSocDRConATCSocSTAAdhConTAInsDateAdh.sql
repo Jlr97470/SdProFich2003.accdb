@@ -1,0 +1,54 @@
+﻿SELECT
+  SelSocDRConATCSocSTAAdhConTAIns.DRSocNum,
+  SelSocDRConATCSocSTAAdhConTAIns.DRSocRaison,
+  SelSocDRConATCSocSTAAdhConTAIns.ATCConNum,
+  SelSocDRConATCSocSTAAdhConTAIns.ATCConCivCode,
+  SelSocDRConATCSocSTAAdhConTAIns.ATCConFonCode,
+  SelSocDRConATCSocSTAAdhConTAIns.ATCConNom,
+  SelSocDRConATCSocSTAAdhConTAIns.ATCConPrenom,
+  SelSocDRConATCSocSTAAdhConTAIns.ATCConInscrit,
+  SelSocDRConATCSocSTAAdhConTAIns.ATCConTelPort,
+  SelSocDRConATCSocSTAAdhConTAIns.SocNum,
+  SelSocDRConATCSocSTAAdhConTAIns.SocSTA,
+  SelSocDRConATCSocSTAAdhConTAIns.SocRaison,
+  SelSocDRConATCSocSTAAdhConTAIns.SocAdresse,
+  SelSocDRConATCSocSTAAdhConTAIns.SocVilCodePostal,
+  SelSocDRConATCSocSTAAdhConTAIns.SocVilNom,
+  SelSocDRConATCSocSTAAdhConTAIns.SocTel1,
+  SelSocDRConATCSocSTAAdhConTAIns.SocTel2,
+  SelSocDRConATCSocSTAAdhConTAIns.SocFax,
+  SelSocDRConATCSocSTAAdhConTAIns.ConFonCode,
+  SelSocDRConATCSocSTAAdhConTAIns.ConCivCode,
+  SelSocDRConATCSocSTAAdhConTAIns.ConNom,
+  SelSocDRConATCSocSTAAdhConTAIns.ConPrenom,
+  Max(
+    TBLSOCIETESADHERENTS.SocAdhDate
+  ) AS SocDateAdh
+FROM
+  SelSocDRConATCSocSTAAdhConTAIns
+  LEFT JOIN TBLSOCIETESADHERENTS ON SelSocDRConATCSocSTAAdhConTAIns.SocNum = TBLSOCIETESADHERENTS.SocAdhSocNum
+GROUP BY
+  SelSocDRConATCSocSTAAdhConTAIns.DRSocNum,
+  SelSocDRConATCSocSTAAdhConTAIns.DRSocRaison,
+  SelSocDRConATCSocSTAAdhConTAIns.ATCConNum,
+  SelSocDRConATCSocSTAAdhConTAIns.ATCConCivCode,
+  SelSocDRConATCSocSTAAdhConTAIns.ATCConFonCode,
+  SelSocDRConATCSocSTAAdhConTAIns.ATCConNom,
+  SelSocDRConATCSocSTAAdhConTAIns.ATCConPrenom,
+  SelSocDRConATCSocSTAAdhConTAIns.ATCConInscrit,
+  SelSocDRConATCSocSTAAdhConTAIns.ATCConTelPort,
+  SelSocDRConATCSocSTAAdhConTAIns.SocNum,
+  SelSocDRConATCSocSTAAdhConTAIns.SocSTA,
+  SelSocDRConATCSocSTAAdhConTAIns.SocRaison,
+  SelSocDRConATCSocSTAAdhConTAIns.SocAdresse,
+  SelSocDRConATCSocSTAAdhConTAIns.SocVilCodePostal,
+  SelSocDRConATCSocSTAAdhConTAIns.SocVilNom,
+  SelSocDRConATCSocSTAAdhConTAIns.SocTel1,
+  SelSocDRConATCSocSTAAdhConTAIns.SocTel2,
+  SelSocDRConATCSocSTAAdhConTAIns.SocFax,
+  SelSocDRConATCSocSTAAdhConTAIns.ConFonCode,
+  SelSocDRConATCSocSTAAdhConTAIns.ConCivCode,
+  SelSocDRConATCSocSTAAdhConTAIns.ConNom,
+  SelSocDRConATCSocSTAAdhConTAIns.ConPrenom
+ORDER BY
+  SelSocDRConATCSocSTAAdhConTAIns.SocSTA;
