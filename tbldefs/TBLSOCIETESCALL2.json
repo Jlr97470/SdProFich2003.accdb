@@ -1,0 +1,14 @@
+﻿{
+  "Info": {
+    "Class": "",
+    "Description": "TBLSOCIETESCALL2 Metadata"
+  },
+  "Items": {
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Liste Des Questionnaires Call 2 Des Societes"
+      }
+    }
+  }
+}

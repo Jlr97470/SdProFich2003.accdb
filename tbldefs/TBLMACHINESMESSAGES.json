@@ -1,0 +1,15 @@
+﻿{
+  "Info": {
+    "Class": "",
+    "Description": "TBLMACHINESMESSAGES Metadata"
+  },
+  "Items": {
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Liste Des Messages Des Utilisateur"
+      }
+    },
+    "Hidden": true
+  }
+}

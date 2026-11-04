@@ -1,0 +1,14 @@
+﻿{
+  "Info": {
+    "Class": "",
+    "Description": "TBLSOCIETESQUESTIONNAIRESTYPESID Metadata"
+  },
+  "Items": {
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Liste Des ID Types Des Questionnaires Des Societes"
+      }
+    }
+  }
+}

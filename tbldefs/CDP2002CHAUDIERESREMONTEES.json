@@ -1,0 +1,14 @@
+﻿{
+  "Info": {
+    "Class": "",
+    "Description": "CDP2002CHAUDIERESREMONTEES Metadata"
+  },
+  "Items": {
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Liste Des Remontees De Chaudieres 2002"
+      }
+    }
+  }
+}
